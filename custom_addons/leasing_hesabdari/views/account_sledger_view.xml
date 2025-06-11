@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_hesabdari.account_sledger_list">
+            <field name="name">Account Sledger list</field>
+            <field name="model">leasing_hesabdari.account_sledger</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="kolmoin" string="حساب کل و معین" width="150pxl"/>
+                    <field name="sledger_name" string="عنوان حساب معین" width="400pxl"/>
+                    <field name="ledger_name1" string="عنوان حساب کل" width="300pxl"/>
+                    <field name="ssubdef_name1" string="ارتباط با حساب تفصیل" width="300pxl"/>
+                    <field name="acc_control_type_id" string="ماهیت حساب" width="200pxl"/>
+                    <field name="no_ssledger" string="تعداد ثبت حساب تفصیل در سند" width="300pxl"/>
+                    <field name="accountsoodziangroup_name1" string="گروه حساب سود و زیان" width="500pxl"/>
+                    <field name="get_ssledger" string="کنترل دریافت تمامی سطوح تفصیل در سند" width="500pxl"/>
+                    <field name="sledger_isactive" string="وضعیت حساب(فعال/غیرفعال)" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="create_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="account_sledger_form_view" model="ir.ui.view">
+            <field name="name">Account Sledger Form</field>
+            <field name="model">leasing_hesabdari.account_sledger</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 100%;">
+                        <group>
+                            <field name="ledger_id" string="حساب کل"/>
+                            <field name="accountsoodziangroup_id" string="گروه حساب سود و زیان"/>
+                            options="{'no_create_edit' : True ,'no_create' : True}"/>
+                            <field name="sledger" string="حساب معین"/>
+                            <field name="sledger_name" string="عنوان حساب معین"/>
+                            <field name="ssubdef_id" string="ارتباط با حساب تفصیل"/>
+                            options="{'no_create_edit' : True ,'no_create' : True}"/>
+                            <field name="acc_control_type_id" string="ماهیت حساب"
+                                   options="{'no_create_edit' : True ,'no_create' : True}"/>
+                            <field name="sledger_isactive" string="وضعیت حساب(فعال/غیرفعال)"/>
+                            <field name="no_ssledger" string="تعداد ثبت حساب تفصیل در سند"/>
+                            <field name="get_ssledger" string="کنترل دریافت تمامی سطوح تفصیل در سند"/>
+                        </group>
+                         <notebook>
+                            <page string="تنظیم ارتباط حساب کل و معین با حساب تفصیل">
+                                <group>
+                                    <field name="ssublink_id" string=" "/>
+                                </group>
+
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_hesabdari.account_sledger_action_window">
+            <field name="name">حساب معین</field>
+            <field name="res_model">leasing_hesabdari.account_sledger</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <record id="report_leasing_account_sledger" model="ir.actions.report">
+            <field name="name">گزارش حساب کل و معین</field>
+            <field name="model">leasing_hesabdari.account_sledger</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">leasing_hesabdari.report_account_sledger</field>
+            <field name="report_file">leasing_hesabdari.report_account_sledger</field>
+            <field name="binding_model_id" ref="model_leasing_hesabdari_account_sledger"/>
+            <field name="binding_type">report</field>
+        </record>
+
+    </data>
+</odoo>

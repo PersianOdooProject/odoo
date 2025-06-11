@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_recpaydata.recpay_custdef_list">
+            <field name="name">Recpay Custdef list</field>
+            <field name="model">leasing_recpaydata.recpay_custdef</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="cust_name" string = "شرح هزینه" width="300pxl"/>
+                    <field name="custaction_id" string = "عملکر هنگام ثبت فاکتور" width="300pxl"/>
+                    <field name="ssledger_id" string = "حساب تفصیل" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="recpaydata_custdef_form_view" model="ir.ui.view">
+            <field name="name">Recpaydata Custdef Form</field>
+            <field name="model">leasing_recpaydata.recpay_custdef</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="cust_name" string="شرح صندوق"/>
+                            <field name="custaction_id" string="عملکرد هنگام ثبت فاکتور"
+                                   options="{'no_create_edit' : True ,'no_create' : True}"/>
+                            <field name="ssledger_id" string="حساب تفصیل"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_recpaydata.recpay_custdef_action_window">
+            <field name="name">معرفی هزینه</field>
+            <field name="res_model">leasing_recpaydata.recpay_custdef</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_bank_list">
+            <field name="name">Generaldata Bank list</field>
+            <field name="model">leasing_generaldata.generaldata_bank</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="bank_name" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_bank_kanban" model="ir.ui.view">
+            <field name="name">Generaldata Bank Kanban</field>
+            <field name="model">leasing_generaldata.generaldata_bank</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="id"/>
+                    <field name="bank_name"/>
+                    <field name="bank_image"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img class="o_kanban_image_inner_pic" t-att-src="kanban_image('leasing_generaldata.generaldata_bank', 'bank_image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <strong>
+                                        <field name="bank_name"/>
+                                    </strong>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="generaldata_bank_form_view" model="ir.ui.view">
+            <field name="name">Generaldate Bank Form</field>
+            <field name="model">leasing_generaldata.generaldata_bank</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="bank_name" string="نام بانک"/>
+                            <field name="bank_image" string="لوگوی بانک" class="oe_avatar" widget="image"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_bank_action_window">
+            <field name="name">معرفی بانک</field>
+            <field name="res_model">leasing_generaldata.generaldata_bank</field>
+            <field name="view_mode">kanban,form,list</field>
+        </record>
+
+    </data>
+</odoo>

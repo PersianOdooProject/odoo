@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_sazman_list">
+            <field name="name">Generaldata sazman list</field>
+            <field name="model">leasing_generaldata.generaldata_sazman</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="sazman_name" width="300pxl"/>
+                    <field name="state_name1" width="50pxl"/>
+                    <field name="city_name1"  width="50pxl"/>
+
+
+                    <!--
+                    <field name="address" width="300pxl"/>
+                    <field name="telephone" width="300pxl"/>
+                    <field name="post_code" width="300pxl"/>
+                    <field name="ssledger" width="300pxl"/>
+                    -->
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="generaldata_sazman_form_view" model="ir.ui.view">
+            <field name="name">Generaldata sazman Form</field>
+            <field name="model">leasing_generaldata.generaldata_sazman</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="sazman_name" string="نام سازمان"/>
+                            <field name="state_id" string="استان"/>
+                            <field name="city_id" string="شهر"/>
+                    <!--
+                            <field name="city_code" string="کد استان"/>
+                            <field name="address" string="کد استان"/>
+                            <field name="telephone" string="کد استان"/>
+                            <field name="post_code" string="کد استان"/>
+                            <field name="ssledger" string="کد استان"/>
+                    -->
+
+
+
+
+
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_sazman_action_window">
+            <field name="name">معرفی سازمان</field>
+            <field name="res_model">leasing_generaldata.generaldata_sazman</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

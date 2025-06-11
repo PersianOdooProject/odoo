@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="accountssubdef1" model="leasing_hesabdari.account_ssubdef">
+            <field name="ssubdef_code">A</field>
+            <field name="ssubdef_name">کامل</field>
+        </record>
+
+        <record id="accountssubdef2" model="leasing_hesabdari.account_ssubdef">
+            <field name="ssubdef_code">S</field>
+            <field name="ssubdef_name">انتخابی</field>
+        </record>
+
+        <record id="accountssubdef3" model="leasing_hesabdari.account_ssubdef">
+            <field name="ssubdef_code">N</field>
+            <field name="ssubdef_name">مستقل</field>
+        </record>
+
+    </data>
+</odoo>

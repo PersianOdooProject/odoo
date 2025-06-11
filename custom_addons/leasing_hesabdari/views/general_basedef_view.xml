@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_hesabdari.general_basedef_list">
+            <field name="name">General Basedef list</field>
+            <field name="model">leasing_hesabdari.general_basedef</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="acc_ledger_len" string="طول حساب کل" width="50pxl"/>
+                    <field name="acc_sledger_len" string="طول حساب معین" width="50pxl"/>
+                    <field name="acc_ssledger_len" string="طول حساب تفصیل" width="50pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="general_basedef_form_view" model="ir.ui.view">
+            <field name="name">General Basedef Form</field>
+            <field name="model">leasing_hesabdari.general_basedef</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="acc_ledger_len" string="طول حساب کل" readonly="ledger_total_record > 0"/>
+                            <field name="acc_sledger_len" string="طول حساب معین" readonly="sledger_total_record > 0"/>
+                            <field name="acc_ssledger_len" string="طول حساب تفصیل"
+                                   readonly="ssledger_total_record > 0"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_hesabdari.general_basedef_action_window">
+            <field name="name">اطلاعات اولیه حسابداری</field>
+            <field name="res_model">leasing_hesabdari.general_basedef</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

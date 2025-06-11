@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="accbankacc1" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91010</field>
+           <field name="bankacc_name"> صندوق</field>
+           <field name="bankaccgroup_id">1</field>
+        </record>
+
+        <record id="accbankacc2" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91020</field>
+           <field name="bankacc_name">تنخواه گردان</field>
+           <field name="bankaccgroup_id">1</field>
+        </record>
+
+        <record id="accbankacc3" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91030</field>
+           <field name="bankacc_name"> موجودي قرض الحسنه نزد بانک ها و مؤسسات اعتباري غيربانکي</field>
+           <field name="bankaccgroup_id">1</field>
+        </record>
+
+        <record id="accbankacc4" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91040</field>
+           <field name="bankacc_name"> موجودي سپرده هاي سرمايه گذاري کوتاه مدت نزد بانک ها و مؤسسات اعتباري غيربانکي</field>
+           <field name="bankaccgroup_id">1</field>
+        </record>
+
+        <record id="accbankacc5" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91050</field>
+           <field name="bankacc_name">تسهيلات اعطايي فروش اقساطي</field>
+           <field name="bankaccgroup_id">2</field>
+        </record>
+
+        <record id="accbankacc6" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91060</field>
+           <field name="bankacc_name">تسهيلات اعطايي اجاره به شرط تمليک</field>
+           <field name="bankaccgroup_id">2</field>
+        </record>
+
+        <record id="accbankacc7" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91070</field>
+           <field name="bankacc_name">تسهيلات اعطايي به کارکنان</field>
+           <field name="bankaccgroup_id">2</field>
+        </record>
+
+        <record id="accbankacc8" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91080</field>
+           <field name="bankacc_name">ساير تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">2</field>
+        </record>
+
+        <record id="accbankacc9" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91090</field>
+           <field name="bankacc_name">مطالبات سررسيد گذشته تسهيلات اعطايي فروش اقساطي</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc10" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91100</field>
+           <field name="bankacc_name">مطالبات سررسيد گذشته تسهيلات اعطايي اجاره به شرط تمليک</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc11" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91110</field>
+           <field name="bankacc_name">مطالبات سررسيد گذشته ساير تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc12" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91120</field>
+           <field name="bankacc_name">مطالبات معوق تسهيلات اعطايي فروش اقساطي</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc13" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91130</field>
+           <field name="bankacc_name">مطالبات معوق تسهيلات اعطايي اجاره به شرط تمليک</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc14" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91140</field>
+           <field name="bankacc_name">مطالبات معوق ساير تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc15" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91150</field>
+           <field name="bankacc_name">مطالبات مشکوک الوصول تسهيلات اعطايي فروش اقساطي</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc16" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91160</field>
+           <field name="bankacc_name">مطالبات مشکوک الوصول تسهيلات اعطايي اجاره به شرط تمليک</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc17" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91170</field>
+           <field name="bankacc_name">مطالبات مشکوک الوصول ساير تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">3</field>
+        </record>
+
+        <record id="accbankacc18" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91180</field>
+           <field name="bankacc_name">سود دريافتني</field>
+           <field name="bankaccgroup_id">4</field>
+        </record>
+
+        <record id="accbankacc19" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91190</field>
+           <field name="bankacc_name">وجه التزام دريافتني</field>
+           <field name="bankaccgroup_id">4</field>
+        </record>
+
+        <record id="accbankacc20" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91200</field>
+           <field name="bankacc_name">حساب ها و اسناد دريافتني غيرتجاري</field>
+           <field name="bankaccgroup_id">5</field>
+        </record>
+
+        <record id="accbankacc21" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91210</field>
+           <field name="bankacc_name">سود دريافتني اوراق بهادار</field>
+           <field name="bankaccgroup_id">5</field>
+        </record>
+
+        <record id="accbankacc22" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91220</field>
+           <field name="bankacc_name">موجودي انبار</field>
+           <field name="bankaccgroup_id">6</field>
+        </record>
+
+        <record id="accbankacc23" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91230</field>
+           <field name="bankacc_name">موجودي انبار تمليکي</field>
+           <field name="bankaccgroup_id">6</field>
+        </record>
+
+        <record id="accbankacc24" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91240</field>
+           <field name="bankacc_name">دارايي غيرجاري نگهداري شده براي فروش</field>
+           <field name="bankaccgroup_id">7</field>
+        </record>
+
+        <record id="accbankacc25" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91250</field>
+           <field name="bankacc_name">اموال غيرمنقول</field>
+           <field name="bankaccgroup_id">8</field>
+        </record>
+
+        <record id="accbankacc26" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91260</field>
+           <field name="bankacc_name">اموال منقول</field>
+           <field name="bankaccgroup_id">8</field>
+        </record>
+
+        <record id="accbankacc27" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91270</field>
+           <field name="bankacc_name">دارايي هاي نامشهود</field>
+           <field name="bankaccgroup_id">9</field>
+        </record>
+
+        <record id="accbankacc28" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91280</field>
+           <field name="bankacc_name">پيش پرداخت ها</field>
+           <field name="bankaccgroup_id">10</field>
+        </record>
+
+        <record id="accbankacc29" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91290</field>
+           <field name="bankacc_name">سپرده سرمايه گذاري بلندمدت در بانک ها</field>
+           <field name="bankaccgroup_id">11</field>
+        </record>
+
+        <record id="accbankacc30" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91300</field>
+           <field name="bankacc_name">سرمايه گذاري در سهام و ساير اوراق بهادار</field>
+           <field name="bankaccgroup_id">11</field>
+        </record>
+
+        <record id="accbankacc31" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91310</field>
+           <field name="bankacc_name">ساير دارايي ها</field>
+           <field name="bankaccgroup_id">12</field>
+        </record>
+
+        <record id="accbankacc32" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91320</field>
+           <field name="bankacc_name">بهاي تمام شده کالاي فروش رفته</field>
+           <field name="bankaccgroup_id">13</field>
+        </record>
+
+        <record id="accbankacc33" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91330</field>
+           <field name="bankacc_name">هزينه مطالبات مشکوک الوصول</field>
+           <field name="bankaccgroup_id">13</field>
+        </record>
+
+        <record id="accbankacc34" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91340</field>
+           <field name="bankacc_name">ساير هزينه هاي عملياتي</field>
+           <field name="bankaccgroup_id">13</field>
+        </record>
+
+        <record id="accbankacc35" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91350</field>
+           <field name="bankacc_name">هزينه هاي غيرعملياتي</field>
+           <field name="bankaccgroup_id">13</field>
+        </record>
+
+        <record id="accbankacc36" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91360</field>
+           <field name="bankacc_name">برگشت از فروش و تخفيفات</field>
+           <field name="bankaccgroup_id">14</field>
+        </record>
+
+        <record id="accbankacc37" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">91370</field>
+           <field name="bankacc_name">حساب هاي انتظامي</field>
+           <field name="bankaccgroup_id">15</field>
+        </record>
+
+        <record id="accbankacc38" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92010</field>
+           <field name="bankacc_name"> حساب ها و اسناد پرداختني تجاري</field>
+           <field name="bankaccgroup_id">16</field>
+        </record>
+
+        <record id="accbankacc39" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92020</field>
+           <field name="bankacc_name"> حساب ها و اسناد پرداختني غيرتجاري</field>
+           <field name="bankaccgroup_id">16</field>
+        </record>
+
+        <record id="accbankacc40" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92030</field>
+           <field name="bankacc_name"> سود سهام پرداختني</field>
+           <field name="bankaccgroup_id">16</field>
+        </record>
+
+        <record id="accbankacc41" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92040</field>
+           <field name="bankacc_name">ماليات پرداختني</field>
+           <field name="bankaccgroup_id">16</field>
+        </record>
+
+        <record id="accbankacc42" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92050</field>
+           <field name="bankacc_name">تسهيلات دريافتي</field>
+           <field name="bankaccgroup_id">17</field>
+        </record>
+
+        <record id="accbankacc43" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92060</field>
+           <field name="bankacc_name">صکوک منتشره</field>
+           <field name="bankaccgroup_id">17</field>
+        </record>
+
+        <record id="accbankacc44" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92070</field>
+           <field name="bankacc_name"> پيش دريافت ها</field>
+           <field name="bankaccgroup_id">18</field>
+        </record>
+
+        <record id="accbankacc45" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92080</field>
+           <field name="bankacc_name">ذخيره مطالبات مشکوک الوصول</field>
+           <field name="bankaccgroup_id">19</field>
+        </record>
+
+        <record id="accbankacc46" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92090</field>
+           <field name="bankacc_name">کاهش ارزش انباشته دارايي ها</field>
+           <field name="bankaccgroup_id">19</field>
+        </record>
+
+        <record id="accbankacc47" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92100</field>
+           <field name="bankacc_name">استهلاک انباشته دارايي ها</field>
+           <field name="bankaccgroup_id">19</field>
+        </record>
+
+        <record id="accbankacc48" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92110</field>
+           <field name="bankacc_name">ذخيره مزاياي پايان خدمت کارکنان</field>
+           <field name="bankaccgroup_id">19</field>
+        </record>
+
+        <record id="accbankacc49" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92120</field>
+           <field name="bankacc_name">ساير ذخاير</field>
+           <field name="bankaccgroup_id">19</field>
+        </record>
+
+        <record id="accbankacc50" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92130</field>
+           <field name="bankacc_name">سرمايه</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc51" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92140</field>
+           <field name="bankacc_name">افزايش سرمايه در جريان</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc52" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92150</field>
+           <field name="bankacc_name">اندوخته قانوني</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc53" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92160</field>
+           <field name="bankacc_name">ساير اندوخته ها</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc54" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92170</field>
+           <field name="bankacc_name">مازاد تجديد ارزيابي دارايي ها</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc55" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92180</field>
+           <field name="bankacc_name">سود (زيان) قطعي نشده</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc56" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92190</field>
+           <field name="bankacc_name">سود (زيان) انباشته</field>
+           <field name="bankaccgroup_id">20</field>
+        </record>
+
+        <record id="accbankacc57" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92200</field>
+           <field name="bankacc_name">سود سال هاي آينده تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc58" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92210</field>
+           <field name="bankacc_name">سود تحقق يافته تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc59" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92220</field>
+           <field name="bankacc_name">وجه التزام تحقق يافته تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc60" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92230</field>
+           <field name="bankacc_name">سود معوق تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc61" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92240</field>
+           <field name="bankacc_name">وجه التزام معوق تسهيلات اعطايي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc62" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92250</field>
+           <field name="bankacc_name">درآمد فروش</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc63" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92260</field>
+           <field name="bankacc_name">درآمد بازاريابي و توسعه فروش</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc64" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92270</field>
+           <field name="bankacc_name">ساير درآمدهاي عملياتي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc65" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92280</field>
+           <field name="bankacc_name">درآمدهاي غيرعملياتي</field>
+           <field name="bankaccgroup_id">21</field>
+        </record>
+
+        <record id="accbankacc66" model="leasing_hesabdari.account_bankacc">
+           <field name="bankacc_code">92290</field>
+           <field name="bankacc_name">طرف حساب هاي انتظامي</field>
+           <field name="bankaccgroup_id">22</field>
+        </record>
+
+     </data>
+</odoo>

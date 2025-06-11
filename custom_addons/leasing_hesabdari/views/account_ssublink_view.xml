@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_hesabdari.account_ssublink_list">
+            <field name="name">Account Ssublink list</field>
+            <field name="model">leasing_hesabdari.account_ssublink</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="ssledger1" string="حساب تفصیل" width="150pxl"/>
+                    <field name="ssledger_name1" string="عنوان حساب تفصیل" width="400pxl"/>
+                    <field name="ssledgertype_name1" string="نوع حساب تفصیل" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="create_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="account_ssublink_form_view" model="ir.ui.view">
+            <field name="name">Account Ssublink Form</field>
+            <field name="model">leasing_hesabdari.account_ssublink</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="kolmoin1" string=" کد حساب کل و معین"/>
+                            <field name="sledger_name1" string="عنوان حساب معین"/>
+                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="ssledger1" string=" کد حساب تفصیل"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

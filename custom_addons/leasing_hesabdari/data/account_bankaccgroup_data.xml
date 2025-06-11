@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="accbankaccgroup1" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">1</field>
+           <field name="bankaccgroup_name">موجودي‌هاي نقد</field>
+        </record>
+
+        <record id="accbankaccgroup2" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">2</field>
+           <field name="bankaccgroup_name">تسهيلات اعطايي جاري</field>
+        </record>
+
+        <record id="accbankaccgroup3" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">3</field>
+           <field name="bankaccgroup_name">تسهيلات اعطايي غيرجاري</field>
+        </record>
+
+        <record id="accbankaccgroup4" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">4</field>
+           <field name="bankaccgroup_name">سود و وجه التزام دريافتني</field>
+        </record>
+
+        <record id="accbankaccgroup5" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">5</field>
+           <field name="bankaccgroup_name">ساير حساب‌ها و اسناد دريافتني</field>
+        </record>
+
+        <record id="accbankaccgroup6" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">6</field>
+           <field name="bankaccgroup_name">موجودي کالا</field>
+        </record>
+
+        <record id="accbankaccgroup7" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">7</field>
+           <field name="bankaccgroup_name">دارايي غيرجاري نگهداري شده براي فروش</field>
+        </record>
+
+        <record id="accbankaccgroup8" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">8</field>
+           <field name="bankaccgroup_name">دارايي‌هاي ثابت مشهود</field>
+        </record>
+
+        <record id="accbankaccgroup9" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">9</field>
+           <field name="bankaccgroup_name">دارايي‌هاي نامشهود</field>
+        </record>
+
+        <record id="accbankaccgroup10" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">10</field>
+           <field name="bankaccgroup_name">پيش‌پرداخت‌ها</field>
+        </record>
+
+        <record id="accbankaccgroup11" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">11</field>
+           <field name="bankaccgroup_name">سرمايه‌گذاري‌ها</field>
+        </record>
+
+        <record id="accbankaccgroup12" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">12</field>
+           <field name="bankaccgroup_name">ساير دارايي‌ها</field>
+        </record>
+
+        <record id="accbankaccgroup13" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">13</field>
+           <field name="bankaccgroup_name">هزينه‌ها</field>
+        </record>
+
+        <record id="accbankaccgroup14" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">14</field>
+           <field name="bankaccgroup_name">برگشت از فروش و تخفيفات (حساب‌هاي مقابل-کاهنده درآمدها)</field>
+        </record>
+
+        <record id="accbankaccgroup15" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">15</field>
+           <field name="bankaccgroup_name">حساب‌هاي انتظامي</field>
+        </record>
+
+        <record id="accbankaccgroup16" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">16</field>
+           <field name="bankaccgroup_name">حساب‌ها و اسناد پرداختني</field>
+        </record>
+
+        <record id="accbankaccgroup17" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">17</field>
+           <field name="bankaccgroup_name">تسهيلات مالي</field>
+        </record>
+
+        <record id="accbankaccgroup18" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">18</field>
+           <field name="bankaccgroup_name">پيش‌دريافت‌ها</field>
+        </record>
+
+        <record id="accbankaccgroup19" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">19</field>
+           <field name="bankaccgroup_name">ذخاير</field>
+        </record>
+
+        <record id="accbankaccgroup20" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">20</field>
+           <field name="bankaccgroup_name">حقوق مالکانه</field>
+        </record>
+
+        <record id="accbankaccgroup21" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">21</field>
+           <field name="bankaccgroup_name">درآمدها</field>
+        </record>
+
+        <record id="accbankaccgroup22" model="leasing_hesabdari.account_bankaccgroup">
+           <field name="bankaccgroup_code">22</field>
+           <field name="bankaccgroup_name">طرف حساب‌هاي انتظامي</field>
+        </record>
+
+     </data>
+</odoo>

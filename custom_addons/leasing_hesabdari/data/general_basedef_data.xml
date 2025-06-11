@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="generalbasedef1" model="leasing_hesabdari.general_basedef">
+            <field name="acc_group_len">2</field>
+            <field name="acc_ledger_len">4</field>
+            <field name="acc_sledger_len">2</field>
+            <field name="acc_ssledger_len">10</field>
+        </record>
+    </data>
+</odoo>

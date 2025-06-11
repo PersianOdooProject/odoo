@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data  noupdate="1">
+        <record id="acclegder0" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1110</field>
+           <field name="ledger_name">موجودي نقد و بانک</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder1" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1111</field>
+           <field name="ledger_name">حسابها و اسناد دريافتني تجاري</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder2" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1112</field>
+           <field name="ledger_name">ساير حسابها و اسناد دريافتي</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder3" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1113</field>
+           <field name="ledger_name">سپرده ها و پيش پرداخت ها</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder4" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1114</field>
+           <field name="ledger_name">سرمايه گذاري هاي کوتاه مدت</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder5" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1116</field>
+           <field name="ledger_name">موجودي کالا و مواد</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder6" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1120</field>
+           <field name="ledger_name">تسهيلات اعطايي به مشتريان</field>
+           <field name="acc_group_id">1</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder7" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1211</field>
+           <field name="ledger_name">حسابهاي دريافتني و ساير اسناد دريافتني بلند مدت</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder8" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1212</field>
+           <field name="ledger_name">ساير حسابها و اسناد دريافتني بلند مدت</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder9" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1214</field>
+           <field name="ledger_name">سرمايه گذاري هاي بلند مدت</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder10" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1215</field>
+           <field name="ledger_name">دارائي هاي ثابت مشهود</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder11" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1216</field>
+           <field name="ledger_name">استهلاک انباشته دارائي هاي ثابت مشهود</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder12" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1217</field>
+           <field name="ledger_name">دارائي هاي نامشهود</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder13" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1218</field>
+           <field name="ledger_name">استهلاک انباشته دارائي هاي نامشهود</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder14" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">1219</field>
+           <field name="ledger_name">ساير دارائي ها</field>
+           <field name="acc_group_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder15" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2111</field>
+           <field name="ledger_name">حسابهاي و اسناد پرداختني تجاري</field>
+           <field name="acc_group_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder16" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2112</field>
+           <field name="ledger_name">ساير حسابها و اسناد پرداختني</field>
+           <field name="acc_group_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder17" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2113</field>
+           <field name="ledger_name">پيش دريافت ها</field>
+           <field name="acc_group_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder18" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2121</field>
+           <field name="ledger_name">تسهيلات مالي دريافتي از بانکها</field>
+           <field name="acc_group_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder19" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2211</field>
+           <field name="ledger_name">حسابهاي پرداختني و ساير اسناد پرداختني بلند مدت</field>
+           <field name="acc_group_id">4</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder20" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2212</field>
+           <field name="ledger_name">ساير حسابها و اسناد پرداختني بلند مدت</field>
+           <field name="acc_group_id">4</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder21" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2220</field>
+           <field name="ledger_name">ذخيره مزاياي پايان خدمت کارکنان</field>
+           <field name="acc_group_id">4</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder22" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">2221</field>
+           <field name="ledger_name">ذخاير</field>
+           <field name="acc_group_id">4</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder23" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">3110</field>
+           <field name="ledger_name">سرمايه (حقوق صاحبان سهام)</field>
+           <field name="acc_group_id">5</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder24" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">3111</field>
+           <field name="ledger_name">سود(زيان) جاري</field>
+           <field name="acc_group_id">5</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder25" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">3112</field>
+           <field name="ledger_name">سود(زيان)انباشته</field>
+           <field name="acc_group_id">5</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder26" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">3113</field>
+           <field name="ledger_name">افزايش سرمايه در جريان</field>
+           <field name="acc_group_id">5</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder27" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">3114</field>
+           <field name="ledger_name">اندوخته ها</field>
+           <field name="acc_group_id">5</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder28" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">3115</field>
+           <field name="ledger_name">تعديلات سنواتي</field>
+           <field name="acc_group_id">5</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder29" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">4110</field>
+           <field name="ledger_name">درآمد هاي عملياتي</field>
+           <field name="acc_group_id">6</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder30" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">4111</field>
+           <field name="ledger_name">ساير درآمد هاي عملياتي</field>
+           <field name="acc_group_id">6</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder31" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">4112</field>
+           <field name="ledger_name">ساير درآمد هاي غير عملياتي</field>
+           <field name="acc_group_id">6</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder32" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">5110</field>
+           <field name="ledger_name">بهاي تمام شده عملياتي</field>
+           <field name="acc_group_id">7</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder33" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">6110</field>
+           <field name="ledger_name">هزينه هاي حقوق و دستمزد</field>
+           <field name="acc_group_id">8</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder34" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">6111</field>
+           <field name="ledger_name">هزينه هاي اداري و تشکيلاتي</field>
+           <field name="acc_group_id">8</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder35" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">6112</field>
+           <field name="ledger_name">هزينه هاي عملياتي</field>
+           <field name="acc_group_id">8</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder36" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">6113</field>
+           <field name="ledger_name">هزينه هاي استهلاک انباشته</field>
+           <field name="acc_group_id">8</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder37" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">6212</field>
+           <field name="ledger_name">هزينه هاي مالي</field>
+           <field name="acc_group_id">9</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder38" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">8110</field>
+           <field name="ledger_name">افتتاحيه و اختتاميه</field>
+           <field name="acc_group_id">10</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder39" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">9110</field>
+           <field name="ledger_name">حسابهاي انتظامي</field>
+           <field name="acc_group_id">11</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="acclegder40" model="leasing_hesabdari.account_ledger">
+           <field name="ledger">9111</field>
+           <field name="ledger_name">طرف حسابهاي انتظامي</field>
+           <field name="acc_group_id">11</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="ledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="accgroup0" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">11</field>
+           <field name="acc_group_name">داراييهاي جاري</field>
+           <field name="acc_group_type_id">1</field>
+        </record>
+
+        <record id="accgroup1" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">12</field>
+           <field name="acc_group_name">داراييهاي غيرجاري</field>
+           <field name="acc_group_type_id">1</field>
+        </record>
+
+        <record id="accgroup2" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">21</field>
+           <field name="acc_group_name">بدهيهاي جاري</field>
+           <field name="acc_group_type_id">2</field>
+        </record>
+
+        <record id="accgroup3" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">22</field>
+           <field name="acc_group_name">بدهيهاي غير جاري</field>
+           <field name="acc_group_type_id">2</field>
+        </record>
+
+        <record id="accgroup4" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">31</field>
+           <field name="acc_group_name">حقوق صاحبان سهام</field>
+           <field name="acc_group_type_id">2</field>
+        </record>
+
+        <record id="accgroup5" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">41</field>
+           <field name="acc_group_name">درآمدها</field>
+           <field name="acc_group_type_id">3</field>
+        </record>
+
+        <record id="accgroup6" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">51</field>
+           <field name="acc_group_name">قيمت تمام شده</field>
+           <field name="acc_group_type_id">4</field>
+        </record>
+
+        <record id="accgroup7" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">61</field>
+           <field name="acc_group_name">هزينه ها</field>
+           <field name="acc_group_type_id">4</field>
+        </record>
+
+        <record id="accgroup8" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">62</field>
+           <field name="acc_group_name">ساير هزينه‌ها</field>
+           <field name="acc_group_type_id">4</field>
+        </record>
+
+        <record id="accgroup9" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">81</field>
+           <field name="acc_group_name">افتتاحيه و اختتاميه</field>
+           <field name="acc_group_type_id">5</field>
+        </record>
+
+        <record id="accgroup10" model="leasing_hesabdari.account_group">
+           <field name="acc_group_code">91</field>
+           <field name="acc_group_name">حسابهاي انتظامي</field>
+           <field name="acc_group_type_id">5</field>
+        </record>
+
+     </data>
+</odoo>

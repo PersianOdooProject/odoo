@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gndbank0" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3106</field>
+           <field name="bank_name">صندوق مهر امام رضا (ع)</field>
+        </record>
+
+        <record id="gndbank1" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3107</field>
+           <field name="bank_name">بانک ملي ايران</field>
+        </record>
+
+        <record id="gndbank2" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3108</field>
+           <field name="bank_name">بانک سپه</field>
+        </record>
+
+        <record id="gndbank3" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3109</field>
+           <field name="bank_name">بانک توسعه تعاون</field>
+        </record>
+
+        <record id="gndbank4" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3110</field>
+           <field name="bank_name">بانک صادرات</field>
+        </record>
+
+        <record id="gndbank5" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3111</field>
+           <field name="bank_name">بانک تجارت</field>
+        </record>
+
+        <record id="gndbank6" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3112</field>
+           <field name="bank_name">بانک ملت</field>
+        </record>
+
+        <record id="gndbank7" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3113</field>
+           <field name="bank_name">بانک انصار</field>
+        </record>
+
+        <record id="gndbank8" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">3114</field>
+           <field name="bank_name">بانک رفاه کارگران</field>
+        </record>
+
+        <record id="gndbank9" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14055</field>
+           <field name="bank_name">بانک قوامين</field>
+        </record>
+
+        <record id="gndbank10" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14056</field>
+           <field name="bank_name">بانک اقتصاد نوين</field>
+        </record>
+
+        <record id="gndbank11" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14058</field>
+           <field name="bank_name">بانک کشاورزي</field>
+        </record>
+
+        <record id="gndbank12" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14059</field>
+           <field name="bank_name">بانک پارسيان</field>
+        </record>
+
+        <record id="gndbank13" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14060</field>
+           <field name="bank_name">بانک سامان</field>
+        </record>
+
+        <record id="gndbank14" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14061</field>
+           <field name="bank_name">بانک پاسارگاد</field>
+        </record>
+
+        <record id="gndbank15" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">14062</field>
+           <field name="bank_name">بانک شهر</field>
+        </record>
+
+        <record id="gndbank16" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24093</field>
+           <field name="bank_name">بانک مسکن</field>
+        </record>
+
+        <record id="gndbank17" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24094</field>
+           <field name="bank_name">بانک ملت</field>
+        </record>
+
+        <record id="gndbank18" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24095</field>
+           <field name="bank_name">بانک ملي</field>
+        </record>
+
+        <record id="gndbank19" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24096</field>
+           <field name="bank_name">بانک آينده</field>
+        </record>
+
+        <record id="gndbank20" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24097</field>
+           <field name="bank_name">بانک دي</field>
+        </record>
+
+        <record id="gndbank21" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24098</field>
+           <field name="bank_name">بانک حکمت ايرانيان</field>
+        </record>
+
+        <record id="gndbank22" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24101</field>
+           <field name="bank_name">پست بانک ايران</field>
+        </record>
+
+        <record id="gndbank23" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24102</field>
+           <field name="bank_name">بانک کارآفرين</field>
+        </record>
+
+        <record id="gndbank24" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24103</field>
+           <field name="bank_name">بانک رسالت</field>
+        </record>
+
+        <record id="gndbank25" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24104</field>
+           <field name="bank_name">بانک مهر ايران</field>
+        </record>
+
+        <record id="gndbank26" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24105</field>
+           <field name="bank_name">بانک ايران زمين</field>
+        </record>
+
+        <record id="gndbank27" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24109</field>
+           <field name="bank_name">بانک سينا</field>
+        </record>
+
+        <record id="gndbank28" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24112</field>
+           <field name="bank_name">بانک سرمايه</field>
+        </record>
+
+        <record id="gndbank29" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24115</field>
+           <field name="bank_name">بانک گردشگري</field>
+        </record>
+
+        <record id="gndbank30" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24124</field>
+           <field name="bank_name">بانک توسعه صادرات</field>
+        </record>
+
+        <record id="gndbank31" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24128</field>
+           <field name="bank_name">پست بانک ايران</field>
+        </record>
+
+        <record id="gndbank32" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24144</field>
+           <field name="bank_name">بانک صنعت و معدن</field>
+        </record>
+
+        <record id="gndbank33" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24198</field>
+           <field name="bank_name">بانک خاورميانه</field>
+        </record>
+
+        <record id="gndbank34" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24212</field>
+           <field name="bank_name">شرکت واسپاري ملت</field>
+        </record>
+
+        <record id="gndbank35" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24260</field>
+           <field name="bank_name">خودران وفا</field>
+        </record>
+
+        <record id="gndbank36" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24261</field>
+           <field name="bank_name">ليزينگ فرهنگيان</field>
+        </record>
+
+        <record id="gndbank37" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24305</field>
+           <field name="bank_name">نمايندگي</field>
+        </record>
+
+        <record id="gndbank38" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24322</field>
+           <field name="bank_name">کانون بازنشستگان ايران</field>
+        </record>
+
+        <record id="gndbank39" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24329</field>
+           <field name="bank_name">کانون بازنشستگان ارتش</field>
+        </record>
+
+        <record id="gndbank40" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24351</field>
+           <field name="bank_name">بانک مهر اقتصاد</field>
+        </record>
+
+        <record id="gndbank41" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24440</field>
+           <field name="bank_name">سفته</field>
+        </record>
+
+        <record id="gndbank42" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">24448</field>
+           <field name="bank_name">بانک قرض الحسنه مهر ايران</field>
+        </record>
+
+        <record id="gndbank43" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">27851</field>
+           <field name="bank_name">بانک قرض الحسنه رسالت</field>
+        </record>
+
+        <record id="gndbank44" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41374</field>
+           <field name="bank_name">موسسه اعتباري کوثر</field>
+        </record>
+
+        <record id="gndbank45" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41511</field>
+           <field name="bank_name">ايرانيان خودرو</field>
+        </record>
+
+        <record id="gndbank46" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41806</field>
+           <field name="bank_name">شرکت آتي نگر افام</field>
+        </record>
+
+        <record id="gndbank47" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41845</field>
+           <field name="bank_name">شرکت واسپاري سپهر صادرات</field>
+        </record>
+
+        <record id="gndbank48" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41846</field>
+           <field name="bank_name">شرکت ليزينگ ايرانيان</field>
+        </record>
+
+        <record id="gndbank49" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41847</field>
+           <field name="bank_name">بانک مهر ايران</field>
+        </record>
+
+        <record id="gndbank50" model="leasing_generaldata.generaldata_bank">
+           <field name="bank_oldcode">41848</field>
+           <field name="bank_name">بانک مشترک ايران و ونزوئلا</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="accssledgertype0" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">01</field>
+           <field name="ssledgertype_name">ساير</field>
+        </record>
+
+        <record id="accssledgertype1" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">02</field>
+           <field name="ssledgertype_name">اشخاص</field>
+        </record>
+
+        <record id="accssledgertype2" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">03</field>
+           <field name="ssledgertype_name">شركتها</field>
+        </record>
+
+        <record id="accssledgertype3" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">04</field>
+           <field name="ssledgertype_name">مراكز مسئوليت</field>
+        </record>
+
+        <record id="accssledgertype4" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">05</field>
+           <field name="ssledgertype_name">پروژه</field>
+        </record>
+
+        <record id="accssledgertype5" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">06</field>
+           <field name="ssledgertype_name">
+اعتبارات اسنادي
+</field>
+        </record>
+
+        <record id="accssledgertype6" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">07</field>
+           <field name="ssledgertype_name">حسابهاي بانكي
+</field>
+        </record>
+
+        <record id="accssledgertype7" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">08</field>
+           <field name="ssledgertype_name">ارز</field>
+        </record>
+
+        <record id="accssledgertype8" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">09</field>
+           <field name="ssledgertype_name">انبار</field>
+        </record>
+
+        <record id="accssledgertype9" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">10</field>
+           <field name="ssledgertype_name">اموال و دارايي ثابت</field>
+        </record>
+
+        <record id="accssledgertype10" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">11</field>
+           <field name="ssledgertype_name">صندوق</field>
+        </record>
+
+        <record id="accssledgertype11" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">12</field>
+           <field name="ssledgertype_name">گروه كالا فروش</field>
+        </record>
+
+        <record id="accssledgertype12" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">13</field>
+           <field name="ssledgertype_name">گروه قرارداد مشتريان</field>
+        </record>
+
+        <record id="accssledgertype13" model="leasing_hesabdari.account_ssledgertype">
+           <field name="ssledgertype_code">30</field>
+           <field name="ssledgertype_name">گروه مشتريان</field>
+        </record>
+
+     </data>
+</odoo>

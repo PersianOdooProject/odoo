@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- Top menu item -->
+        <menuitem name="نرم افزار جامع لیزینگ - لیزینگ" id="leasing_leasingdata.menu_root" sequence="-97"/>
+
+        <!-- menu categories -->
+        <menuitem name="اطلاعات پایه" id="leasing_leasingdata.leasing_main" parent="leasing_leasingdata.menu_root"/>
+        <!-- actions -->
+        <menuitem name="معرفی رنگ" id="leasing_leasingdata.leasingdata_goodcolor" parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_goodcolor_action_window" sequence="1"/>
+
+    </data>
+</odoo>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data  noupdate="1">
+        <record id="accsoodziangroup0" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">1</field>
+           <field name="accountsoodziangroup_name">درآمدهاي عملياتي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup1" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">2</field>
+           <field name="accountsoodziangroup_name">بهاي تمام شده درآمدهاي عملياتي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup2" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">3</field>
+           <field name="accountsoodziangroup_name">سود(زيان) ناخالص</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup3" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">4</field>
+           <field name="accountsoodziangroup_name">هزينه هاي فروش - اداري -عمومي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup4" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">5</field>
+           <field name="accountsoodziangroup_name">هزينه کاهش ارزش دريافتني ها</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup5" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">6</field>
+           <field name="accountsoodziangroup_name">ساير درآمدهاي عملياتي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup6" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">7</field>
+           <field name="accountsoodziangroup_name">ساير هزينه هاي عملياتي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup7" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">8</field>
+           <field name="accountsoodziangroup_name">سود(زيان) عملياتي</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup8" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">9</field>
+           <field name="accountsoodziangroup_name">ساير درآمدهاي غير عملياتي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup9" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">10</field>
+           <field name="accountsoodziangroup_name">ساير هزينه هاي غير عملياتي</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+        <record id="accsoodziangroup10" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">11</field>
+           <field name="accountsoodziangroup_name">سود(زيان) عمليات در حال تداوم قبل از ماليات</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup11" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">12</field>
+           <field name="accountsoodziangroup_name">هزينه ماليات بردرآمد سال جاري</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup12" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">13</field>
+           <field name="accountsoodziangroup_name">هزينه ماليات بردرآمد سال قبل</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup13" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">14</field>
+           <field name="accountsoodziangroup_name">سود(زيان) خالص عمليات در حال تداوم</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup14" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">15</field>
+           <field name="accountsoodziangroup_name">سود(زيان) خالص عمليات متوقف شده</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup15" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">16</field>
+           <field name="accountsoodziangroup_name">سود(زيان) خالص</field>
+           <field name="is_selecttable">0</field>
+        </record>
+
+        <record id="accsoodziangroup16" model="leasing_hesabdari.accountsoodzian_group">
+           <field name="accountsoodziangroup_code">99</field>
+           <field name="accountsoodziangroup_name">فاقد گروه سود و زيان</field>
+           <field name="is_selecttable">1</field>
+        </record>
+
+     </data>
+</odoo>

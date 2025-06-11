@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpaycustdef1" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">1</field>
+           <field name="cust_name">حقوقي</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef2" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">2</field>
+           <field name="cust_name">عضويت</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef3" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">3</field>
+           <field name="cust_name">کارت هديه</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef4" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">4</field>
+           <field name="cust_name">پاداش عملکرد</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef5" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">5</field>
+           <field name="cust_name">حق تمبر</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef6" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">6</field>
+           <field name="cust_name">ماليات و عوارض ارزش افزوده</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef7" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">7</field>
+           <field name="cust_name">حقوق پرسنل</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef8" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">8</field>
+           <field name="cust_name">کارت بازرگاني</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef9" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">9</field>
+           <field name="cust_name">تخفيف</field>
+           <field name="custaction_id">2</field>
+        </record>
+
+        <record id="recpaycustdef10" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">10</field>
+           <field name="cust_name">رندينگ</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef11" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">11</field>
+           <field name="cust_name">کارانه</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef12" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">12</field>
+           <field name="cust_name">سود تحقق نيافته</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef13" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">13</field>
+           <field name="cust_name">خلافي خودرو</field>
+           <field name="custaction_id">3</field>
+        </record>
+
+        <record id="recpaycustdef14" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">14</field>
+           <field name="cust_name">تبليغات</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef15" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">15</field>
+           <field name="cust_name">ساير</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef16" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">16</field>
+           <field name="cust_name">آبدارخانه</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef17" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">17</field>
+           <field name="cust_name">تعمير و نگهداري</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef18" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">18</field>
+           <field name="cust_name">آموزش کارکنان</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef19" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">19</field>
+           <field name="cust_name">5% سپرده تامين اجتماعي - ماده 38 قانون</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef20" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">20</field>
+           <field name="cust_name">هزينه هاي مشتري</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef21" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">21</field>
+           <field name="cust_name">حمل و باربري</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef22" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">22</field>
+           <field name="cust_name">لوازم التحرير</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef23" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">23</field>
+           <field name="cust_name">ارزش افزوده کالا</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef24" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">24</field>
+           <field name="cust_name">کارشناسي ارزش گذاري خودرو</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+        <record id="recpaycustdef25" model="leasing_recpaydata.recpay_custdef">
+           <field name="cust_oldcode">25</field>
+           <field name="cust_name">کارشناسي ملک</field>
+           <field name="custaction_id">1</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_leasing_recpaydata_recpay_behalf,leasing_recpaydata.recpay_behalf,model_leasing_recpaydata_recpay_behalf,base.group_user,1,1,1,1
+access_leasing_recpaydata_recpay_cashdef,leasing_recpaydata.recpay_cashdef,model_leasing_recpaydata_recpay_cashdef,base.group_user,1,1,1,1
+access_leasing_recpaydata_recpay_custaction,leasing_recpaydata.recpay_custaction,model_leasing_recpaydata_recpay_custaction,base.group_user,1,1,0,0
+access_leasing_recpaydata_recpay_custdef,leasing_recpaydata.recpay_custdef,model_leasing_recpaydata_recpay_custdef,base.group_user,1,1,1,1

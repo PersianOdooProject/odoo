@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_person_list">
+            <field name="name">Generaldata Perosn list</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="person_namefamil" string="نام و نام خانوادگی  شخص/ام شرکت" width="300pxl"/>
+                    <field name="person_natcode" string="کد ملی شخص حقیقی" width="100pxl"/>
+                    <field name="person_shenasemelli" string="شناسه ملی شخص حقیقی" width="100pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_person_kanban" model="ir.ui.view">
+            <field name="name">Generaldata Person Kanban</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="id"/>
+                    <field name="person_namefamil"/>
+                    <field name="person_natcode"/>
+                    <field name="person_shenasemelli"/>
+                    <field name="person_image"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img class="o_kanban_image_inner_pic"
+                                         t-att-src="kanban_image('leasing_generaldata.generaldata_person', 'person_image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <ul>
+                                        <li>
+                                            نام و نام خانوادگی/نام شرکت :
+                                            <field name="person_namefamil"/>
+                                        </li>
+                                        <li>
+                                            کد ملی :
+                                            <field name="person_natcode"/>
+                                        </li>
+                                        <li>
+                                            شناسه ملی :
+                                            <field name="person_shenasemelli"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="generaldata_person_form_view" model="ir.ui.view">
+            <field name="name">Generaldate Person Form</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="person_name" string="نام شخص/شرکت"/>
+                            <field name="person_famil" string="نام خانوادگی شخص/نام شرکت"/>
+                            <field name="person_natcode" string="کد ملی شخص حقیقی"/>
+                            <field name="person_shenasemelli" string="شناسه ملی شخص حقوقی"/>
+                            <field name="person_image" string="عکس شخص/شرکت" class="oe_avatar" widget="image"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_person_action_window">
+            <field name="name">معرفی اشخاص</field>
+            <field name="res_model">leasing_generaldata.generaldata_person</field>
+            <field name="view_mode">kanban,form,list</field>
+        </record>
+
+        <record id="report_leasing_generaldata_generaldata_person" model="ir.actions.report">
+            <field name="name">کارت شخص</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">leasing_generaldata.report_generaldata_person</field>
+            <field name="report_file">leasing_generaldata.report_generaldata_person</field>
+            <field name="binding_model_id" ref="model_leasing_generaldata_generaldata_person"/>
+            <field name="binding_type">report</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpaybehalf1" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">1</field>
+           <field name="behalf_name">ثبت لوگوي شرکت</field>
+        </record>
+
+        <record id="recpaybehalf2" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">2</field>
+           <field name="behalf_name">واريز سود</field>
+        </record>
+
+        <record id="recpaybehalf3" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">3</field>
+           <field name="behalf_name">حق حضور هيات مديره</field>
+        </record>
+
+        <record id="recpaybehalf4" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">4</field>
+           <field name="behalf_name">اعتبارسنجي</field>
+        </record>
+
+        <record id="recpaybehalf5" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">5</field>
+           <field name="behalf_name">پيش پرداخت</field>
+        </record>
+
+        <record id="recpaybehalf6" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">6</field>
+           <field name="behalf_name">ارزش افزوده</field>
+        </record>
+
+        <record id="recpaybehalf7" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">7</field>
+           <field name="behalf_name">بيمه تأمين اجتماعي پرسنل</field>
+        </record>
+
+        <record id="recpaybehalf8" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">8</field>
+           <field name="behalf_name">بيمه آينده ساز</field>
+        </record>
+
+        <record id="recpaybehalf9" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">9</field>
+           <field name="behalf_name">ماليات حقوق پرسنل</field>
+        </record>
+
+        <record id="recpaybehalf10" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">10</field>
+           <field name="behalf_name">حسابرسي</field>
+        </record>
+
+        <record id="recpaybehalf11" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">11</field>
+           <field name="behalf_name">قراردادهاي ليزينگ - تسويه فاکتور</field>
+        </record>
+
+        <record id="recpaybehalf12" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">12</field>
+           <field name="behalf_name">کارمزد بانکي</field>
+        </record>
+
+        <record id="recpaybehalf13" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">13</field>
+           <field name="behalf_name">ساير</field>
+        </record>
+
+        <record id="recpaybehalf14" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">14</field>
+           <field name="behalf_name">کارشناسي ملک</field>
+        </record>
+
+        <record id="recpaybehalf15" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">15</field>
+           <field name="behalf_name">دير پرداخت</field>
+        </record>
+
+        <record id="recpaybehalf16" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">16</field>
+           <field name="behalf_name">کنترل دستگاه پوز</field>
+        </record>
+
+        <record id="recpaybehalf17" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">17</field>
+           <field name="behalf_name">پشتيباني نرم افزار</field>
+        </record>
+
+        <record id="recpaybehalf18" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">18</field>
+           <field name="behalf_name">طلب/ بدهي سهامدار</field>
+        </record>
+
+        <record id="recpaybehalf19" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">19</field>
+           <field name="behalf_name">تنخواه</field>
+        </record>
+
+        <record id="recpaybehalf20" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">20</field>
+           <field name="behalf_name">اخطاريه حسن نيت سند رهني</field>
+        </record>
+
+        <record id="recpaybehalf21" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">21</field>
+           <field name="behalf_name">اخطاريه و اجرائيه سند رهني</field>
+        </record>
+
+        <record id="recpaybehalf22" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">22</field>
+           <field name="behalf_name">دارايي</field>
+        </record>
+
+        <record id="recpaybehalf23" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">23</field>
+           <field name="behalf_name">مساعده حقوق</field>
+        </record>
+
+        <record id="recpaybehalf24" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">24</field>
+           <field name="behalf_name">علي الحساب</field>
+        </record>
+
+        <record id="recpaybehalf25" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">25</field>
+           <field name="behalf_name">اجاره</field>
+        </record>
+
+        <record id="recpaybehalf26" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">26</field>
+           <field name="behalf_name">ماليات اجاره</field>
+        </record>
+
+        <record id="recpaybehalf27" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">27</field>
+           <field name="behalf_name">غذا</field>
+        </record>
+
+        <record id="recpaybehalf28" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">28</field>
+           <field name="behalf_name">ماليات بر درآمد</field>
+        </record>
+
+        <record id="recpaybehalf29" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">29</field>
+           <field name="behalf_name">وصول ضمانتنامه</field>
+        </record>
+
+        <record id="recpaybehalf30" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">30</field>
+           <field name="behalf_name">تضمين</field>
+        </record>
+
+        <record id="recpaybehalf31" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">31</field>
+           <field name="behalf_name">حق عضويت</field>
+        </record>
+
+        <record id="recpaybehalf32" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">32</field>
+           <field name="behalf_name">کارشناسي ارزش گذاري خودرو</field>
+        </record>
+
+        <record id="recpaybehalf33" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">33</field>
+           <field name="behalf_name">کمک توسعه فروش</field>
+        </record>
+
+        <record id="recpaybehalf34" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">34</field>
+           <field name="behalf_name">تسويه بدهي</field>
+        </record>
+
+        <record id="recpaybehalf35" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">35</field>
+           <field name="behalf_name">اضافه واريزي</field>
+        </record>
+
+        <record id="recpaybehalf36" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">36</field>
+           <field name="behalf_name">حق صلح</field>
+        </record>
+
+        <record id="recpaybehalf37" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">37</field>
+           <field name="behalf_name">پست - مدارک مشتري</field>
+        </record>
+
+        <record id="recpaybehalf38" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">38</field>
+           <field name="behalf_name">تسهيلات بانکي</field>
+        </record>
+
+        <record id="recpaybehalf39" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">39</field>
+           <field name="behalf_name">وکيل</field>
+        </record>
+
+        <record id="recpaybehalf40" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">40</field>
+           <field name="behalf_name">حمل خودرو</field>
+        </record>
+
+        <record id="recpaybehalf41" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">41</field>
+           <field name="behalf_name">سند رهني</field>
+        </record>
+
+        <record id="recpaybehalf42" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">42</field>
+           <field name="behalf_name">واريزي نامشخص</field>
+        </record>
+
+        <record id="recpaybehalf43" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">43</field>
+           <field name="behalf_name">صدور اجرائيه</field>
+        </record>
+
+        <record id="recpaybehalf44" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">44</field>
+           <field name="behalf_name">استعلام اموال</field>
+        </record>
+
+        <record id="recpaybehalf45" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">45</field>
+           <field name="behalf_name">اياب و ذهاب</field>
+        </record>
+
+        <record id="recpaybehalf46" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">46</field>
+           <field name="behalf_name">تسويه قرارداد مشتري</field>
+        </record>
+
+        <record id="recpaybehalf47" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">47</field>
+           <field name="behalf_name">تسهيلات</field>
+        </record>
+
+        <record id="recpaybehalf48" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">48</field>
+           <field name="behalf_name">پرداخت حقوق پرسنل</field>
+        </record>
+
+        <record id="recpaybehalf49" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">49</field>
+           <field name="behalf_name">شارژ بن کارت پرسنل</field>
+        </record>
+
+        <record id="recpaybehalf50" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">50</field>
+           <field name="behalf_name">کارانه نقدي</field>
+        </record>
+
+        <record id="recpaybehalf51" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">51</field>
+           <field name="behalf_name">تسهيلات و اعتبارات</field>
+        </record>
+
+        <record id="recpaybehalf52" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">52</field>
+           <field name="behalf_name">تسويه حساب کامل پرسنل</field>
+        </record>
+
+        <record id="recpaybehalf53" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">53</field>
+           <field name="behalf_name">اعتبار در حساب جاري</field>
+        </record>
+
+        <record id="recpaybehalf54" model="leasing_recpaydata.recpay_behalf">
+           <field name="behalf_oldcode">54</field>
+           <field name="behalf_name">خريد يونيت</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,26 @@
+{
+    'name': 'نرم افزار جامع لیزینگ - دریافت و پرداخت',
+    'version': '1.0.0',
+    'author': 'بابک جهان بیک لو',
+    'sequence': -98,
+    'category': '',
+    'summary': 'مدیریت اطلاعات دریافت و پرداخت نرم افزار جامع لیزینگ',
+    'description': "مدیریت اطلاعات دریافت و پرداخت نرم افزار جامع لیزینگ",
+    'depends':[],
+    'data':[
+            'security/ir.model.access.csv',
+            'data/recpay_behalf_data.xml',
+            'data/recpay_cashdef_data.xml',
+            'data/recpay_custaction_data.xml',
+            'data/recpay_custdef_data.xml',
+            'views/recpay_behalf_view.xml',
+            'views/recpay_cashdef_view.xml',
+            'views/recpay_custdef_view.xml',
+            'views/leasing_recpaydata_menu.xml'
+    ],
+    'demo':[],
+    'installable': True,
+    'auto_install': False,
+    'assets':{},
+    'application':True,
+}

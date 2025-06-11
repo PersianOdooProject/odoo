@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_hesabdari.account_ssledger_list">
+            <field name="name">Account Ssledger list</field>
+            <field name="model">leasing_hesabdari.account_ssledger</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="ssledger" string="حساب تفصیل" width="150pxl"/>
+                    <field name="codemelli" string="کد/شناسه ملی" width="150pxl"/>
+                    <field name="ssledger_name" string="عنوان حساب تفصیل" width="400pxl"/>
+                    <field name="ssledgertype_name1" string="نوع حساب تفصیل" width="300pxl"/>
+                    <field name="ssledger_isactive" string="وضعیت حساب(فعال/غیرفعال)" width="300pxl"/>
+                    <field name="ssledger_isprint" string="اعمال در گزارش نقدینگی" width="300pxl"/>
+                    <field name="kolmoin1" string="کل معین مبنا در گزارش نقدینگی" width="300pxl"/>
+                    <field name="sledger_name1" string="عنوان حساب معین" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="create_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="account_ssledger_form_view" model="ir.ui.view">
+            <field name="name">Account Ssledger Form</field>
+            <field name="model">leasing_hesabdari.account_ssledger</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="ssledgertype_id" string="نوع حساب تفصیل"/>
+                            <field name="ssledger" string=" کد حساب تفصیل"/>
+                            <field name="ssledger_name" string="عنوان حساب تفصیل"/>
+                            <field name="ssledger_isactive" string="وضعیت حساب(فعال/غیرفعال)"/>
+                            <field name="ssledger_isprint" string="اعمال در گزارش نقدینگی"/>
+                            <field name="sledger_id" string="حساب معین مبنا در گزارش نقدینگی"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_hesabdari.account_ssledger_action_window">
+            <field name="name">حساب تفصیل</field>
+            <field name="res_model">leasing_hesabdari.account_ssledger</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <record id="report_leasing_account_ssledger" model="ir.actions.report">
+            <field name="name">گزارش حساب تفصیل</field>
+            <field name="model">leasing_hesabdari.account_ssledger</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">leasing_hesabdari.report_account_ssledger</field>
+            <field name="report_file">leasing_hesabdari.report_account_ssledger</field>
+            <field name="binding_model_id" ref="model_leasing_hesabdari_account_ssledger"/>
+            <field name="binding_type">report</field>
+        </record>
+
+    </data>
+</odoo>

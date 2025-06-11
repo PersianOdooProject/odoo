@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data  noupdate="1">
+        <record id="accsledger0" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">بانک خاورميانه</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger1" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">بانک کارآفرين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger2" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">03</field>
+           <field name="sledger_name">بانک اقتصاد نوين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger3" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">05</field>
+           <field name="sledger_name">موجودي بانک هاي ريالي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger4" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">06</field>
+           <field name="sledger_name">سود و زيان انباشته</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger5" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">07</field>
+           <field name="sledger_name">1</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">False</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger6" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">08</field>
+           <field name="sledger_name">بانک پارسيان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger7" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">18</field>
+           <field name="sledger_name">تمديد سرور</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger8" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">19</field>
+           <field name="sledger_name">تمديد سرور</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger9" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">20</field>
+           <field name="sledger_name">ساير کسورات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger10" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">22</field>
+           <field name="sledger_name">روند حقوق</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger11" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">30</field>
+           <field name="sledger_name">روند حقوق</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger12" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">50</field>
+           <field name="sledger_name">تنخواه گردان ريالي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger13" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">51</field>
+           <field name="sledger_name">تنخواه گردان ارزي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger14" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">60</field>
+           <field name="sledger_name">موجودي نقد. صندوق</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger15" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">1</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">61</field>
+           <field name="sledger_name">هزينه هاي مالياتي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger16" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">2</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">حسابهاي دريافتني تجاري</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger17" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">2</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">چکهاي دريافتي نزد صندوق مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger18" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">2</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">03</field>
+           <field name="sledger_name">اسناد دريافتني درجريان وصول</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">3</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger19" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">2</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">04</field>
+           <field name="sledger_name">طرف اسناد دريافتي از مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger20" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">3</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">1</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">False</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger21" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">3</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">حسابهاي دريافتني گروه</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger22" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">3</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">حسابهاي دريافتني کارکنان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger23" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">3</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">ساير حسابهاي دريافتني</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger24" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">3</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">18</field>
+           <field name="sledger_name">ماليات و عوارض ارزش افزوده دريافتني</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger25" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">سپرده اجاره</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger26" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">پيش پرداخت خريد</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger27" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">پيش پرداخت بيمه</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger28" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">پيش پرداخت قرارداد</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger29" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">وجوه مسدود شده بانکي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger30" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">سپرده بيمه</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger31" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">15</field>
+           <field name="sledger_name">پيش پرداخت هزينه ها</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger32" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">4</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">16</field>
+           <field name="sledger_name">پيش پرداخت ماليات</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger33" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">5</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">سرمايه گذاري درسهام</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger34" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">5</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">سرمايه گذاري درسهام غير بورسي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger35" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">5</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">سرمايه گذاري در صندوق</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger36" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">6</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">موجودي کالا و مواد</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger37" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">اصل تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger38" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">فرع تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger39" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">03</field>
+           <field name="sledger_name">ساير مبالغ تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger40" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">04</field>
+           <field name="sledger_name">بيمه بدنه تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger41" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">05</field>
+           <field name="sledger_name">بيمه عمر تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger42" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">06</field>
+           <field name="sledger_name">بيمه اعتباري تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger43" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">07</field>
+           <field name="sledger_name">ديرکرد اقساط تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger44" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">08</field>
+           <field name="sledger_name">ارزش افزوده ديرکرد اقساط تسهيلات اعطايي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger45" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">درآمد انتقالي به سنوات آتي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger46" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">7</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">ساير بدهي هاي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger47" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">11</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">ساختمان</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger48" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">11</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">زمين</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger49" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">11</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">وسائط نقليه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger50" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">11</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">اثاثيه و منصوبات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger51" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">11</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">تجهيزات کامپيوتري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger52" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">12</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">استهلاک انباشته ساختمان</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger53" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">12</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">استهلاک انباشته وسائط نقليه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger54" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">12</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">استهلاک انباشته اثاثيه و منصوبات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger55" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">12</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">استهلاک انباشته تجهيزات کامپيوتري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger56" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">13</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">حق الامتيازها</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger57" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">13</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">حق عضويت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger58" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">13</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">نرم افزارها</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger59" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">14</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">استهلاک انباشته نرم افزارها</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger60" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">16</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">حسابهاي پرداختني تجاري</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">3</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger61" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">16</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">اسناد پرداختني تجاري</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">3</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger62" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">16</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">حساب کنترلي چکهاي دريافتي مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger63" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">حسابهاي پرداختني گروه</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger64" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">حسابهاي پرداختني کارکنان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger65" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">وزارت امور اقتصادي و دارائي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger66" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">سازمان بيمه تامين اجتماعي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger67" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">حقوق پرداختني</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger68" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">15</field>
+           <field name="sledger_name">سود سهام پرداختني</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger69" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">16</field>
+           <field name="sledger_name">پرداختني سهامداران</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger70" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">17</field>
+           <field name="sledger_name">کانون کارشناسان دادگستري</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger71" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">18</field>
+           <field name="sledger_name">ماليات و عوارض ارزش افزوده پرداختني</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger72" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">19</field>
+           <field name="sledger_name">ساير حسابهاي پرداختني</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger73" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">20</field>
+           <field name="sledger_name">ساير اسناد پرداختني</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger74" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">21</field>
+           <field name="sledger_name">بيمه بدنه پرداختني تسهيلات اعطايي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger75" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">22</field>
+           <field name="sledger_name">بيمه عمر پرداختني تسهيلات اعطايي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger76" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">23</field>
+           <field name="sledger_name">بيمه اعتباري پرداختني تسهيلات اعطايي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger77" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">24</field>
+           <field name="sledger_name">سود سهام پيشنهادي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger78" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">25</field>
+           <field name="sledger_name">واريزيهاي نامشخص</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger79" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">26</field>
+           <field name="sledger_name">سپرده بيمه قراردادها</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger80" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">17</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">27</field>
+           <field name="sledger_name">اسناد پرداختني حقوق</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger81" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">18</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">پيش دريافت مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger82" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">18</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">پيش دريافت خريد</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger83" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">18</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">ساير پيش دريافت ها</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger84" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">19</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">اصل تسهيلات دريافتي از بانک ها و موسسات</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger85" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">19</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">بهره پرداختني تسهيلات مالي دريافتي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger86" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">19</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">03</field>
+           <field name="sledger_name">بهره سنوات آتي تسهيلات دريافتي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger87" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">22</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">ذخيره سنوات کارکنان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger88" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">22</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">ذخيره مرخصي کارکنان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger89" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">22</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">ذخيره عيدي و پاداش</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger90" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">23</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">ذخيره ماليات عملکرد</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger91" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">23</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">ذخيره ماليات برارزش افزوده</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger92" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">23</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">ذخيره عمومي تسهيلات دريافتني</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger93" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">23</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">ذخيره حسابرسي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger94" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">24</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">سرمايه</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger95" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">25</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">سود (زيان)جاري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger96" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">26</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">سود و زيان انباشته</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger97" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">27</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">افزايش سرمايه در جريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger98" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">28</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">اندوخته قانوني</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger99" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">30</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">درآمد حاصل از ليزينگ</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger100" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">30</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">درآمد حاصل از تخفيف توسعه فروش تامين کننده تسهيلات ليزينگ</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">3</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger101" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">30</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">ساير درآمد عملياتي حاصل از ليزينگ</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger102" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">30</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">درآمد حاصل از تخفيفات بيمه بدنه تسهيلات ليزينگ</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger103" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">30</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">درآمد ديرپرداخت اقساط تسهيلات اعطايي ليزينگ</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger104" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">30</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">15</field>
+           <field name="sledger_name">درآمد تسويه حساب مشتريان</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger105" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">31</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">ساير درآمدها</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger106" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">سود سپرده بانکي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger107" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">درآمد سود سپرده بانکي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger108" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">درآمد سرمايه گذاري درسهام</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger109" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">درآمد سرمايه گذاري در سهام غير بورسي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger110" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">درآمد سرمايه گذاري در صندوق</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger111" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">ساير درآمدهاي غير عملياتي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger112" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">32</field>
+           <field name="accountsoodziangroup_id">9</field>
+           <field name="sledger">20</field>
+           <field name="sledger_name">درآمد حاصل از واگذاري دارائي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger113" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">حقوق پايه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger114" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">حق جذب</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger115" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">حق مسئوليت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger116" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">حق سنوات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger117" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">فوق العاده شغل</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger118" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">15</field>
+           <field name="sledger_name">حق مسکن</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger119" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">16</field>
+           <field name="sledger_name">حق بن و خواروبار</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger120" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">17</field>
+           <field name="sledger_name">حق اولاد</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger121" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">18</field>
+           <field name="sledger_name">اضافه کاري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger122" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">19</field>
+           <field name="sledger_name">اياب و ذهاب</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger123" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">20</field>
+           <field name="sledger_name">حق نهاري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger124" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">21</field>
+           <field name="sledger_name">حق بيمه تکميلي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger125" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">22</field>
+           <field name="sledger_name">روند حقوق</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger126" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">23</field>
+           <field name="sledger_name">حق ماموريت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger127" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">30</field>
+           <field name="sledger_name">بيمه تامين اجتماعي -کارفرما</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger128" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">31</field>
+           <field name="sledger_name">ساير مزايا</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger129" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">35</field>
+           <field name="sledger_name">هزينه عيدي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger130" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">36</field>
+           <field name="sledger_name">هزينه پاداش و کارانه نقدي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger131" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">37</field>
+           <field name="sledger_name">بازخريد سنوات کارکنان</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger132" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">38</field>
+           <field name="sledger_name">بازخريد مرخصي کارکنان</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger133" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">39</field>
+           <field name="sledger_name">هزينه کارانه غيرنقدي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger134" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">34</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">61</field>
+           <field name="sledger_name">حق تاهل</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger135" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">آبدارخانه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger136" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">پذيرائي و تشريفات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger137" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">03</field>
+           <field name="sledger_name">اياب و ذهاب و پيک</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger138" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">04</field>
+           <field name="sledger_name">پست .تلگراف .تلفن</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger139" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">05</field>
+           <field name="sledger_name">اينترنت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger140" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">06</field>
+           <field name="sledger_name">ملزومات و نوشت افزار</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger141" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">07</field>
+           <field name="sledger_name">چاپ ،تکثير و مطبوعات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger142" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">08</field>
+           <field name="sledger_name">هزينه سفر،اقامت و ماموريت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger143" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">09</field>
+           <field name="sledger_name">کتب ،روزنامه و نشريات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger144" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">هزينه آموزش پرسنل</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger145" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">بازاريابي و تبليغات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger146" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">حق الزحمه مشاوران</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger147" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">حق حضور اعضاء هيات مديره</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger148" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">حق الزحمه حسابرسي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger149" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">15</field>
+           <field name="sledger_name">حق عضويت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger150" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">16</field>
+           <field name="sledger_name">آب،برق،گاز مصرفي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger151" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">17</field>
+           <field name="sledger_name">شارژ ساختمان</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger152" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">18</field>
+           <field name="sledger_name">سوخت و بيمه وسايط نقليه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger153" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">19</field>
+           <field name="sledger_name">ثبتي و عوارض دولتي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger154" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">20</field>
+           <field name="sledger_name">کارمزد خدمات بانکي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger155" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">21</field>
+           <field name="sledger_name">تعمير و نگهداري ساختمان و تاسيسات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger156" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">22</field>
+           <field name="sledger_name">تعمير و نگهداري اثاثه و منصوبات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger157" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">23</field>
+           <field name="sledger_name">تعمير و نگهداري تجهيزات کامپيوتري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger158" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">24</field>
+           <field name="sledger_name">تعمير و نگهداري وسائط نقليه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger159" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">25</field>
+           <field name="sledger_name">هزينه اعتبار سنجي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger160" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">26</field>
+           <field name="sledger_name">خدمات و پشتيباني نرم افزارها</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger161" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">27</field>
+           <field name="sledger_name">هزينه ناهار(سهم شرکت)</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger162" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">28</field>
+           <field name="sledger_name">هزينه هاي سخت افزار و نرم افزار</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger163" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">29</field>
+           <field name="sledger_name">خدمات رفاهي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger164" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">30</field>
+           <field name="sledger_name">هزينه اجاره محل</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger165" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">31</field>
+           <field name="sledger_name">هزينه بيمه تکميلي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger166" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">32</field>
+           <field name="sledger_name">هزينه ذخيره عمومي مطالبات م م</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger167" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">33</field>
+           <field name="sledger_name">هزينه کارشناسي وثايق</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger168" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">34</field>
+           <field name="sledger_name">هزينه بيمه دارايي هاي ثابت</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger169" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">35</field>
+           <field name="sledger_name">هزينه روندينگ اقساط</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger170" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">36</field>
+           <field name="sledger_name">هزينه جرائم بيمه تامين اجتماعي و مالياتي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger171" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">37</field>
+           <field name="sledger_name">حق تمبر</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger172" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">38</field>
+           <field name="sledger_name">هزينه پوشاک</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger173" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">35</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">99</field>
+           <field name="sledger_name">ساير هزينه ها</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger174" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">37</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">هزينه استهلاک ساختمان</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger175" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">37</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">هزينه استهلاک وسائط نقليه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger176" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">37</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">هزينه استهلاک اثاثيه و منصوبات</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger177" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">37</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">14</field>
+           <field name="sledger_name">هزينه استهلاک تجهيزات کامپيوتري</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger178" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">37</field>
+           <field name="accountsoodziangroup_id">4</field>
+           <field name="sledger">15</field>
+           <field name="sledger_name">هزينه استهلاک دارايي نامشهود</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger179" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">38</field>
+           <field name="accountsoodziangroup_id">7</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">بهره و کارمزد تسهيلات مالي دريافتي</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger180" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">38</field>
+           <field name="accountsoodziangroup_id">10</field>
+           <field name="sledger">11</field>
+           <field name="sledger_name">هزينه سرمايه گذاري در سهام</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger181" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">38</field>
+           <field name="accountsoodziangroup_id">10</field>
+           <field name="sledger">12</field>
+           <field name="sledger_name">هزينه سرمايه گذاري در سهام غير بورسي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger182" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">38</field>
+           <field name="accountsoodziangroup_id">10</field>
+           <field name="sledger">13</field>
+           <field name="sledger_name">هزينه سرمايه گذاري در صندوق</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">2</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger183" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">39</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">تراز افتتاحيه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger184" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">39</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">تراز اختتاميه</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger185" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">40</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">چکهاي تضميني مستاجرين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger186" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">40</field>
+           <field name="accountsoodziangroup_id">1</field>
+           <field name="sledger">02</field>
+           <field name="sledger_name">سفته هاي تضميني مستاجرين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger187" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">40</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">03</field>
+           <field name="sledger_name">املاک تضميني مستاجرين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger188" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">40</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">04</field>
+           <field name="sledger_name">ضمانت نامه بانکي مستاجرين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger189" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">40</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">05</field>
+           <field name="sledger_name">وسايط نقليه تضميني مستاجرين</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">3</field>
+           <field name="no_ssledger">2</field>
+           <field name="get_ssledger">True</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger190" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">40</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">10</field>
+           <field name="sledger_name">حسابهاي انتظامي ما نزد ديگران</field>
+           <field name="ssubdef_id">2</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">1</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+        <record id="accsledger191" model="leasing_hesabdari.account_sledger">
+           <field name="ledger_id">41</field>
+           <field name="accountsoodziangroup_id">17</field>
+           <field name="sledger">01</field>
+           <field name="sledger_name">طرف حسابهاي انتظامي</field>
+           <field name="ssubdef_id">3</field>
+           <field name="acc_control_type_id">1</field>
+           <field name="no_ssledger">0</field>
+           <field name="get_ssledger">False</field>
+           <field name="sledger_isactive">True</field>
+           <field name="general_basedef_id">1</field>
+        </record>
+
+     </data>
+</odoo>

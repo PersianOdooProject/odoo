@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gndstate0" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">164</field>
+           <field name="state_name">تهران</field>
+        </record>
+
+        <record id="gndstate1" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">165</field>
+           <field name="state_name">اصفهان</field>
+        </record>
+
+        <record id="gndstate2" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">167</field>
+           <field name="state_name">فارس</field>
+        </record>
+
+        <record id="gndstate3" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">168</field>
+           <field name="state_name">خوزستان</field>
+        </record>
+
+        <record id="gndstate4" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">169</field>
+           <field name="state_name">آذربايجان شرقي</field>
+        </record>
+
+        <record id="gndstate5" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">170</field>
+           <field name="state_name">آذربايجان غربي</field>
+        </record>
+
+        <record id="gndstate6" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">172</field>
+           <field name="state_name">کرمان</field>
+        </record>
+
+        <record id="gndstate7" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">173</field>
+           <field name="state_name">يزد</field>
+        </record>
+
+        <record id="gndstate8" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">174</field>
+           <field name="state_name">مازندران</field>
+        </record>
+
+        <record id="gndstate9" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">175</field>
+           <field name="state_name">قزوين</field>
+        </record>
+
+        <record id="gndstate10" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">176</field>
+           <field name="state_name">قم</field>
+        </record>
+
+        <record id="gndstate11" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">177</field>
+           <field name="state_name">زنجان</field>
+        </record>
+
+        <record id="gndstate12" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">178</field>
+           <field name="state_name">گلستان</field>
+        </record>
+
+        <record id="gndstate13" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">179</field>
+           <field name="state_name">سمنان</field>
+        </record>
+
+        <record id="gndstate14" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">180</field>
+           <field name="state_name">اردبيل</field>
+        </record>
+
+        <record id="gndstate15" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">181</field>
+           <field name="state_name">همدان</field>
+        </record>
+
+        <record id="gndstate16" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">182</field>
+           <field name="state_name">سيستان وبلوچستان</field>
+        </record>
+
+        <record id="gndstate17" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">183</field>
+           <field name="state_name">هرمزگان</field>
+        </record>
+
+        <record id="gndstate18" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">184</field>
+           <field name="state_name">بوشهر</field>
+        </record>
+
+        <record id="gndstate19" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">185</field>
+           <field name="state_name">ايلام</field>
+        </record>
+
+        <record id="gndstate20" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">186</field>
+           <field name="state_name">چهار محال و بختياري</field>
+        </record>
+
+        <record id="gndstate21" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">187</field>
+           <field name="state_name">کهگيلويه وبوير احمد</field>
+        </record>
+
+        <record id="gndstate22" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">188</field>
+           <field name="state_name">مرکزي</field>
+        </record>
+
+        <record id="gndstate23" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">189</field>
+           <field name="state_name">لرستان</field>
+        </record>
+
+        <record id="gndstate24" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">190</field>
+           <field name="state_name">کردستان</field>
+        </record>
+
+        <record id="gndstate25" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">191</field>
+           <field name="state_name">کرمانشاه</field>
+        </record>
+
+        <record id="gndstate26" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">192</field>
+           <field name="state_name">خراسان شمالي</field>
+        </record>
+
+        <record id="gndstate27" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">193</field>
+           <field name="state_name">خراسان جنوبي</field>
+        </record>
+
+        <record id="gndstate28" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">194</field>
+           <field name="state_name">خراسان رضوي</field>
+        </record>
+
+        <record id="gndstate29" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">200</field>
+           <field name="state_name">البرز</field>
+        </record>
+
+        <record id="gndstate30" model="leasing_generaldata.generaldata_state">
+           <field name="state_oldcode">201</field>
+           <field name="state_name">گيلان</field>
+        </record>
+
+     </data>
+</odoo>

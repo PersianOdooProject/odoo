@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpaycustaction1" model="leasing_recpaydata.recpay_custaction">
+           <field name="custaction_code">1</field>
+           <field name="custaction_name">عملکرد مثبت</field>
+        </record>
+        <record id="recpaycustaction2" model="leasing_recpaydata.recpay_custaction">
+           <field name="custaction_code">2</field>
+           <field name="custaction_name">عملکرد منفی</field>
+        </record>
+        <record id="recpaycustaction3" model="leasing_recpaydata.recpay_custaction">
+           <field name="custaction_code">3</field>
+           <field name="custaction_name">بدون عملکرد</field>
+        </record>
+     </data>
+</odoo>

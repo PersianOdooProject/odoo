@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_hesabdari.account_group_list">
+            <field name="name">Account Group list</field>
+            <field name="model">leasing_hesabdari.account_group</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="acc_group_code" width="50pxl"/>
+                    <field name="acc_group_name" width="300pxl"/>
+                    <field name="acc_group_type_id" string="شرح نوع حساب" width="200pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="create_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="account_group_form_view" model="ir.ui.view">
+            <field name="name">Account Group Form</field>
+            <field name="model">leasing_hesabdari.account_group</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="acc_group_code" string="کد گروه حساب"/>
+                            <field name="acc_group_name" string="عنوان گروه حساب"/>
+                            <field name="acc_group_type_id" string="نوع حساب"
+                                   options="{'no_create_edit' : True ,'no_create' : True}"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_hesabdari.account_group_action_window">
+            <field name="name">گروه حساب</field>
+            <field name="res_model">leasing_hesabdari.account_group</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <record id="report_leasing_hesabdari_account_group" model="ir.actions.report">
+            <field name="name">گزارش گروه حساب</field>
+            <field name="model">leasing_hesabdari.account_group</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">leasing_hesabdari.report_account_group</field>
+            <field name="report_file">leasing_hesabdari.report_account_group</field>
+            <field name="binding_model_id" ref="model_leasing_hesabdari_account_group"/>
+            <field name="binding_type">report</field>
+        </record>
+
+    </data>
+</odoo>

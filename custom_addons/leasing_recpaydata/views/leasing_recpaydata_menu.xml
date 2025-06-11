@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- Top menu item -->
+        <menuitem name="نرم افزار جامع لیزینگ - دریافت و پرداخت" id="leasing_recpaydata.menu_root" sequence="-98"/>
+
+        <!-- menu categories -->
+        <menuitem name="اطلاعات پایه" id="leasing_recpaydata.recpaydata_main" parent="leasing_recpaydata.menu_root"/>
+        <!-- actions-->
+        <menuitem name="معرفی بابت" id="leasing_recpaydata.recpay_behalf" parent="leasing_recpaydata.recpaydata_main"
+                  action="leasing_recpaydata.recpay_behalf_action_window" sequence="1"/>
+
+        <menuitem name="معرفی صندوق/تنخواه" id="leasing_recpaydata.recpay_cashdef" parent="leasing_recpaydata.recpaydata_main"
+                  action="leasing_recpaydata.recpay_cashdef_action_window" sequence="2"/>
+
+        <menuitem name="معرفی هزینه" id="leasing_recpaydata.recpay_custdef" parent="leasing_recpaydata.recpaydata_main"
+                  action="leasing_recpaydata.recpay_custdef_action_window" sequence="2"/>
+    </data>
+</odoo>
+

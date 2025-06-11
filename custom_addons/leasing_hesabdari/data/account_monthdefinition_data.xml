@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="accmonthdef1" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">01</field>
+           <field name="month_name">فروردين</field>
+        </record>
+
+        <record id="accmonthdef2" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">02</field>
+           <field name="month_name">ارديبهشت</field>
+        </record>
+
+        <record id="accmonthdef3" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">03</field>
+           <field name="month_name">خرداد</field>
+        </record>
+
+        <record id="accmonthdef4" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">04</field>
+           <field name="month_name">تير</field>
+        </record>
+
+        <record id="accmonthdef5" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">05</field>
+           <field name="month_name">مرداد</field>
+        </record>
+
+        <record id="accmonthdef6" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">06</field>
+           <field name="month_name">شهريور</field>
+        </record>
+
+        <record id="accmonthdef7" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">07</field>
+           <field name="month_name">مهر</field>
+        </record>
+
+        <record id="accmonthdef8" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">08</field>
+           <field name="month_name">آبان</field>
+        </record>
+
+        <record id="accmonthdef9" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">09</field>
+           <field name="month_name">آذر</field>
+        </record>
+
+        <record id="accmonthdef10" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">10</field>
+           <field name="month_name">دي</field>
+        </record>
+
+        <record id="accmonthdef11" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">11</field>
+           <field name="month_name">بهمن</field>
+        </record>
+
+        <record id="accmonthdef12" model="leasing_hesabdari.account_monthdefinition">
+           <field name="month_number">12</field>
+           <field name="month_name">اسفند</field>
+        </record>
+
+     </data>
+</odoo>

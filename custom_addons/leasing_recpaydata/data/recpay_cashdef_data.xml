@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpaycashdef1" model="leasing_recpaydata.recpay_cashdef">
+           <field name="cash_oldcode">1</field>
+           <field name="cash_name">نمونه</field>
+        </record>
+
+     </data>
+</odoo>

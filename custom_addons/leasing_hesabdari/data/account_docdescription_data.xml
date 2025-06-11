@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="accdocdes0" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00001</field>
+           <field name="docdes_text">بابت استقرار سيستم حسابداري</field>
+        </record>
+
+        <record id="accdocdes1" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00002</field>
+           <field name="docdes_text">هزينه بيمه تكميلي پرسنل</field>
+        </record>
+
+        <record id="accdocdes2" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00003</field>
+           <field name="docdes_text">تامين مالي و جابجائي حساب</field>
+        </record>
+
+        <record id="accdocdes3" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00004</field>
+           <field name="docdes_text">هزينه بيمه دندان پزشكي و درمان نسخ و درمان تكميلي پرسنل</field>
+        </record>
+
+        <record id="accdocdes4" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00005</field>
+           <field name="docdes_text">انتقال از پشتيبان به جاري بابت جبران کسر موجودي</field>
+        </record>
+
+        <record id="accdocdes5" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00006</field>
+           <field name="docdes_text">انتقال از جاري</field>
+        </record>
+
+        <record id="accdocdes6" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00007</field>
+           <field name="docdes_text">واريزي هاي نامشخص</field>
+        </record>
+
+        <record id="accdocdes7" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00008</field>
+           <field name="docdes_text">بابت باز خريد مرخصي حافظين</field>
+        </record>
+
+        <record id="accdocdes8" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00009</field>
+           <field name="docdes_text">بابت عيدي حافظين در سال جاري</field>
+        </record>
+
+        <record id="accdocdes9" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00010</field>
+           <field name="docdes_text">دريافت وجه از گروه مالي کيان</field>
+        </record>
+
+        <record id="accdocdes10" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00011</field>
+           <field name="docdes_text">سود سپرده بانکي</field>
+        </record>
+
+        <record id="accdocdes11" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00012</field>
+           <field name="docdes_text">کارمزد بانکي و انتقال وجه</field>
+        </record>
+
+        <record id="accdocdes12" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00013</field>
+           <field name="docdes_text">پرداخت از حساب بانک</field>
+        </record>
+
+        <record id="accdocdes13" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00014</field>
+           <field name="docdes_text">واريزي به حساب بانک</field>
+        </record>
+
+        <record id="accdocdes14" model="leasing_hesabdari.account_docdescription">
+           <field name="docdes_code">00015</field>
+           <field name="docdes_text">فروش تعداد 18.610 واحد به قيمت 53.735</field>
+        </record>
+
+     </data>
+</odoo>

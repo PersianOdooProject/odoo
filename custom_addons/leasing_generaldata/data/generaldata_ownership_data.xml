@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gndownership0" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">1</field>
+           <field name="ownership_desc">مالك</field>
+        </record>
+
+        <record id="gndownership1" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">2</field>
+           <field name="ownership_desc">مستاجر</field>
+        </record>
+
+        <record id="gndownership2" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">3</field>
+           <field name="ownership_desc">نامشخص</field>
+        </record>
+
+        <record id="gndownership3" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">4</field>
+           <field name="ownership_desc">منزل پدر</field>
+        </record>
+
+        <record id="gndownership4" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">5</field>
+           <field name="ownership_desc">استيجاري</field>
+        </record>
+
+        <record id="gndownership5" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">6</field>
+           <field name="ownership_desc">سازماني</field>
+        </record>
+
+        <record id="gndownership6" model="leasing_generaldata.generaldata_ownershiptype">
+           <field name="ownership_oldcode">7</field>
+           <field name="ownership_desc">منزل مادر</field>
+        </record>
+
+     </data>
+</odoo>

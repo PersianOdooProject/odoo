@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gncompanytype0" model="leasing_generaldata.generaldata_company_type">
+           <field name="comptype_oldcode">1</field>
+           <field name="comptype_name">سهامي عام</field>
+        </record>
+
+        <record id="gncompanytype1" model="leasing_generaldata.generaldata_company_type">
+           <field name="comptype_oldcode">2</field>
+           <field name="comptype_name">سهامي خاص</field>
+        </record>
+
+        <record id="gncompanytype2" model="leasing_generaldata.generaldata_company_type">
+           <field name="comptype_oldcode">3</field>
+           <field name="comptype_name">مسئوليت محدود</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_hesabdari.account_attachment_list">
+            <field name="name">Attachment list</field>
+            <field name="model">leasing_hesabdari.account_attachment</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد ضمائم سند حسابداری" width="200pxl"/>
+                    <field name="attachment_name" string="شرح ضمائم سند حسابداری" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="create_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="account_attachment_form_view" model="ir.ui.view">
+            <field name="name">Attachment Form</field>
+            <field name="model">leasing_hesabdari.account_attachment</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="attachment_name" string="شرح ضمائم سند حسابداری"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_hesabdari.account_attachment_action_window">
+            <field name="name">ضمائم سند حسابداری</field>
+            <field name="res_model">leasing_hesabdari.account_attachment</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>
