@@ -169,7 +169,10 @@ class AccountMove(models.Model):
             return {'error': _("Invalid request: %s", e)}
 
         if not response.ok:
-            return {'error': _("Request failed: %s", response.content.decode())}
+            content = response.content.decode()
+            if response.status_code == 403:
+                content = _("Access forbidden. Please verify your JoFotara credentials.")
+            return {'error': _("Request failed: %s", content)}
         dict_response = response.json()
         return dict_response
 
@@ -228,6 +231,9 @@ class AccountMove(models.Model):
                 error_msgs.append(_('Please use "Reversal of" to link this credit note with an Invoice'))
             elif self.currency_id != self.reversed_entry_id.currency_id:
                 error_msgs.append(_("Please make sure the currency of the credit note is the same as the related invoice"))
+
+            if not self.ref:
+                error_msgs.append(_('Please make sure the "Customer Reference" contains the reason for the return'))
 
         if any(
             line.display_type not in ('line_note', 'line_section')

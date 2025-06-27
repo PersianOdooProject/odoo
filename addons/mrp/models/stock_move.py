@@ -85,7 +85,7 @@ class StockMoveLine(models.Model):
         return aggregated_properties
 
     def _compute_product_packaging_qty(self):
-        kit_lines = self.filtered(lambda move_line: move_line.move_id.bom_line_id.bom_id.type == 'phantom')
+        kit_lines = self.filtered(lambda ml: ml.move_id.bom_line_id.bom_id.type == 'phantom' and ml.move_id.product_packaging_id)
         for move_line in kit_lines:
             move = move_line.move_id
             bom_line = move.bom_line_id
@@ -681,6 +681,12 @@ class StockMove(models.Model):
     def _key_assign_picking(self):
         keys = super(StockMove, self)._key_assign_picking()
         return keys + (self.created_production_id,)
+
+    def _get_moves_to_propagate_date_deadline(self):
+        res = super()._get_moves_to_propagate_date_deadline()
+        if self.production_id:
+            res |= self.production_id.move_finished_ids - self
+        return res
 
     @api.model
     def _prepare_merge_moves_distinct_fields(self):

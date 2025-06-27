@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 18:37+0000\n"
+"POT-Creation-Date: 2025-06-20 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Abe Manyo, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
@@ -220,6 +220,9 @@ msgid ""
 "\"%(receivable)s\" or \"%(payable)s\" with both options "
 "\"%(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
 msgstr ""
+"%(tax_account)s (%(account_name)s) harus merupakan akun dengan tipe "
+"\"%(receivable)s\" atau \"%(payable)s\" dengan opsi "
+"\"%(allow_reconciliation)s\" dan \"%(non_trade)s\" yang diaktifkan."
 
 #. module: account
 #. odoo-python
@@ -5043,6 +5046,8 @@ msgid "Create Automatic Entries"
 msgstr "Buat Entri Otomatis"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
 #: model:account.reconcile.model,name:account.1_reconcile_bill
 msgid "Create Bill"
 msgstr "Buat Tagihan"
@@ -15428,7 +15433,7 @@ msgstr ""
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The commercial partner has been updated for all related accounting entries."
-msgstr ""
+msgstr "Partner komersil telah diupdate untuk semua entri akuntansi terkait."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__company_id
@@ -18240,10 +18245,12 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
-msgid "You can't create payments for entries belonging to different branches."
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
 msgstr ""
-"Anda tidak dapat membuat pembayaran untuk entri yang berasal ke branch-"
-"branch yang berbeda."
+"Anda tidak dapat membuat pembayaran untuk entri yang dimiliki cabang-cabang "
+"yang berbeda tanpa akses ke perusahaan induk."
 
 #. module: account
 #. odoo-python
@@ -18734,6 +18741,8 @@ msgid ""
 "You cannot set a partner as an invoicing address of another if they have a "
 "different %(vat_label)s."
 msgstr ""
+"Anda tidak dapat menetapkan partner sebagai alamat faktur untuk partner lain"
+" bila mereka memiliki %(vat_label)s yang berbeda."
 
 #. module: account
 #. odoo-python
