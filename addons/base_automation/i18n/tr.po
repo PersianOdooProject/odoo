@@ -190,7 +190,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Add followers"
-msgstr ""
+msgstr "Takipçileri ekle"
 
 #. module: base_automation
 #. odoo-python
@@ -418,6 +418,9 @@ msgid ""
 "Email, follower or activity action types cannot be used when deleting "
 "records, as there are no more records to apply these changes to!"
 msgstr ""
+"Kayıtlar silinirken e-posta, takipçi veya aktivite işlem türleri "
+"kullanılamaz çünkü bu değişikliklerin uygulanabileceği başka kayıt "
+"kalmamıştır!"
 
 #. module: base_automation
 #. odoo-javascript
