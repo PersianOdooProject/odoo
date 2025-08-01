@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lnmadarektype1" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">1</field>
+           <field name="madarektype_name">01-درخواست تسهيلات</field>
+        </record>
+
+        <record id="lnmadarektype2" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">2</field>
+           <field name="madarektype_name">21-تصوير صفحات شناسنامه ضامن</field>
+        </record>
+
+        <record id="lnmadarektype3" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">3</field>
+           <field name="madarektype_name">10-تصوير كارت ملي متقاضي(اعضاء هيئت مديره شرکت)</field>
+        </record>
+
+        <record id="lnmadarektype4" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">4</field>
+           <field name="madarektype_name">03-تصوير كارت پايان خدمت متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype5" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">5</field>
+           <field name="madarektype_name">04-گواهي امضاء متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype6" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">9</field>
+           <field name="madarektype_name">05-تعهد كسر از حقوق متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype7" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">11</field>
+           <field name="madarektype_name">09-تصوير صفحات شناسنامه متقاضي (اعضاء هيئت مديره شرکت)</field>
+        </record>
+
+        <record id="lnmadarektype8" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">12</field>
+           <field name="madarektype_name">22-تصوير كارت ملي ضامن</field>
+        </record>
+
+        <record id="lnmadarektype9" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">13</field>
+           <field name="madarektype_name">23-گواهي امضاء ضامن</field>
+        </record>
+
+        <record id="lnmadarektype10" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">15</field>
+           <field name="madarektype_name">24-حكم كارگزيني ضامن</field>
+        </record>
+
+        <record id="lnmadarektype11" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">17</field>
+           <field name="madarektype_name">25-تعهد كسر از حقوق ضامن</field>
+        </record>
+
+        <record id="lnmadarektype12" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">18</field>
+           <field name="madarektype_name">07-تصوير اجاره نامه يا سند محل سكونت متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype13" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">19</field>
+           <field name="madarektype_name">26-تصوير اجاره نامه يا سند محل سكونت ضامن</field>
+        </record>
+
+        <record id="lnmadarektype14" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">20</field>
+           <field name="madarektype_name">08-تصويرفيش برق / تلفن متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype15" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">21</field>
+           <field name="madarektype_name">27-تصويرفيش برق / تلفن ضامن</field>
+        </record>
+
+        <record id="lnmadarektype16" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">22</field>
+           <field name="madarektype_name">09-تصويرگواهينامه رانندگي يا معرفي راننده</field>
+        </record>
+
+        <record id="lnmadarektype17" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">23</field>
+           <field name="madarektype_name">10-گواهي فك پلاك از دفترخانه</field>
+        </record>
+
+        <record id="lnmadarektype18" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">25</field>
+           <field name="madarektype_name">11-گواهي اشتغال به كار متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype19" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">28</field>
+           <field name="madarektype_name">12-تصوير پروانه كسب/بهر برداري/مطب/وكالت متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype20" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">29</field>
+           <field name="madarektype_name">13-معرفي نامه از اتحاديه يا سازمان متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype21" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">30</field>
+           <field name="madarektype_name">28-تصوير پروانه كسب/بهر برداري/مطب/وكالت ضامن</field>
+        </record>
+
+        <record id="lnmadarektype22" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">33</field>
+           <field name="madarektype_name">29-گواهي اشتغال به كار ضامن</field>
+        </record>
+
+        <record id="lnmadarektype23" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">34</field>
+           <field name="madarektype_name">30-معرفي نامه از اتحاديه يا سازمان  ضامن</field>
+        </record>
+
+        <record id="lnmadarektype24" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">37</field>
+           <field name="madarektype_name">41-شناسنامه خودرو</field>
+        </record>
+
+        <record id="lnmadarektype25" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">38</field>
+           <field name="madarektype_name">03-فاکتور رسمي</field>
+        </record>
+
+        <record id="lnmadarektype26" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">39</field>
+           <field name="madarektype_name">43-بيمه بدنه خودرو</field>
+        </record>
+
+        <record id="lnmadarektype27" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">40</field>
+           <field name="madarektype_name">44-بيمه ثالث خودرو</field>
+        </record>
+
+        <record id="lnmadarektype28" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">41</field>
+           <field name="madarektype_name">45-کارت گارانتي خودرو</field>
+        </record>
+
+        <record id="lnmadarektype29" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">42</field>
+           <field name="madarektype_name">05-قرارداد فروش اقساطي</field>
+        </record>
+
+        <record id="lnmadarektype30" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">43</field>
+           <field name="madarektype_name">15-مدارک تحويلي به متقاضي</field>
+        </record>
+
+        <record id="lnmadarektype31" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">44</field>
+           <field name="madarektype_name">46-چک ليست مالي</field>
+        </record>
+
+        <record id="lnmadarektype32" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">45</field>
+           <field name="madarektype_name">02-مصوبه و ابلاغيه اعتباري</field>
+        </record>
+
+        <record id="lnmadarektype33" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">46</field>
+           <field name="madarektype_name">04-قرارداد کمک توسعه فروش تأمين کننده</field>
+        </record>
+
+        <record id="lnmadarektype34" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">47</field>
+           <field name="madarektype_name">06-رسيد چک هاي اقساط</field>
+        </record>
+
+        <record id="lnmadarektype35" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">48</field>
+           <field name="madarektype_name">07-رسيد تضامين و وثايق</field>
+        </record>
+
+        <record id="lnmadarektype36" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">49</field>
+           <field name="madarektype_name">08-دستور پرداخت به انضمام فرم محاسبات</field>
+        </record>
+
+        <record id="lnmadarektype37" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">50</field>
+           <field name="madarektype_name">11-اساسنامه شرکت</field>
+        </record>
+
+        <record id="lnmadarektype38" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">51</field>
+           <field name="madarektype_name">12-اظهارنامه ثبتي
+</field>
+        </record>
+
+        <record id="lnmadarektype39" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">52</field>
+           <field name="madarektype_name">13-روزنامه رسمي تأسيس</field>
+        </record>
+
+        <record id="lnmadarektype40" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">53</field>
+           <field name="madarektype_name">14-روزنامه آخرين تغييرات</field>
+        </record>
+
+        <record id="lnmadarektype41" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">54</field>
+           <field name="madarektype_name">15-فرم شماره 1 حقوقي (پرسشنامه ، تعهدنامه و..)</field>
+        </record>
+
+        <record id="lnmadarektype42" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">55</field>
+           <field name="madarektype_name">16- فرم شماره 2 حقيقي (پرسشنامه، تعهدنامه و...)</field>
+        </record>
+
+        <record id="lnmadarektype43" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">56</field>
+           <field name="madarektype_name">17-استعلام اعتبار سنجي متقاضي (شرکت و اعضاء هيئت مديره)</field>
+        </record>
+
+        <record id="lnmadarektype44" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">57</field>
+           <field name="madarektype_name">18- مستندات احراز محل سکونت/ فعاليت</field>
+        </record>
+
+        <record id="lnmadarektype45" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">58</field>
+           <field name="madarektype_name">19-گواهي امضاء متقاضي ( اعضاء هيئت مديره شرکت)</field>
+        </record>
+
+        <record id="lnmadarektype46" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">59</field>
+           <field name="madarektype_name">20-گواهي تأييديه ثنا متقاضي(شرکت)</field>
+        </record>
+
+        <record id="lnmadarektype47" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">60</field>
+           <field name="madarektype_name">21- گواهي تأييديه ثنا اعضاء هيئت مديره</field>
+        </record>
+
+        <record id="lnmadarektype48" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">61</field>
+           <field name="madarektype_name">22-اظهارنامه مالياتي و صورتهاي مالي سال آخر</field>
+        </record>
+
+        <record id="lnmadarektype49" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">62</field>
+           <field name="madarektype_name">23-مجوز فعاليت و پروانه</field>
+        </record>
+
+        <record id="lnmadarektype50" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">63</field>
+           <field name="madarektype_name">24- گواهي ثبت نام موديان مالياتي</field>
+        </record>
+
+        <record id="lnmadarektype51" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">64</field>
+           <field name="madarektype_name">25-معرفي نامه نماينده</field>
+        </record>
+
+        <record id="lnmadarektype52" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">65</field>
+           <field name="madarektype_name">26-فرم شماره 3 تعهدات تسهيلات</field>
+        </record>
+
+        <record id="lnmadarektype53" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">66</field>
+           <field name="madarektype_name">27-فرم شماره 4 شرايط تسهيلات</field>
+        </record>
+
+        <record id="lnmadarektype54" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">67</field>
+           <field name="madarektype_name">28- فرم شماره 5 درخواست تسهيلات خريد کالا</field>
+        </record>
+
+        <record id="lnmadarektype55" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">68</field>
+           <field name="madarektype_name">29- مدارک هويتي ضامن</field>
+        </record>
+
+        <record id="lnmadarektype56" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">69</field>
+           <field name="madarektype_name">30-مدارک ثبتي ضامن</field>
+        </record>
+
+        <record id="lnmadarektype57" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">70</field>
+           <field name="madarektype_name">31-مدارک مالي ضامن</field>
+        </record>
+
+        <record id="lnmadarektype58" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">71</field>
+           <field name="madarektype_name">32-مستند احراز نشاني ضامن</field>
+        </record>
+
+        <record id="lnmadarektype59" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">72</field>
+           <field name="madarektype_name">33-پرسشنامه ضامن</field>
+        </record>
+
+        <record id="lnmadarektype60" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">73</field>
+           <field name="madarektype_name">34-تأييديه ثنا ضامن</field>
+        </record>
+
+        <record id="lnmadarektype61" model="leasing_leasingdata.leasing_madarektype">
+           <field name="madarektype_oldcode">74</field>
+           <field name="madarektype_name">35- گواهي امضاء ضامن</field>
+        </record>
+
+     </data>
+</odoo>

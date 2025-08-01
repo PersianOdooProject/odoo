@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record id="recpaydata_patient_calendar_view" model="ir.ui.view">
+            <field name="name">Recpaydata patient Calendar</field>
+            <field name="model">leasing_recpaydata.recpay_patient</field>
+            <field name="arch" type="xml">
+                <calendar string="Patient Calendar" create="0" mode="month" date_start="date_birth" event_limit="5" quick_create="0">
+                    <field name="name"/>
+                    <field name="age"/>
+                </calendar>
+            </field>
+        </record>
+
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_recpaydata.recpay_patient_list">
+            <field name="name">Recpay Patien list</field>
+            <field name="model">leasing_recpaydata.recpay_patient</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="name"/>
+                    <field name="reference"/>
+                    <field name="age"/>
+                    <field name="gender"/>
+                    <field name="note"/>
+                    <field name="date_birth"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="recpaydata_patient_form_view" model="ir.ui.view">
+            <field name="name">Recpaydata Accountdef Form</field>
+            <field name="model">leasing_recpaydata.recpay_patient</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="name"/>
+                            <field name="reference"/>
+                            <field name="age"/>
+                            <field name="gender"/>
+                            <field name="note"/>
+                            <field name="date_birth"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_recpaydata.recpay_patient_action_window">
+            <field name="name">Define Patient</field>
+            <field name="res_model">leasing_recpaydata.recpay_patient</field>
+            <field name="view_mode">calendar,list,form</field>
+        </record>
+
+    </data>
+</odoo>

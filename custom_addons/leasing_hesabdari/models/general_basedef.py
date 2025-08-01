@@ -20,6 +20,11 @@ class Generalbasedef(models.Model):
             sslcounter = self.env['leasing_hesabdari.account_ssledger'].search_count([])
             rec.ssledger_total_record = sslcounter
 
+    def _compute_accountyear_counter(self):
+        for rec in self:
+            accyearcounter = self.env['leasing_hesabdari.account_accountyear'].search_count([])
+            rec.accountyear_total_record = accyearcounter
+
     acc_group_len = fields.Integer(default=2)
     acc_ledger_len = fields.Integer(default=5)
     acc_sledger_len = fields.Integer(default=10)
@@ -27,6 +32,11 @@ class Generalbasedef(models.Model):
     ledger_total_record = fields.Integer(compute=_compute_ledger_counter, string="تعداد حساب کل")
     sledger_total_record = fields.Integer(compute=_compute_sledger_counter, string="تعداد حساب معین")
     ssledger_total_record = fields.Integer(compute=_compute_ssledger_counter, string="تعداد حساب تفصیل")
+    month_id = fields.Many2one("leasing_hesabdari.account_monthdefinition", "شروع سال مالی براساس ماه")
+    month_number1 = fields.Char(related='month_id.month_number', store=True ,readonly=True)
+    month_name1 = fields.Char(related='month_id.month_name', store=True, readonly=True)
+    month_numname1 = fields.Char(related='month_id.month_numname', readonly=True)
+    accountyear_total_record = fields.Integer(compute=_compute_accountyear_counter, string="تعداد سال مالی")
 
     @api.constrains('acc_ledger_len')
     def check_acc_ledger_len(self):

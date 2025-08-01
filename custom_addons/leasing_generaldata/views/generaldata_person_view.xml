@@ -4,14 +4,27 @@
     <data>
         <!-- explicit list view definition -->
         <record model="ir.ui.view" id="leasing_generaldata.generaldata_person_list">
-            <field name="name">Generaldata Perosn list</field>
+            <field name="name">Generaldata Person list</field>
             <field name="model">leasing_generaldata.generaldata_person</field>
             <field name="arch" type="xml">
                 <list>
-                    <field name="id" string="کد داخلی"/>
-                    <field name="person_namefamil" string="نام و نام خانوادگی  شخص/ام شرکت" width="300pxl"/>
-                    <field name="person_natcode" string="کد ملی شخص حقیقی" width="100pxl"/>
-                    <field name="person_shenasemelli" string="شناسه ملی شخص حقیقی" width="100pxl"/>
+                    <field name="id" string="کد داخلی شخص" width="300pxl"/>
+                    <field name="person_type" string="نوع شخص" width="200pxl"/>
+                    <field name="person_jensiat" string="جنسیت" width="200pxl"/>
+                    <field name="person_namefamil" string="نام و نام خانوادگی/نام شرکت" width="400pxl"/>
+                    <field name="person_natcode" string="کد/شناسه ملی" width="200pxl"/>
+                    <field name="person_namamel1" string="نام نماینده" width="300pxl"/>
+                    <field name="person_namamel2" string="نام فرد کلیدی" width="300pxl"/>
+                    <field name="person_mobile1" string="تلفن همراه 1" width="300pxl"/>
+                    <field name="person_mobile2" string="تلفن همراه 2" width="300pxl"/>
+                    <field name="person_economiccode" string="کد اقتصادی" width="300pxl"/>
+                    <field name="ssledger_id" string="حساب تفصیل" width="300pxl"/>
+                    <field name="person_sazman" string="سازمان" width="300pxl"/>
+                    <field name="person_branch" string="نمایندگی" width="300pxl"/>
+                    <field name="person_taminkala" string="تامین کننده کال" width="300pxl"/>
+                    <field name="person_tolid" string="تولید کننده" width="300pxl"/>
+                    <field name="person_taminetebar" string="تامین کننده اعتبار" width="300pxl"/>
+                    <field name="person_paygiri" string="پیگیری کننده" width="300pxl"/>
                     <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
                     <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
                     <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
@@ -27,8 +40,6 @@
                 <kanban class="o_kanban_mobile">
                     <field name="id"/>
                     <field name="person_namefamil"/>
-                    <field name="person_natcode"/>
-                    <field name="person_shenasemelli"/>
                     <field name="person_image"/>
                     <templates>
                         <t t-name="kanban-box">
@@ -44,12 +55,8 @@
                                             <field name="person_namefamil"/>
                                         </li>
                                         <li>
-                                            کد ملی :
+                                            کد/شناسه ملی :
                                             <field name="person_natcode"/>
-                                        </li>
-                                        <li>
-                                            شناسه ملی :
-                                            <field name="person_shenasemelli"/>
                                         </li>
                                     </ul>
                                 </div>
@@ -61,17 +68,30 @@
         </record>
 
         <record id="generaldata_person_form_view" model="ir.ui.view">
-            <field name="name">Generaldate Person Form</field>
+            <field name="name">Generaldata Person Form</field>
             <field name="model">leasing_generaldata.generaldata_person</field>
             <field name="arch" type="xml">
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="person_name" string="نام شخص/شرکت"/>
-                            <field name="person_famil" string="نام خانوادگی شخص/نام شرکت"/>
-                            <field name="person_natcode" string="کد ملی شخص حقیقی"/>
-                            <field name="person_shenasemelli" string="شناسه ملی شخص حقوقی"/>
-                            <field name="person_image" string="عکس شخص/شرکت" class="oe_avatar" widget="image"/>
+                            <field name="person_name" string="نام شخص/شرکت 1"/>
+                            <field name="person_famil" string="نام خانوادگی/شرکت 2"/>
+                            <field name="person_type" string="نوع شخص"/>
+                            <field name="person_jensiat" string="جنسیت"/>
+                            <field name="person_natcode" string="کد/شناسه ملی"/>
+                            <field name="person_namamel1" string="نام نماینده"/>
+                            <field name="person_namamel2" string="نام فرد کلیدی"/>
+                            <field name="person_mobile1" string="تلفن همراه 1"/>
+                            <field name="person_mobile2" string="تلفن همراه 2"/>
+                            <field name="person_economiccode" string="کد اقتصادی"/>
+                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="person_branch" string="نمایندگی"/>
+                            <field name="person_taminkala" string="تامین کننده کال"/>
+                            <field name="person_tolid" string="تولید کننده"/>
+                            <field name="person_taminetebar" string="تامین کننده اعتبار"/>
+                            <field name="person_paygiri" string="پیگیری کننده" width="300pxl"/>
+                            <field name="person_image" string="عکس شخص حقیقی/لوگوی شخص حقوقی" class="oe_avatar"
+                                   widget="image"/>
                         </group>
                     </sheet>
                 </form>
@@ -80,11 +100,15 @@
 
         <!-- actions opening views on models -->
         <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_person_action_window">
-            <field name="name">معرفی اشخاص</field>
+            <field name="name">معرفی اشخاص حقیقی/حقوقی</field>
             <field name="res_model">leasing_generaldata.generaldata_person</field>
-            <field name="view_mode">kanban,form,list</field>
+            <field name="view_mode">kanban,list,form</field>
         </record>
 
+    </data>
+</odoo>
+
+        <!-- actions opening views on models
         <record id="report_leasing_generaldata_generaldata_person" model="ir.actions.report">
             <field name="name">کارت شخص</field>
             <field name="model">leasing_generaldata.generaldata_person</field>
@@ -94,6 +118,4 @@
             <field name="binding_model_id" ref="model_leasing_generaldata_generaldata_person"/>
             <field name="binding_type">report</field>
         </record>
-
-    </data>
-</odoo>
+ -->

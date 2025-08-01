@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndnoteresult1" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">1</field>
+           <field name="noteresult_name">مغايرت امضا</field>
+        </record>
+
+        <record id="lndnoteresult2" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">2</field>
+           <field name="noteresult_name">عدم پاسخ</field>
+        </record>
+
+        <record id="lndnoteresult3" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">3</field>
+           <field name="noteresult_name">تنفس اعطا شد</field>
+        </record>
+
+        <record id="lndnoteresult4" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">4</field>
+           <field name="noteresult_name">مقرر شد در تاريخ مذکور وصول گردد</field>
+        </record>
+
+        <record id="lndnoteresult5" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">5</field>
+           <field name="noteresult_name">مقرر شد وصول گردد</field>
+        </record>
+
+        <record id="lndnoteresult6" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">6</field>
+           <field name="noteresult_name">مقرر شد تماس بگيرند</field>
+        </record>
+
+        <record id="lndnoteresult7" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">7</field>
+           <field name="noteresult_name">مراجعه حضوري</field>
+        </record>
+
+        <record id="lndnoteresult8" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">8</field>
+           <field name="noteresult_name">مقرر شد درخواست تنفس ارسال شود</field>
+        </record>
+
+        <record id="lndnoteresult9" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">9</field>
+           <field name="noteresult_name">وصول شد</field>
+        </record>
+
+        <record id="lndnoteresult10" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">10</field>
+           <field name="noteresult_name">مقرر شد در تاريخ مقرر تسويه شود</field>
+        </record>
+
+        <record id="lndnoteresult11" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">11</field>
+           <field name="noteresult_name">خاموش است</field>
+        </record>
+
+        <record id="lndnoteresult12" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">12</field>
+           <field name="noteresult_name">اخطار اول</field>
+        </record>
+
+        <record id="lndnoteresult13" model="leasing_leasingdata.leasing_noteresult">
+           <field name="noteresult_code">13</field>
+           <field name="noteresult_name">تصفيه شده</field>
+        </record>
+
+     </data>
+</odoo>

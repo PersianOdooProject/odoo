@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_leasingdata.leasing_insurancebranch_list">
+            <field name="name">Leasingdata Insurancebranch list</field>
+            <field name="model">leasing_leasingdata.leasing_insurancebranch</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی شعبه بیمه" width="100pxl"/>
+                    <field name="insurancebranch_name" width="300pxl"/>
+                    <field name="ssledger_id" string="حساب تفصیل" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasingdata_insurancebranch_form_view" model="ir.ui.view">
+            <field name="name">Leasingdata Insurancebranch Form</field>
+            <field name="model">leasing_leasingdata.leasing_insurancebranch</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="insurancebranch_name" string="نام شعبه بیمه"/>
+                            <field name="ssledger_id" string="حساب تفصیل"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_leasingdata.leasing_insurancebranch_action_window">
+            <field name="name">معرفی شعبه بیمه</field>
+            <field name="res_model">leasing_leasingdata.leasing_insurancebranch</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

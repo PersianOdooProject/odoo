@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="recpaybanktashilatstatus1" model="leasing_recpaydata.recpay_banktashilatstatus">
+            <field name="tashilatstatus_code">1</field>
+            <field name="tashilatstatus_name">جاری</field>
+        </record>
+
+        <record id="recpaybanktashilatstatus2" model="leasing_recpaydata.recpay_banktashilatstatus">
+            <field name="tashilatstatus_code">2</field>
+            <field name="tashilatstatus_name">تسویه شده</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndinsurancebranch1" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">1</field>
+           <field name="insurancebranch_name">نيشابورکد 522510</field>
+        </record>
+
+        <record id="lndinsurancebranch2" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">2</field>
+           <field name="insurancebranch_name">بيمه ايران</field>
+        </record>
+
+        <record id="lndinsurancebranch3" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">3</field>
+           <field name="insurancebranch_name">دنياي بهتر</field>
+        </record>
+
+        <record id="lndinsurancebranch4" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">4</field>
+           <field name="insurancebranch_name">-</field>
+        </record>
+
+        <record id="lndinsurancebranch5" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">5</field>
+           <field name="insurancebranch_name">بيمه آسيا</field>
+        </record>
+
+        <record id="lndinsurancebranch6" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">6</field>
+           <field name="insurancebranch_name">بيمه پارسيان</field>
+        </record>
+
+        <record id="lndinsurancebranch7" model="leasing_leasingdata.leasing_insurancebranch">
+           <field name="insurancebranch_oldcode">7</field>
+           <field name="insurancebranch_name">بيمه معلم</field>
+        </record>
+
+     </data>
+</odoo>

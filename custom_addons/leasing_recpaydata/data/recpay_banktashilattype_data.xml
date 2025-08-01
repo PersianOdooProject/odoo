@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpaybanktashilattype1" model="leasing_recpaydata.recpay_banktashilattype">
+           <field name="tashilattype_code">1</field>
+           <field name="tashilattype_name">خريد دين</field>
+        </record>
+
+        <record id="recpaybanktashilattype2" model="leasing_recpaydata.recpay_banktashilattype">
+           <field name="tashilattype_code">2</field>
+           <field name="tashilattype_name">مرابحه</field>
+        </record>
+
+        <record id="recpaybanktashilattype3" model="leasing_recpaydata.recpay_banktashilattype">
+           <field name="tashilattype_code">3</field>
+           <field name="tashilattype_name">اعتبار در حساب جاري</field>
+        </record>
+
+     </data>
+</odoo>

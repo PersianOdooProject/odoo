@@ -20,6 +20,7 @@ class Accountsledger(models.Model):
     ledger_id = fields.Many2one("leasing_hesabdari.account_ledger")
     ledger1 = fields.Char(related='ledger_id.ledger', readonly=True ,default="")
     ledger_name1 = fields.Char(related='ledger_id.ledger_name', readonly=True)
+    ledger_code_name1 = fields.Char(related='ledger_id.ledger_code_name', store=True,readonly=True)
     accountsoodziangroup_id = fields.Many2one("leasing_hesabdari.accountsoodzian_group", required=True)
     accountsoodziangroup_name1 = fields.Char(related='accountsoodziangroup_id.accountsoodziangroup_name', readonly=True)
     sledger = fields.Char(string="کد حساب معین", size=10, required=True ,default="")

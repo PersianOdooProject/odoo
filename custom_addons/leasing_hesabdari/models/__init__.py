@@ -15,3 +15,6 @@ from . import account_bankaccgroup
 from . import account_bankacc
 from . import account_attachment
 from . import account_monthdefinition
+from . import account_calendaryear
+from . import account_calendar
+from . import account_accountyear

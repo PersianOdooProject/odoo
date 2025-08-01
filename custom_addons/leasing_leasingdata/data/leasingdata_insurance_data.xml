@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndinsurance1" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">1</field>
+           <field name="insurance_name">بيمه بدنه</field>
+           <field name="insurance_useintasvieh">True</field>
+           <field name="insurance_amounttype">1</field>
+           <field name="insurance_calttype">1</field>
+        </record>
+
+        <record id="lndinsurance2" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">2</field>
+           <field name="insurance_name">بيمه اعتباري</field>
+           <field name="insurance_useintasvieh">False</field>
+           <field name="insurance_amounttype">1</field>
+           <field name="insurance_calttype">4</field>
+        </record>
+
+        <record id="lndinsurance3" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">3</field>
+           <field name="insurance_name">بيمه مانده عمر</field>
+           <field name="insurance_useintasvieh">False</field>
+           <field name="insurance_amounttype">1</field>
+           <field name="insurance_calttype">3</field>
+        </record>
+
+        <record id="lndinsurance4" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">4</field>
+           <field name="insurance_name">بيمه ثالث</field>
+           <field name="insurance_useintasvieh">True</field>
+           <field name="insurance_amounttype">1</field>
+           <field name="insurance_calttype">2</field>
+        </record>
+
+        <record id="lndinsurance5" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">5</field>
+           <field name="insurance_name">ابطال بيمه بدنه</field>
+           <field name="insurance_useintasvieh">True</field>
+           <field name="insurance_amounttype">2</field>
+           <field name="insurance_calttype">1</field>
+        </record>
+
+        <record id="lndinsurance6" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">7</field>
+           <field name="insurance_name">بيمه آتش سوزي</field>
+           <field name="insurance_useintasvieh">True</field>
+           <field name="insurance_amounttype">1</field>
+           <field name="insurance_calttype">4</field>
+        </record>
+
+        <record id="lndinsurance7" model="leasing_leasingdata.leasing_insurance">
+           <field name="insurance_oldcode">8</field>
+           <field name="insurance_name">الحاقيه بيمه بدنه کسر شونده</field>
+           <field name="insurance_useintasvieh">True</field>
+           <field name="insurance_amounttype">2</field>
+           <field name="insurance_calttype">1</field>
+        </record>
+
+     </data>
+</odoo>

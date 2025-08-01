@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpayfuncgroup1" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">0</field>
+           <field name="funcgroup_name">فاقد گروه</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode1" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">1</field>
+           <field name="taghvimmalicode_name">مانده حساب هاي بانکي</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode2" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">2</field>
+           <field name="taghvimmalicode_name">پيش بيني وصول اقساط مشتريان</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode3" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">6</field>
+           <field name="taghvimmalicode_name">وصول اقساط قطعي مشتريان</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode4" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">7</field>
+           <field name="taghvimmalicode_name">پيش بيني دريافت تسهيلات از بانک ها</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode5" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">8</field>
+           <field name="taghvimmalicode_name">اصل تسهيلات دريافتي از بانک ها</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode6" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">10</field>
+           <field name="taghvimmalicode_name">فرع تسهيلات دريافتي از بانک ها</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode7" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">11</field>
+           <field name="taghvimmalicode_name">مانده يونيت</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode8" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">12</field>
+           <field name="taghvimmalicode_name">ساير مبالغ ورودي</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode9" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">13</field>
+           <field name="taghvimmalicode_name">پيش بيني تسهيلات اعطايي به مشتريان</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode10" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">14</field>
+           <field name="taghvimmalicode_name">تسهيلات ارايه شده به مشتريان</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode11" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">15</field>
+           <field name="taghvimmalicode_name">پيش بيني پرداخت اصل قسط تسهيلات دريافتي از بانک</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode12" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">17</field>
+           <field name="taghvimmalicode_name">پيش بيني پرداخت فرع قسط تسهيلات دريافتي از بانک</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode13" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">18</field>
+           <field name="taghvimmalicode_name">پرداخت اصل قسط تسهيلات دريافتي از بانک</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode14" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">19</field>
+           <field name="taghvimmalicode_name">پرداخت فرع قسط تسهيلات دريافتي از بانک</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode15" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">20</field>
+           <field name="taghvimmalicode_name">ماليات حقوق</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode16" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">21</field>
+           <field name="taghvimmalicode_name">بيمه حقوق</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode17" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">22</field>
+           <field name="taghvimmalicode_name">حقوق</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode18" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">23</field>
+           <field name="taghvimmalicode_name">مسدودي تسهيلات بانکي</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode19" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">24</field>
+           <field name="taghvimmalicode_name">کسر از وصولي چک هاي اقساط</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode20" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">25</field>
+           <field name="taghvimmalicode_name">ساير هزينه ها</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode21" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">2</field>
+           <field name="taghvimmalicode_oldcode">26</field>
+           <field name="taghvimmalicode_name">ذخيره</field>
+           <field name="taghvimmalicode_auto">False</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode22" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">27</field>
+           <field name="taghvimmalicode_name">پيش بيني  جريمه ديرپرداخت اقساط</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode23" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">30</field>
+           <field name="taghvimmalicode_name">جريمه درپرداخت اقساط</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+        <record id="recpaytaghvimmalicode24" model="leasing_recpaydata.recpay_taghvimmalicode">
+           <field name="taghvimmalicode_group">1</field>
+           <field name="taghvimmalicode_oldcode">34</field>
+           <field name="taghvimmalicode_name">وصول جريمه ديرپرداخت</field>
+           <field name="taghvimmalicode_auto">True</field>
+           <field name="taghvimmalicode_default">True</field>
+        </record>
+
+     </data>
+</odoo>

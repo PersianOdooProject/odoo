@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndtaminetebar" model="leasing_leasingdata.leasing_taminetebar">
+           <field name="taminetebar_oldcode">1</field>
+           <field name="taminetebar_name">سرمايه شرکت</field>
+        </record>
+
+     </data>
+</odoo>

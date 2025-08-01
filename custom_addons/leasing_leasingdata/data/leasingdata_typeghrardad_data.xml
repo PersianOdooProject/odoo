@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndtypeghrardad1" model="leasing_leasingdata.leasing_typeghrardad">
+           <field name="typeghrardad_oldcode">2</field>
+           <field name="typeghrardad_name">اجاره به شرط تمليک</field>
+        </record>
+
+        <record id="lndtypeghrardad2" model="leasing_leasingdata.leasing_typeghrardad">
+           <field name="typeghrardad_oldcode">4</field>
+           <field name="typeghrardad_name">نقدي</field>
+        </record>
+
+        <record id="lndtypeghrardad3" model="leasing_leasingdata.leasing_typeghrardad">
+           <field name="typeghrardad_oldcode">5</field>
+           <field name="typeghrardad_name">فروش اقساطي-تضمين چک</field>
+        </record>
+
+        <record id="lndtypeghrardad4" model="leasing_leasingdata.leasing_typeghrardad">
+           <field name="typeghrardad_oldcode">6</field>
+           <field name="typeghrardad_name">فروش اقساطي-تضمين چک-وثيقه خودرو</field>
+        </record>
+
+        <record id="lndtypeghrardad5" model="leasing_leasingdata.leasing_typeghrardad">
+           <field name="typeghrardad_oldcode">7</field>
+           <field name="typeghrardad_name">فروش اقساطي - تضمين چک - وثيقه ملک</field>
+        </record>
+
+        <record id="lndtypeghrardad6" model="leasing_leasingdata.leasing_typeghrardad">
+           <field name="typeghrardad_oldcode">8</field>
+           <field name="typeghrardad_name">فروش اقساطي- تضمين چک- ضمانتنامه</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_leasingdata.leasing_goodmodel_list">
+            <field name="name">Leasingdata goodmodel list</field>
+            <field name="model">leasing_leasingdata.leasing_goodmodel</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی مدل" width="100pxl"/>
+                    <field name="model_code" width="200pxl"/>
+                    <field name="model_name" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasingdata_goodmodel_form_view" model="ir.ui.view">
+            <field name="name">Leasingdata goodmodel Form</field>
+            <field name="model">leasing_leasingdata.leasing_goodmodel</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="model_code" string = "کد مدل"/>
+                            <field name="model_name" string="نام مدل"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_leasingdata.leasing_goodmodel_action_window">
+            <field name="name">معرفی مدل</field>
+            <field name="res_model">leasing_leasingdata.leasing_goodmodel</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

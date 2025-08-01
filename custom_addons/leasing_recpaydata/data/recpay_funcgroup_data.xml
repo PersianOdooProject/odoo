@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpayfuncgroup1" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">0</field>
+           <field name="funcgroup_name">فاقد گروه</field>
+        </record>
+
+        <record id="recpayfuncgroup2" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">1</field>
+           <field name="funcgroup_name">صندوق/تنخواه</field>
+        </record>
+
+        <record id="recpayfuncgroup3" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">2</field>
+           <field name="funcgroup_name">چك  دريافتني</field>
+        </record>
+
+        <record id="recpayfuncgroup4" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">3</field>
+           <field name="funcgroup_name">چك  پرداختني</field>
+        </record>
+
+        <record id="recpayfuncgroup5" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">4</field>
+           <field name="funcgroup_name">خريد و فروش</field>
+        </record>
+
+        <record id="recpayfuncgroup6" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">5</field>
+           <field name="funcgroup_name">حساب بانكي</field>
+        </record>
+
+        <record id="recpayfuncgroup7" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">6</field>
+           <field name="funcgroup_name">اشخاص</field>
+        </record>
+
+        <record id="recpayfuncgroup8" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">7</field>
+           <field name="funcgroup_name">هزينه</field>
+        </record>
+
+        <record id="recpayfuncgroup9" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">8</field>
+           <field name="funcgroup_name">متفرقه</field>
+        </record>
+
+        <record id="recpayfuncgroup10" model="leasing_recpaydata.recpay_funcgroup">
+           <field name="funcgroup_code">9</field>
+           <field name="funcgroup_name">ليزينگ</field>
+        </record>
+
+     </data>
+</odoo>

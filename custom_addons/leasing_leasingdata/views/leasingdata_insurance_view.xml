@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_leasingdata.leasing_insurance_list">
+            <field name="name">Leasingdata insurance list</field>
+            <field name="model">leasing_leasingdata.leasing_insurance</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی  نوع بیمه" width="200pxl"/>
+                    <field name="insurance_name" width="300pxl"/>
+                    <field name="insurance_useintasvieh" width="300pxl"/>
+                    <field name="insurance_amounttype" width="300pxl"/>
+                    <field name="insurance_calttype" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasingdata_insurance_form_view" model="ir.ui.view">
+            <field name="name">Leasingdata insurance Form</field>
+            <field name="model">leasing_leasingdata.leasing_insurance</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="insurance_name" string="نام نوع بیمه"/>
+                            <field name="insurance_useintasvieh" string="پرداختی در تسویه اعمال شود"/>
+                            <field name="insurance_amounttype" string="عملکرد مبلغ"/>
+                            <field name="insurance_calttype" string="گروه بیمه"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_leasingdata.leasing_insurance_action_window">
+            <field name="name">معرفی نوع بیمه</field>
+            <field name="res_model">leasing_leasingdata.leasing_insurance</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>
