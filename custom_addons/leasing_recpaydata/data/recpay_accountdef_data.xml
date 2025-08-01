@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpayaccountdef1" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">1</field>
+           <field name="bankbranch_id">3</field>
+           <field name="ssledger_id">1</field>
+           <field name="account_no">10071104070774984</field>
+           <field name="account_name">بانک خاورميانه - جاري 100711040707074984</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef2" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">2</field>
+           <field name="bankbranch_id">4</field>
+           <field name="ssledger_id">3</field>
+           <field name="account_no">00101438851601</field>
+           <field name="account_name">کارآفرين - جاري 00101438851601</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef3" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">3</field>
+           <field name="bankbranch_id">5</field>
+           <field name="ssledger_id">7</field>
+           <field name="account_no">20911015357007001</field>
+           <field name="account_name">پاسارگاد - جاري 20911015357007001</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef4" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">4</field>
+           <field name="bankbranch_id">6</field>
+           <field name="ssledger_id">5</field>
+           <field name="account_no">124-2-6934143-1</field>
+           <field name="account_name">اقتصاد نوين - جاري 1-6934143-2-124</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef5" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">5</field>
+           <field name="bankbranch_id">7</field>
+           <field name="ssledger_id">9</field>
+           <field name="account_no">20101035081602</field>
+           <field name="account_name">پارسيان - جاري - 01035081602-201</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef6" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">6</field>
+           <field name="bankbranch_id">6</field>
+           <field name="ssledger_id">6</field>
+           <field name="account_no">124-850-6934143-1</field>
+           <field name="account_name">باتک اقتصاد نوين سپرده کوتاه مدت 124-850-6934143-1</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef7" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">7</field>
+           <field name="bankbranch_id">3</field>
+           <field name="ssledger_id">2</field>
+           <field name="account_no">1007-10810-707074121</field>
+           <field name="account_name">بانک خاور ميانه سپرده کوتاه مدت 1007-10810-7070741</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef8" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">8</field>
+           <field name="bankbranch_id">4</field>
+           <field name="ssledger_id">4</field>
+           <field name="account_no">0501438863604</field>
+           <field name="account_name">بانک کارآفرين - شعبه سرو شرقي- سپرده 0501438863604</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef9" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">9</field>
+           <field name="bankbranch_id">5</field>
+           <field name="ssledger_id">8</field>
+           <field name="account_no">20911515357007</field>
+           <field name="account_name">حساب جاري بدون دسته چک</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef10" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">10</field>
+           <field name="bankbranch_id">8</field>
+           <field name="ssledger_id">20</field>
+           <field name="account_no">14005381240</field>
+           <field name="account_name">بانک مسکن شعبه اميرکبير</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef11" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">11</field>
+           <field name="bankbranch_id">9</field>
+           <field name="ssledger_id">30</field>
+           <field name="account_no">14005390662</field>
+           <field name="account_name">بانک مسکن - جاري 14005390662</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef12" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">12</field>
+           <field name="bankbranch_id">10</field>
+           <field name="ssledger_id">50</field>
+           <field name="account_no">0118940934007</field>
+           <field name="account_name">بانک صادرات- افراسيابي-جاري 0118940934007</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef13" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">13</field>
+           <field name="bankbranch_id">6</field>
+           <field name="ssledger_id">53</field>
+           <field name="account_no">1-6934143-4-124</field>
+           <field name="account_name">بانک اقتصاد نوين-شعبه توحيد-سپرده1-6934143-4-124</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef14" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">14</field>
+           <field name="bankbranch_id">11</field>
+           <field name="ssledger_id">21</field>
+           <field name="account_no">0177006124145</field>
+           <field name="account_name">بانک تجارت - شعبه سپهبد قرني - 0177006124145</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef15" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">15</field>
+           <field name="bankbranch_id">12</field>
+           <field name="ssledger_id">89</field>
+           <field name="account_no">0118940934007</field>
+           <field name="account_name">بانک صادرات - شريعتي کوشا جاري-0118940934007</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef16" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">16</field>
+           <field name="bankbranch_id">13</field>
+           <field name="ssledger_id">96</field>
+           <field name="account_no">164.71.1400047.1</field>
+           <field name="account_name">بانک گردشگري - جاري-164.71.1400047.1</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef17" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">17</field>
+           <field name="bankbranch_id">14</field>
+           <field name="ssledger_id">1</field>
+           <field name="account_no">0106541425000</field>
+           <field name="account_name">بانک دي - قرض الحسنه جاري 0106541425000</field>
+           <field name="account_sheba"></field>
+        </record>
+
+        <record id="recpayaccountdef18" model="leasing_recpaydata.recpay_accountdef">
+           <field name="account_oldcode">18</field>
+           <field name="bankbranch_id">5</field>
+           <field name="ssledger_id">19</field>
+           <field name="account_no">209.115.15357007.2</field>
+           <field name="account_name">پاسارگاد تنخواه</field>
+           <field name="account_sheba"></field>
+        </record>
+
+     </data>
+</odoo>

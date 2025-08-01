@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndenseraf1" model="leasing_leasingdata.leasing_enseraf">
+           <field name="enseraf_oldcode">1</field>
+           <field name="enseraf_desc">انصراف</field>
+        </record>
+
+        <record id="lndenseraf2" model="leasing_leasingdata.leasing_enseraf">
+           <field name="enseraf_oldcode">2</field>
+           <field name="enseraf_desc">عدم توانايي در پرداخت</field>
+        </record>
+
+        <record id="lndenseraf3" model="leasing_leasingdata.leasing_enseraf">
+           <field name="enseraf_oldcode">3</field>
+           <field name="enseraf_desc">عدم تصويب کميته</field>
+        </record>
+
+        <record id="lndenseraf4" model="leasing_leasingdata.leasing_enseraf">
+           <field name="enseraf_oldcode">4</field>
+           <field name="enseraf_desc">عدم اجراي ابلاغيه</field>
+        </record>
+
+     </data>
+</odoo>

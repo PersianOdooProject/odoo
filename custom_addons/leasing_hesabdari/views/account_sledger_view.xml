@@ -2,6 +2,17 @@
 
 <odoo>
     <data>
+        <record model="ir.ui.view" id="leasing_hesabdari.account_sledger_search">
+            <field name="name">Account Sledger Search</field>
+            <field name="model">leasing_hesabdari.account_sledger</field>
+            <field name="arch" type="xml">
+                <search>
+                    <filter name="group_by_ledger_code_name1" string="کد و عنوان حساب کل"
+                            context="{'group_by': 'ledger_code_name1'}"/>
+                </search>
+            </field>
+        </record>
+
         <!-- explicit list view definition -->
         <record model="ir.ui.view" id="leasing_hesabdari.account_sledger_list">
             <field name="name">Account Sledger list</field>
@@ -11,7 +22,7 @@
                     <field name="id" string="کد داخلی"/>
                     <field name="kolmoin" string="حساب کل و معین" width="150pxl"/>
                     <field name="sledger_name" string="عنوان حساب معین" width="400pxl"/>
-                    <field name="ledger_name1" string="عنوان حساب کل" width="300pxl"/>
+                    <field name="ledger_code_name1" string="کد و عنوان حساب کل" width="300pxl"/>
                     <field name="ssubdef_name1" string="ارتباط با حساب تفصیل" width="300pxl"/>
                     <field name="acc_control_type_id" string="ماهیت حساب" width="200pxl"/>
                     <field name="no_ssledger" string="تعداد ثبت حساب تفصیل در سند" width="300pxl"/>
@@ -45,11 +56,11 @@
                             <field name="sledger_isactive" string="وضعیت حساب(فعال/غیرفعال)"/>
                             <field name="no_ssledger" string="تعداد ثبت حساب تفصیل در سند"/>
                             <field name="get_ssledger" string="کنترل دریافت تمامی سطوح تفصیل در سند"/>
-                        </group>
+                        </group >
                          <notebook>
                             <page string="تنظیم ارتباط حساب کل و معین با حساب تفصیل">
                                 <group>
-                                    <field name="ssublink_id" string=" "/>
+                                    <field name="ssublink_id" string=" " readonly="ssubdef_id != 2"/>
                                 </group>
 
                             </page>

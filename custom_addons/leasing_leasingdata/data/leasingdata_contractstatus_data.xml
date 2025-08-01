@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndcontractstatus1" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">0</field>
+           <field name="contractstatus_desc">عدم انعقاد</field>
+        </record>
+
+        <record id="lndcontractstatus2" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">1</field>
+           <field name="contractstatus_desc">در جريان</field>
+        </record>
+
+        <record id="lndcontractstatus3" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">2</field>
+           <field name="contractstatus_desc">وضعيت حقوقي</field>
+        </record>
+
+        <record id="lndcontractstatus4" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">3</field>
+           <field name="contractstatus_desc">در حال تسويه</field>
+        </record>
+
+        <record id="lndcontractstatus5" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">4</field>
+           <field name="contractstatus_desc">در حال تسويه حقوقي</field>
+        </record>
+
+        <record id="lndcontractstatus6" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">5</field>
+           <field name="contractstatus_desc">تسويه شده</field>
+        </record>
+
+        <record id="lndcontractstatus7" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">6</field>
+           <field name="contractstatus_desc">تعويض مستاجر</field>
+        </record>
+
+        <record id="lndcontractstatus8" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">7</field>
+           <field name="contractstatus_desc">تسويه حقوقي</field>
+        </record>
+
+        <record id="lndcontractstatus9" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">8</field>
+           <field name="contractstatus_desc">تسويه نهايي</field>
+        </record>
+
+        <record id="lndcontractstatus10" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">9</field>
+           <field name="contractstatus_desc">تعويض مستاجر</field>
+        </record>
+
+        <record id="lndcontractstatus11" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">10</field>
+           <field name="contractstatus_desc">وضعيت بيمه اعتباري/مانده عمر</field>
+        </record>
+
+        <record id="lndcontractstatus12" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">11</field>
+           <field name="contractstatus_desc">در حال تسويه بيمه اعتباري/مانده عمر</field>
+        </record>
+
+        <record id="lndcontractstatus13" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">12</field>
+           <field name="contractstatus_desc">تسويه بيمه اعتباري/مانده عمر</field>
+        </record>
+
+        <record id="lndcontractstatus14" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">13</field>
+           <field name="contractstatus_desc">ابطال قرارداد</field>
+        </record>
+
+        <record id="lndcontractstatus15" model="leasing_leasingdata.leasing_contractstatus">
+           <field name="contractstatus_code">14</field>
+           <field name="contractstatus_desc">توقيف کالا</field>
+        </record>
+
+     </data>
+</odoo>

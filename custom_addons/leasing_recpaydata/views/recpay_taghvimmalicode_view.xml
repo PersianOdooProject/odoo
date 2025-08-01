@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_recpaydata.recpay_taghvimmalicode_list">
+            <field name="name">Recpay Taghvimmalicode list</field>
+            <field name="model">leasing_recpaydata.recpay_taghvimmalicode</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="taghvimmalicode_group" string="گروه اطلاعات پایه تقویم مالی" width="300pxl"/>
+                    <field name="taghvimmalicode_name" string="شرح اطلاعات پایه تقویم مالی" width="400pxl"/>
+                    <field name="taghvimmalicode_auto" string="ساخت اطلاعات بصورت خودکار" width="300pxl"/>
+                    <field name="taghvimmalicode_default" string="پیش فرض نرم افزار" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="recpaydata_taghvimmalicode_form_view" model="ir.ui.view">
+            <field name="name">Recpaydata Taghvimmalicode Form</field>
+            <field name="model">leasing_recpaydata.recpay_taghvimmalicode</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="taghvimmalicode_group" string="گروه اطلاعات پایه تقویم مالی"
+                                   readonly="taghvimmalicode_default == True"/>
+                            <field name="taghvimmalicode_name" string="شرح اطلاعات پایه تقویم مالی"
+                                   readonly="taghvimmalicode_default == True"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_recpaydata.recpay_taghvimmalicode_action_window">
+            <field name="name">معرفی اطلاعات پایه تقویم مال</field>
+            <field name="res_model">leasing_recpaydata.recpay_taghvimmalicode</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

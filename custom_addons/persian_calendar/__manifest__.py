@@ -7,7 +7,7 @@
     'summary': """Persian Calendar""",
     'description': """Persian Calendar""",
     'author': "Odoo Community Iran",
-    'sequence': -99,
+    'sequence': -96,
     'website': "https://odoo-community.ir/",
     'category': 'Localization/Iran',
     'version': '1.0.1',

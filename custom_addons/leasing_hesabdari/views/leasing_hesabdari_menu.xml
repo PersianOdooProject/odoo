@@ -10,43 +10,47 @@
 
         <menuitem name="اطلاعات اولیه نرم افزار حسابداری" id="leasing_hesabdari.hesabdari_general_basedef"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.general_basedef_action_window" sequence="0"/>
+                  action="leasing_hesabdari.general_basedef_action_window" sequence="1"/>
+
+        <menuitem name="معرفی سال مالی" id="leasing_hesabdari.hesabdari_accountyear"
+                  parent="leasing_hesabdari.hesabdari_main_payeh"
+                  action="leasing_hesabdari.account_accountyear_action_window" sequence="2"/>
 
         <menuitem name="گروه حساب" id="leasing_hesabdari.hesabdari_accountgroup"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_group_action_window" sequence="1"/>
+                  action="leasing_hesabdari.account_group_action_window" sequence="3"/>
 
         <menuitem name="حساب کل" id="leasing_hesabdari.hesabdari_accountledger"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_ledger_action_window" sequence="2"/>
+                  action="leasing_hesabdari.account_ledger_action_window" sequence="4"/>
 
         <menuitem name="حساب معین" id="leasing_hesabdari.hesabdari_accountsledger"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_sledger_action_window" sequence="3"/>
+                  action="leasing_hesabdari.account_sledger_action_window" sequence="5"/>
 
         <menuitem name="انواع حساب تفصیل" id="leasing_hesabdari.hesabdari_accountssledgertype"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_ssledgertype_action_window" sequence="4"/>
+                  action="leasing_hesabdari.account_ssledgertype_action_window" sequence="6"/>
 
         <menuitem name="حساب تفصیل" id="leasing_hesabdari.hesabdari_accountssledger"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_ssledger_action_window" sequence="5"/>
+                  action="leasing_hesabdari.account_ssledger_action_window" sequence="7"/>
 
         <menuitem name="شرح تکراری در سند حسابداری" id="leasing_hesabdari.hesabdari_accountdcodescription"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_docdescription_action_window" sequence="6"/>
+                  action="leasing_hesabdari.account_docdescription_action_window" sequence="8"/>
 
         <menuitem name="ضمائم سند حسابداری" id="leasing_hesabdari.hesabdari_accountattachment"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_attachment_action_window" sequence="7"/>
+                  action="leasing_hesabdari.account_attachment_action_window" sequence="9"/>
 
         <menuitem name="گروه حسابهای بانک مرکزی" id="leasing_hesabdari.hesabdari_accountbankaccgroup"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_bankaccgroup_action_window" sequence="8"/>
+                  action="leasing_hesabdari.account_bankaccgroup_action_window" sequence="10"/>
 
         <menuitem name="حسابهای بانک مرکزی" id="leasing_hesabdari.hesabdari_accountbankacc"
                   parent="leasing_hesabdari.hesabdari_main_payeh"
-                  action="leasing_hesabdari.account_bankacc_action_window" sequence="9"/>
+                  action="leasing_hesabdari.account_bankacc_action_window" sequence="11"/>
 
     </data>
 </odoo>

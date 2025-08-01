@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndgoodcolor1" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">1</field>
+           <field name="color_name">فاقد رنگ</field>
+        </record>
+
+        <record id="lndgoodcolor2" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">3</field>
+           <field name="color_name">قرمز</field>
+        </record>
+
+        <record id="lndgoodcolor3" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">4</field>
+           <field name="color_name">خاكستري</field>
+        </record>
+
+        <record id="lndgoodcolor4" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">5</field>
+           <field name="color_name">نقره اي</field>
+        </record>
+
+        <record id="lndgoodcolor5" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">6</field>
+           <field name="color_name">مشكي</field>
+        </record>
+
+        <record id="lndgoodcolor6" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">7</field>
+           <field name="color_name">دلفيني</field>
+        </record>
+
+        <record id="lndgoodcolor7" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">8</field>
+           <field name="color_name">بژ</field>
+        </record>
+
+        <record id="lndgoodcolor8" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">9</field>
+           <field name="color_name">اناري</field>
+        </record>
+
+        <record id="lndgoodcolor9" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">10</field>
+           <field name="color_name">گل بهي</field>
+        </record>
+
+        <record id="lndgoodcolor10" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">11</field>
+           <field name="color_name">دونه اناري</field>
+        </record>
+
+        <record id="lndgoodcolor11" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">12</field>
+           <field name="color_name">نوك مدادي</field>
+        </record>
+
+        <record id="lndgoodcolor12" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">13</field>
+           <field name="color_name">آبي كبود</field>
+        </record>
+
+        <record id="lndgoodcolor13" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">14</field>
+           <field name="color_name">مشكي متاليك</field>
+        </record>
+
+        <record id="lndgoodcolor14" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">15</field>
+           <field name="color_name">دودي</field>
+        </record>
+
+        <record id="lndgoodcolor15" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">16</field>
+           <field name="color_name">قرمزگلي</field>
+        </record>
+
+        <record id="lndgoodcolor16" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">17</field>
+           <field name="color_name">آبي</field>
+        </record>
+
+        <record id="lndgoodcolor17" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">19</field>
+           <field name="color_name">صورتي صدفي</field>
+        </record>
+
+        <record id="lndgoodcolor18" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">20</field>
+           <field name="color_name">آبي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor19" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">21</field>
+           <field name="color_name">آبي كاربني</field>
+        </record>
+
+        <record id="lndgoodcolor20" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">22</field>
+           <field name="color_name">قرمز گوجه اي</field>
+        </record>
+
+        <record id="lndgoodcolor21" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">23</field>
+           <field name="color_name">زغالي</field>
+        </record>
+
+        <record id="lndgoodcolor22" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">24</field>
+           <field name="color_name">سرمه اي</field>
+        </record>
+
+        <record id="lndgoodcolor23" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">25</field>
+           <field name="color_name">قرمز متاليك</field>
+        </record>
+
+        <record id="lndgoodcolor24" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">26</field>
+           <field name="color_name">نقره اي متاليك</field>
+        </record>
+
+        <record id="lndgoodcolor25" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">27</field>
+           <field name="color_name">خاكستري متاليك</field>
+        </record>
+
+        <record id="lndgoodcolor26" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">28</field>
+           <field name="color_name">آلبالويي</field>
+        </record>
+
+        <record id="lndgoodcolor27" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">29</field>
+           <field name="color_name">بادمجاني</field>
+        </record>
+
+        <record id="lndgoodcolor28" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">30</field>
+           <field name="color_name">زيتوني</field>
+        </record>
+
+        <record id="lndgoodcolor29" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">31</field>
+           <field name="color_name">سفيد صدفي</field>
+        </record>
+
+        <record id="lndgoodcolor30" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">32</field>
+           <field name="color_name">عنابي متاليك</field>
+        </record>
+
+        <record id="lndgoodcolor31" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">33</field>
+           <field name="color_name">قرمز عنابي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor32" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">34</field>
+           <field name="color_name">گيلاسي</field>
+        </record>
+
+        <record id="lndgoodcolor33" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">35</field>
+           <field name="color_name">سفيد دو پوششه</field>
+        </record>
+
+        <record id="lndgoodcolor34" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">36</field>
+           <field name="color_name">سفيد روغني</field>
+        </record>
+
+        <record id="lndgoodcolor35" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">38</field>
+           <field name="color_name">سربي متاليك</field>
+        </record>
+
+        <record id="lndgoodcolor36" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">39</field>
+           <field name="color_name">استيل</field>
+        </record>
+
+        <record id="lndgoodcolor37" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">40</field>
+           <field name="color_name">تيتانيوم</field>
+        </record>
+
+        <record id="lndgoodcolor38" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">41</field>
+           <field name="color_name">سيلور</field>
+        </record>
+
+        <record id="lndgoodcolor39" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">42</field>
+           <field name="color_name">آبي تيره متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor40" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">43</field>
+           <field name="color_name">قهوه اي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor41" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">44</field>
+           <field name="color_name">قرمز صدفي</field>
+        </record>
+
+        <record id="lndgoodcolor42" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">45</field>
+           <field name="color_name">سفيد</field>
+        </record>
+
+        <record id="lndgoodcolor43" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">46</field>
+           <field name="color_name">قهوه اي</field>
+        </record>
+
+        <record id="lndgoodcolor44" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">47</field>
+           <field name="color_name">مسي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor45" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">48</field>
+           <field name="color_name">نوک مدادي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor46" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">49</field>
+           <field name="color_name">-</field>
+        </record>
+
+        <record id="lndgoodcolor47" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">50</field>
+           <field name="color_name">سورمه اي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor48" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">51</field>
+           <field name="color_name">سفيد صدفي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor49" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">52</field>
+           <field name="color_name">سفيد شيري-روغني</field>
+        </record>
+
+        <record id="lndgoodcolor50" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">53</field>
+           <field name="color_name">سبز-متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor51" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">54</field>
+           <field name="color_name">مشکي روغني</field>
+        </record>
+
+        <record id="lndgoodcolor52" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">55</field>
+           <field name="color_name">نقره اي آبي متاليک</field>
+        </record>
+
+        <record id="lndgoodcolor53" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">56</field>
+           <field name="color_name">خاکستري روغني</field>
+        </record>
+
+        <record id="lndgoodcolor54" model="leasing_leasingdata.leasing_goodcolor">
+           <field name="color_oldcode">57</field>
+           <field name="color_name">سرمه اي متاليک</field>
+        </record>
+
+     </data>
+</odoo>

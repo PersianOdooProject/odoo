@@ -16,10 +16,12 @@ class Accountledger(models.Model):
     ledger_name = fields.Char(string="عنوان حساب کل", size=100, required=True ,default="")
     ledger_code_name = fields.Char(compute=_compute_ledger_code_name, string="حساب کل")
     acc_group_id = fields.Many2one("leasing_hesabdari.account_group", "گروه حساب", required=True)
+    acc_group_code1 = fields.Char(related='acc_group_id.acc_group_code', readonly=True)
     acc_group_name1 = fields.Char(related='acc_group_id.acc_group_name', readonly=True)
+    acc_group_codename1 = fields.Char(related='acc_group_id.acc_group_code_name', store=True,readonly=True)
     acc_control_type_id = fields.Many2one("leasing_hesabdari.account_control_type", "ماهیت حساب", required=True)
     acc_control_type_description1 = fields.Char(related='acc_control_type_id.acc_control_type_description', readonly=True)
-    ledger_isactive = fields.Boolean(string="وضعیت حساب(فعال/غیرفعال)", required=True ,default=True)
+    ledger_isactive = fields.Boolean(string="وضعیت حساب(فعال/غیرفعال)", required=True ,default = True)
     general_basedef_id= fields.Many2one("leasing_hesabdari.general_basedef" , default = 1)
     acc_ledger_len1 = fields.Integer(related='general_basedef_id.acc_ledger_len',readonly=True)
 

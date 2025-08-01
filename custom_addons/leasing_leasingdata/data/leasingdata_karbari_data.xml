@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndkarbari1" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">1</field>
+           <field name="karbari_name">كارگاه</field>
+        </record>
+
+        <record id="lndkarbari2" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">2</field>
+           <field name="karbari_name">سواري</field>
+        </record>
+
+        <record id="lndkarbari3" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">3</field>
+           <field name="karbari_name">سنگين</field>
+        </record>
+
+        <record id="lndkarbari4" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">4</field>
+           <field name="karbari_name">پزشکي</field>
+        </record>
+
+        <record id="lndkarbari5" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">5</field>
+           <field name="karbari_name">اداري</field>
+        </record>
+
+        <record id="lndkarbari6" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">6</field>
+           <field name="karbari_name">خدماتي</field>
+        </record>
+
+        <record id="lndkarbari7" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">7</field>
+           <field name="karbari_name">مسکوني</field>
+        </record>
+
+        <record id="lndkarbari8" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">8</field>
+           <field name="karbari_name">قطعات يدکي خودرو</field>
+        </record>
+
+        <record id="lndkarbari9" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">9</field>
+           <field name="karbari_name">شخصي</field>
+        </record>
+
+        <record id="lndkarbari10" model="leasing_leasingdata.leasing_karbari">
+           <field name="karbari_oldcode">10</field>
+           <field name="karbari_name">-</field>
+        </record>
+
+     </data>
+</odoo>

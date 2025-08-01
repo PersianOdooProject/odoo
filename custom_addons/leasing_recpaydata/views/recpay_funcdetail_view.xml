@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="leasing_recpaydata.recpay_funcdetail_search">
+            <field name="name">Recpay Funcdetail Search</field>
+            <field name="model">leasing_recpaydata.recpay_funcdetail</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="funcgroupdetail_code"/>
+                    <filter name="filter_by_basegroupdetail_code" string="فعالیت"
+                            domain="[('basegroupdetail_show' , '=' ,'1')]"/>
+                    <filter name="group_by_funcgroupcodename" string="گروه فعالیت"
+                            context="{'group_by': 'funcgroup_codename'}"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_recpaydata.recpay_funcdetail_list">
+            <field name="name">Recpay Funcdetail list</field>
+            <field name="model">leasing_recpaydata.recpay_funcdetail</field>
+            <field name="arch" type="xml">
+                <list default_order="funcgroupdetail_code" expand="1">
+                    <field name="id" string="کد داخلی فعالیت مالی" width="300pxl"/>
+                    <field name="funcgroup_codename" string="کد و نام گروه فعالیت مالی" width="300pxl"/>
+                    <field name="funcgroupdetail_code" string="کد فعالیت مالی" width="300pxl"/>
+                    <field name="funcdetail_des" string="شرح فعالیت مالی" width="300pxl"/>
+                    <field name="groupdebit_name" string="نام گروه فعالیت بدهکار" width="300pxl"/>
+                    <field name="groupcredit_name" string="نام گروه فعالیت بستانکار" width="300pxl"/>
+                    <field name="kolmoindebit" string="حساب کل و معین بدهکار" width="300pxl"/>
+                    <field name="sledgerdebit_name" string="عنوان حساب معین بدهکار" width="300pxl"/>
+                    <field name="kolmoincredit" string="حساب کل و معین بستانکار" width="300pxl"/>
+                    <field name="sledgercredit_name" string="عنوان حساب معین بستانکار" width="300pxl"/>
+                    <field name="ssledger1_debit" string="نوع حساب تفصیل بدهکار 1" width="300pxl"/>
+                    <field name="ssledger1debit_code" string="کد حساب تفصیل 1 بدهکار" width="300pxl"/>
+                    <field name="ssledger1debit_name" string="عنوان حساب تفصیل 1 بدهکار" width="400pxl"/>
+                    <field name="ssledger2_debit" string="نوع حساب تفصیل بدهکار 2" width="300pxl"/>
+                    <field name="ssledger2debit_code" string="کد حساب تفصیل 2 بدهکار" width="300pxl"/>
+                    <field name="ssledger2debit_name" string="عنوان حساب تفصیل 2 بدهکار" width="400pxl"/>
+                    <field name="ssledger3_debit" string="نوع حساب تفصیل بدهکار 3" width="300pxl"/>
+                    <field name="ssledger3debit_code" string="کد حساب تفصیل 3 بدهکار" width="300pxl"/>
+                    <field name="ssledger3debit_name" string="عنوان حساب تفصیل 3 بدهکار" width="400pxl"/>
+                    <field name="ssledger1_credit" string="نوع حساب تفصیل بستانکار 1" width="300pxl"/>
+                    <field name="ssledger1credit_code" string="کد حساب تفصیل 1 بستانکار" width="300pxl"/>
+                    <field name="ssledger1credit_name" string="عنوان حساب تفصیل 1 بستانکار" width="400pxl"/>
+                    <field name="ssledger2_credit" string="نوع حساب تفصیل بستانکار 2" width="300pxl"/>
+                    <field name="ssledger2credit_code" string="کد حساب تفصیل 2 بستانکار" width="300pxl"/>
+                    <field name="ssledger2credit_name" string="عنوان حساب تفصیل 2 بستانکار" width="400pxl"/>
+                    <field name="ssledger3_credit" string="نوع حساب تفصیل بستانکار 3" width="300pxl"/>
+                    <field name="ssledger3credit_code" string="کد حساب تفصیل 3 بستانکار" width="300pxl"/>
+                    <field name="ssledger3credit_name" string="عنوان حساب تفصیل 3 بستانکار" width="400pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="recpaydata_funcdetail_form_view" model="ir.ui.view">
+            <field name="name">Recpaydata Funcdetail Form</field>
+            <field name="model">leasing_recpaydata.recpay_funcdetail</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 100%;">
+                        <group>
+                            <field name="funcgroup_codename" string="کد و نام گروه فعالیت مالی"/>
+                            <field name="funcgroupdetail_code" string="کد فعالیت مالی"/>
+                            <field name="funcdetail_des" string="شرح فعالیت مالی"/>
+                            <field name="sledgerdebit_id" string="حساب کل و معین بدهکار"/>
+                            <field name="sledgerdebit_name" string="نام حساب معین بدهکار"/>
+                            <field name="sledgercredit_id" string="حساب کل و معین بستانکار" width="300pxl"/>
+                            <field name="sledgercredit_name" string="نام حساب معین بستانکار" width="300pxl"/>
+                        </group>
+                        <group>
+                            <group>
+                                <field name="ssledger1_debit" string="نوع حساب تفصیل بدهکار1"/>
+                                <field name="ssledger2_debit" string="نوع حساب تفصیل بدهکار2"/>
+                                <field name="ssledger3_debit" string="نوع حساب تفصیل بدهکار3"/>
+                                <field name="ssledger1_credit" string="نوع حساب تفصیل بستانکار1"/>
+                                <field name="ssledger2_credit" string="نوع حساب تفصیل بستانکار2"/>
+                                <field name="ssledger3_credit" string="نوع حساب تفصیل بستانکار3"/>
+                            </group>
+                            <group>
+                                <field name="ssledgerid1_debit" string="حساب تفصیل ثابت بدهکار 1"/>
+                                <field name="ssledgerid2_debit" string="نوع حساب تفصیل ثابت بدهکار 2"/>
+                                <field name="ssledgerid3_debit" string="نوع حساب تفصیل ثابت بدهکار 3"/>
+                                <field name="ssledgerid1_credit" string="نوع حساب تفصیل ثابت بستانکار 1"/>
+                                <field name="ssledgerid2_credit" string="نوع حساب تفصیل ثابت بستانکار 2"/>
+                                <field name="ssledgerid3_credit" string="نوع حساب تفصیل ثابت بستانکار 3"/>
+                            </group>
+                        </group>
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_recpaydata.recpay_funcdetail_action_window">
+            <field name="name">فعالیت های مالی</field>
+            <field name="res_model">leasing_recpaydata.recpay_funcdetail</field>
+            <field name="view_mode">list,form</field>
+            <field name="context">{'search_default_group_by_funcgroupcodename': 1
+                ,'search_default_filter_by_basegroupdetail_code': 1}
+            </field>
+        </record>
+
+    </data>
+</odoo>

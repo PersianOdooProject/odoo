@@ -8,7 +8,7 @@
             <field name="model">leasing_leasingdata.leasing_goodcolor</field>
             <field name="arch" type="xml">
                 <list>
-                    <field name="id" string="کد داخلی نگ" width="100pxl"/>
+                    <field name="id" string="کد داخلی رنگ" width="100pxl"/>
                     <field name="color_name" width="300pxl"/>
                     <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
                     <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>

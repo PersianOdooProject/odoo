@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_recpaydata.recpay_banktashilat_list">
+            <field name="name">Recpay Banktashilat list</field>
+            <field name="model">leasing_recpaydata.recpay_banktashilat</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="bankbranch_id" width="200pxl"/>
+                    <field name="branchbank_name1" width="200pxl"/>
+                    <field name="tashilattype_id" width="150pxl"/>
+                    <field name="tashilat_name" width="300pxl"/>
+                    <field name="tashilat_no" width="200pxl"/>
+                    <field name="tashilatdarayft_date" width="100pxl"/>
+                    <field name="tashilatstart_date" width="100pxl"/>
+                    <field name="tashilatend_date" width="100pxl"/>
+                    <field name="tashilattasvieh_date" width="100pxl"/>
+                    <field name="tedad_ghest" width="100pxl"/>
+                    <field name="tashilat_rate" width="100pxl"/>
+                    <field name="masdodi_rate" width="100pxl"/>
+                    <field name="karmozd_rate" width="100pxl"/>
+                    <field name="jarimeh_rate" width="100pxl"/>
+                    <field name="vasighe_rate" width="100pxl"/>
+                    <field name="moaser_rate" width="100pxl"/>
+                    <field name="asltashilat" width="200pxl"/>
+                    <field name="sodtashilat" width="200pxl"/>
+                    <field name="zemanatmab" width="200pxl"/>
+                    <field name="tashilatstatus_id" width="300pxl"/>
+                    <field name="ssledger_id" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="recpaydata_banktashilat_calendar_view" model="ir.ui.view">
+            <field name="name">Recpaydata Banktashilat Calendar</field>
+            <field name="model">leasing_recpaydata.recpay_banktashilat</field>
+            <field name="arch" type="xml">
+                <calendar string="تسهیلات دریافتی از بانک ها" create="0" mode="month" date_start="tashilatdarayft_date"
+                          event_limit="5" quick_create="0">
+                    <field name="tashilat_name" string="شرح تسهیلات"/>
+                    <field name="tashilat_no" string="شماره تسهیلات"/>
+                    <field name="branchbank_name1" string="نام بانک"/>
+                </calendar>
+            </field>
+        </record>
+
+        <record id="recpaydata_banktashilat_form_view" model="ir.ui.view">
+            <field name="name">Recpaydata Banktashilat Form</field>
+            <field name="model">leasing_recpaydata.recpay_banktashilat</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="bankbranch_id" string="شعبه بانک"/>
+                            <field name="branchbank_name1" string="نام بانک"/>
+                            <field name="tashilattype_id" string="نوع تسهیلات"/>
+                            <field name="tashilat_name" string="شرح تسهیلات"/>
+                            <field name="tashilat_no" string="شماره تسهیلات"/>
+                            <field name="ssledger_id" string="حساب تفصیل"/>
+                        </group>
+                        <group>
+                            <group>
+                                <field name="tedad_ghest" string="تعداد اقساط"/>
+                                <field name="tashilatdarayft_date" string="تاریخ دریافت"/>
+                                <field name="tashilatstart_date" string="تاریخ شروع"/>
+                                <field name="tashilatend_date" string="تاریخ پایان"/>
+                                <field name="tashilat_rate" string="نرخ تسهیلات" digits="[8,5]"/>
+                                <field name="masdodi_rate" string="نرخ مسدودی" digits="[8,5]"/>
+                                <field name="karmozd_rate" string="نرخ کارمزد" digits="[8,5]"/>
+                                <field name="jarimeh_rate" string="نرخ جریمه" digits="[8,5]"/>
+                            </group>
+                            <group>
+                                <field name="vasighe_rate" string="نرخ وثیقه" digits="[8,5]"/>
+                                <field name="moaser_rate" string="نرخ موثر" digits="[8,5]"/>
+                                <field name="asltashilat" string="اصل تسهیلات" digits="[20,0]"/>
+                                <field name="sodtashilat" string="سود تسهیلات" digits="[20,0]"/>
+                                <field name="zemanatmab" string="مبلغ ضمانت" digits="[20,0]"/>
+                                <field name="tashilatstatus_id" string="وضعیت تسهیلات"/>
+                                <field name="tashilattasvieh_date" string="تاریخ تسویه"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_recpaydata.recpay_banktashilat_action_window">
+            <field name="name">معرفی تسهیلات دریافتی از بانک</field>
+            <field name="res_model">leasing_recpaydata.recpay_banktashilat</field>
+            <field name="view_mode">list,calendar,form</field>
+        </record>
+
+    </data>
+</odoo>

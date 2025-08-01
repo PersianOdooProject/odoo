@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="recpaybankbranch1" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">1</field>
+           <field name="bank_id">18</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">63529</field>
+           <field name="branch_name">مستقل مرکزي</field>
+        </record>
+
+        <record id="recpaybankbranch2" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">2</field>
+           <field name="bank_id">16</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">505</field>
+           <field name="branch_name">سعادت آباد سرو شرقي</field>
+        </record>
+
+        <record id="recpaybankbranch3" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">3</field>
+           <field name="bank_id">34</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">7810072</field>
+           <field name="branch_name">بخارست</field>
+        </record>
+
+        <record id="recpaybankbranch4" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">4</field>
+           <field name="bank_id">24</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">5301093</field>
+           <field name="branch_name">سرو شرقي</field>
+        </record>
+
+        <record id="recpaybankbranch5" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">5</field>
+           <field name="bank_id">15</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">5702098</field>
+           <field name="branch_name">الوند</field>
+        </record>
+
+        <record id="recpaybankbranch6" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">6</field>
+           <field name="bank_id">11</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">5501244</field>
+           <field name="branch_name">توحيد</field>
+        </record>
+
+        <record id="recpaybankbranch7" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">7</field>
+           <field name="bank_id">13</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">5412716</field>
+           <field name="branch_name">بلوار ميرداماد</field>
+        </record>
+
+        <record id="recpaybankbranch8" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">8</field>
+           <field name="bank_id">17</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">2121</field>
+           <field name="branch_name">اميرکبير</field>
+        </record>
+
+        <record id="recpaybankbranch9" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">9</field>
+           <field name="bank_id">17</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">1469</field>
+           <field name="branch_name">بلوار ميرداماد</field>
+        </record>
+
+        <record id="recpaybankbranch10" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">10</field>
+           <field name="bank_id">5</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">1900667</field>
+           <field name="branch_name">برادران شهيد افراسيابي</field>
+        </record>
+
+        <record id="recpaybankbranch11" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">11</field>
+           <field name="bank_id">6</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">209</field>
+           <field name="branch_name">سپهبد قرني</field>
+        </record>
+
+        <record id="recpaybankbranch12" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">12</field>
+           <field name="bank_id">5</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">1903061</field>
+           <field name="branch_name">شريعتي کوشا</field>
+        </record>
+
+        <record id="recpaybankbranch13" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">13</field>
+           <field name="bank_id">30</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">6401641</field>
+           <field name="branch_name">بلوار فردوس</field>
+        </record>
+
+        <record id="recpaybankbranch14" model="leasing_recpaydata.recpay_bankbranch">
+           <field name="branch_oldcode">14</field>
+           <field name="bank_id">21</field>
+           <field name="city_id">47</field>
+           <field name="branch_code">159</field>
+           <field name="branch_name">دروس</field>
+        </record>
+
+     </data>
+</odoo>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndcontrolstatus1" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">0</field>
+           <field name="controlstatus_desc">پذيرش اوليه</field>
+        </record>
+
+        <record id="lndcontrolstatus2" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">1</field>
+           <field name="controlstatus_desc">تشکيل پرونده</field>
+        </record>
+
+        <record id="lndcontrolstatus3" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">2</field>
+           <field name="controlstatus_desc">ارسال به كميته اعتباري</field>
+        </record>
+
+        <record id="lndcontrolstatus4" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">3</field>
+           <field name="controlstatus_desc">تصويب و ابلاغ مصوبه</field>
+        </record>
+
+        <record id="lndcontrolstatus5" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">4</field>
+           <field name="controlstatus_desc">عدم تصويب طرح</field>
+        </record>
+
+        <record id="lndcontrolstatus6" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">5</field>
+           <field name="controlstatus_desc">دريافت هزينه هاي قرارداد و تضامين</field>
+        </record>
+
+        <record id="lndcontrolstatus7" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">6</field>
+           <field name="controlstatus_desc">كنترل مالي</field>
+        </record>
+
+        <record id="lndcontrolstatus8" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">7</field>
+           <field name="controlstatus_desc">پرداخت تسهيلات</field>
+        </record>
+
+        <record id="lndcontrolstatus9" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">8</field>
+           <field name="controlstatus_desc">بيمه اعتباري</field>
+        </record>
+
+        <record id="lndcontrolstatus10" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">9</field>
+           <field name="controlstatus_desc">پيگيري قضايي</field>
+        </record>
+
+        <record id="lndcontrolstatus11" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">10</field>
+           <field name="controlstatus_desc">در حال تعويض مستاجر</field>
+        </record>
+
+        <record id="lndcontrolstatus12" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">11</field>
+           <field name="controlstatus_desc">تعويض مستاجر</field>
+        </record>
+
+        <record id="lndcontrolstatus13" model="leasing_leasingdata.leasing_controlstatus">
+           <field name="controlstatus_code">12</field>
+           <field name="controlstatus_desc">انصراف</field>
+        </record>
+
+     </data>
+</odoo>

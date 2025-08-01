@@ -1,347 +1,543 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
      <data noupdate="1">
-        <record id="gnsazman0" model="leasing_generaldata.generaldata_sazman">
-           <field name="sazman_oldcode">1</field>
-           <field name="sazman_name">فاقد سازمان</field>
-           <field name="state_id">1</field>
-           <field name="city_id">1</field>
-        </record>
-
         <record id="gnsazman1" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">2</field>
-           <field name="sazman_name">شرکت دبش سبز گستر</field>
            <field name="state_id">30</field>
            <field name="city_id">449</field>
+           <field name="sazman_name">شرکت دبش سبز گستر</field>
+           <field name="sazman_telephone">021-62018000</field>
+           <field name="sazman_postcode">3188115338</field>
+           <field name="sazman_namamel">خانم الموتي</field>
+           <field name="sazman_address">استان البرز شهرک صنعتي اشتهارد پشت بازارچه فاز 2 شماره 1365-  تهران-خيابان اشرفي اصفهان،ضلع شمال غرب بزرگراه حکيم،جنب بانک صادرات-پلاک4</field>
         </record>
 
         <record id="gnsazman2" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">3</field>
-           <field name="sazman_name">شرکت لابراتوار داروهاي گياهي طبيعت زنده(سينره)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت لابراتوار داروهاي گياهي طبيعت زنده(سينره)</field>
+           <field name="sazman_telephone">021-24812</field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel">کريمي</field>
+           <field name="sazman_address">بلوار ميرداماد، ميدان محسني (مادر)، خيابان سنجابي (بهروز سابق)، کوچه ششم، پلاک 3</field>
         </record>
 
         <record id="gnsazman3" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">4</field>
-           <field name="sazman_name">شرکت ايران فارميس</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت ايران فارميس</field>
+           <field name="sazman_telephone">021-8396</field>
+           <field name="sazman_postcode">1554744376</field>
+           <field name="sazman_namamel">آقاي کريمي</field>
+           <field name="sazman_address">تهران، خيابان شهيد محسن عربعلي، خيابان شهيد دکتر محمود قندي پلاک 128 طبقه5</field>
         </record>
 
         <record id="gnsazman4" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">5</field>
-           <field name="sazman_name">شرکت الياف سازان گرديه(سرژه)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت الياف سازان گرديه(سرژه)</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">1619753671</field>
+           <field name="sazman_namamel">محمدرضا تيموري</field>
+           <field name="sazman_address">تهران، شهرستان تهران، بخش مرکزي، شهرتهران، محله انقلاب، فلسطين، خيابان شهيد برادران مظفر، کوچه محتشم، پلاک11، طبقه همکف</field>
         </record>
 
         <record id="gnsazman5" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">6</field>
-           <field name="sazman_name">شرکت پايکار بنيان طب</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت پايکار بنيان طب</field>
+           <field name="sazman_telephone">82441000</field>
+           <field name="sazman_postcode">1516739617</field>
+           <field name="sazman_namamel">شيرازي</field>
+           <field name="sazman_address">گاندي، کوچه شهيد محمدعلي ترابنده خيابان خالد اسلامبولي، پلاک102،طبقه 2، واحد6 به کدپستي 1516739617</field>
         </record>
 
         <record id="gnsazman6" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">7</field>
-           <field name="sazman_name">شرکت مجتمع صنعتي آرين پارس موتور</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت مجتمع صنعتي آرين پارس موتور</field>
+           <field name="sazman_telephone">021-48491000</field>
+           <field name="sazman_postcode">1389744561</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران، کيلومتر9 جاده مخصوص کرج، خيابان نخ زرين، پلا23</field>
         </record>
 
         <record id="gnsazman7" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">8</field>
-           <field name="sazman_name">گروه صنعتي جهان صادرات</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه صنعتي جهان صادرات</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">1586766411</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">خيابان بهشتي، خيابان قائم مقام،خيابان ميرزا حسني،پلاک 5</field>
         </record>
 
         <record id="gnsazman8" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">9</field>
-           <field name="sazman_name">شرکت پرديس صنايع سيليکون آراز</field>
            <field name="state_id">6</field>
            <field name="city_id">15</field>
+           <field name="sazman_name">شرکت پرديس صنايع سيليکون آراز</field>
+           <field name="sazman_telephone">044-36523347</field>
+           <field name="sazman_postcode">5847136320</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">بخش مرکزي،دهستان رهال،آبادي شهرک صنعتي خوي،محله شهرک صنعتي،جاده سلماس خوي،خيابان شهرک صنعتي،پلک0،طبقه همکف</field>
         </record>
 
         <record id="gnsazman9" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">10</field>
-           <field name="sazman_name">شرکت عاليفرد( سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت عاليفرد( سهامي خاص)</field>
+           <field name="sazman_telephone">021-88828222</field>
+           <field name="sazman_postcode">1585877814</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">خيابان خردمند شمالي - نبش خيابان دوازدهم ، پلاک 15</field>
         </record>
 
         <record id="gnsazman10" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">11</field>
-           <field name="sazman_name">شرکت باني مدارا کتان-جين وست</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت باني مدارا کتان-جين وست</field>
+           <field name="sazman_telephone">02149215</field>
+           <field name="sazman_postcode">1461944613</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">بخش مرکزي -محله مرزداران-بلوار شهيد عربشاهي(هما) بن بست سوده-پلاک2-طبقه -2</field>
         </record>
 
         <record id="gnsazman11" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">12</field>
-           <field name="sazman_name">شرکت رنگين نخ صبا</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت رنگين نخ صبا</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman12" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">13</field>
-           <field name="sazman_name">شرکت کالااوران آراز</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت کالااوران آراز</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">1985984316</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">ولنجک-کوچه کامران-خيابان شهيد مهران بهزادي پلاک14</field>
         </record>
 
         <record id="gnsazman13" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">14</field>
-           <field name="sazman_name">شرکت طلا چاي (مسئوليت محدود)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت طلا چاي (مسئوليت محدود)</field>
+           <field name="sazman_telephone">021-88791222</field>
+           <field name="sazman_postcode">1434885331</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران -خيابان وليعصر-خيابان توانير-پلاک34</field>
         </record>
 
         <record id="gnsazman14" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">15</field>
-           <field name="sazman_name">توليدي بازرگاني چاي ماني(مسئوليت محدود)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">توليدي بازرگاني چاي ماني(مسئوليت محدود)</field>
+           <field name="sazman_telephone">021-88791222</field>
+           <field name="sazman_postcode">1434885331</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">خيابان وليعصر-خيابان توانير-پلاک34</field>
         </record>
 
         <record id="gnsazman15" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">17</field>
-           <field name="sazman_name">شرکت صنايع نشاسته الوند(سهامي عام)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت صنايع نشاسته الوند(سهامي عام)</field>
+           <field name="sazman_telephone">021-88109486</field>
+           <field name="sazman_postcode">1511736898</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">خيابان وزراء-نبش خيابان هجدهم-پلاک66-طبقه چهارم</field>
         </record>
 
         <record id="gnsazman16" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">18</field>
-           <field name="sazman_name">شرکت  داروئي و بهداشتي لقمان(سهامي عام)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت  داروئي و بهداشتي لقمان(سهامي عام)</field>
+           <field name="sazman_telephone">021-44504121</field>
+           <field name="sazman_postcode">1389737611</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان تهران، تهران،کيلومتر 10 جاده مخصوص کرج (بزرگراه شهيد لشگري)، روبروي شرکت محورسازان</field>
         </record>
 
         <record id="gnsazman17" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">19</field>
-           <field name="sazman_name">شرکت دينا ايمن قطعه</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت دينا ايمن قطعه</field>
+           <field name="sazman_telephone">02175117000</field>
+           <field name="sazman_postcode">1493873061</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان تهران، شهرستان تهران- بخش مرکزي- شهر تهران- محله شهرک راه آهن- خيابان علامه قزويني-خيابان نيما يوشيج-پلاک 0 - مجتمع اداري تجاري فرانتيوم- طبقه هفتم-واحد 76</field>
         </record>
 
         <record id="gnsazman18" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">20</field>
-           <field name="sazman_name">شرکت مهندسي بسپار گستر آريا</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت مهندسي بسپار گستر آريا</field>
+           <field name="sazman_telephone">02154695000</field>
+           <field name="sazman_postcode">1915673744</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران ـ بلوار نلسون ماندلا(جردن) ـ خيابان گلفام ـ پلاک 56 ـ واحد 10</field>
         </record>
 
         <record id="gnsazman19" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">22</field>
-           <field name="sazman_name">شرکت طنين اقتدار پارس (سهامي خاص )</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت طنين اقتدار پارس (سهامي خاص )</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">1933866816</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان تهران، شهرستان شميرانات، بخش مرکزي، شهر تجريش، حکمت، کوچه شب نما، بلوار صبا، پلاک 177، مجتمع کبير، طبقه 1، واحد 4</field>
         </record>
 
         <record id="gnsazman20" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">23</field>
-           <field name="sazman_name">شرکت بازرگاني و توليدي پارس (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت بازرگاني و توليدي پارس (سهامي خاص)</field>
+           <field name="sazman_telephone">021-22051435</field>
+           <field name="sazman_postcode">1966913480</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">بلوار آفريقا-خيابان ناهيد غربي-شماره 79</field>
         </record>
 
         <record id="gnsazman21" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">24</field>
-           <field name="sazman_name">شرکت آرکا پارت فاطر توس</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت آرکا پارت فاطر توس</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman22" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">25</field>
-           <field name="sazman_name">گروه مديريت ثروت پايا</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه مديريت ثروت پايا</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman23" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">26</field>
-           <field name="sazman_name">شرکت فرابرد پارت يدک (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت فرابرد پارت يدک (سهامي خاص)</field>
+           <field name="sazman_telephone">021-91074444</field>
+           <field name="sazman_postcode">1998733898</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">سعادت آباد-خيابان مرواريد -جمشيدي(1)-پلاک 4-ساختمان رنو پارس-طبقه دوم</field>
         </record>
 
         <record id="gnsazman24" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">28</field>
-           <field name="sazman_name">گروه پترو پاريز سبز البرز (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه پترو پاريز سبز البرز (سهامي خاص)</field>
+           <field name="sazman_telephone">021-26214632</field>
+           <field name="sazman_postcode">1967865634</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">بلوار آفريقا - خيابان سعيدي - پلاک33-واحد 10</field>
         </record>
 
         <record id="gnsazman25" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">29</field>
-           <field name="sazman_name">گروه کشاورزي صنعتي زعفران سحرخيز (سهامي خاص)</field>
            <field name="state_id">29</field>
            <field name="city_id">63</field>
+           <field name="sazman_name">گروه کشاورزي صنعتي زعفران سحرخيز (سهامي خاص)</field>
+           <field name="sazman_telephone">051-35413308</field>
+           <field name="sazman_postcode">9183894986</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">شهرک صنعتي توس-فاز يک-نبش تلاش شمالي 6-قطعه 135</field>
         </record>
 
         <record id="gnsazman26" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">30</field>
-           <field name="sazman_name">شرکت پلاستيک کار(سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت پلاستيک کار(سهامي خاص)</field>
+           <field name="sazman_telephone">021-88796565</field>
+           <field name="sazman_postcode">1964914187</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">خيابان الهيه - بلوار آفريقا- خيابان بيدار- پلاک5- برج جم- طبقه9 -واحد54</field>
         </record>
 
         <record id="gnsazman27" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">31</field>
-           <field name="sazman_name">گروه صنعتي ميهن - طرح و توسعه سرزمين تمدن پارسي</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه صنعتي ميهن - طرح و توسعه سرزمين تمدن پارسي</field>
+           <field name="sazman_telephone">88693709</field>
+           <field name="sazman_postcode">1466966134</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">شهرک غرب-خيابان آفرينش-خيابان توحيد يکم-پلاک132-طبقه دوم</field>
         </record>
 
         <record id="gnsazman28" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">32</field>
-           <field name="sazman_name">شرکت توسعه صنعتي مشفق - هامون نايزه</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت توسعه صنعتي مشفق - هامون نايزه</field>
+           <field name="sazman_telephone">44158560</field>
+           <field name="sazman_postcode">1483885945</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">بلوار فردوس غرب خيابان پروانه شمالي خيابان دهم پلاک 33</field>
         </record>
 
         <record id="gnsazman29" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">33</field>
-           <field name="sazman_name">گروه کلور ايرانيان شرق (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه کلور ايرانيان شرق (سهامي خاص)</field>
+           <field name="sazman_telephone">0514-33002200</field>
+           <field name="sazman_postcode">9344164567</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان خراسان رضوي ـ نيشابورـ شهرک صنعتي خيام ـ بهروري 12 ـ پلاک 14</field>
         </record>
 
         <record id="gnsazman30" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">34</field>
-           <field name="sazman_name">شرکت مهندسي و ساخت کسراوند (سهامي خاص)</field>
            <field name="state_id">1</field>
-           <field name="city_id">1</field>
+           <field name="city_id">1008</field>
+           <field name="sazman_name">شرکت مهندسي و ساخت کسراوند (سهامي خاص)</field>
+           <field name="sazman_telephone">56233225</field>
+           <field name="sazman_postcode">1834174115</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران، ري، شمس آباد، فاز 1، خيابان گلبرگ 11، پلاک E45</field>
         </record>
 
         <record id="gnsazman31" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">35</field>
-           <field name="sazman_name">شرکت پخش سراسري تجهيزگران طب نوين</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت پخش سراسري تجهيزگران طب نوين</field>
+           <field name="sazman_telephone">44507838</field>
+           <field name="sazman_postcode">1389737611</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران، کيلومتر 10 اتوبان شهيد لشگري (جاده مخصوص کرج)، بن بست لقمان حکيم، پلاک 1، طبقه همکف</field>
         </record>
 
         <record id="gnsazman32" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">36</field>
-           <field name="sazman_name">واسپاري کيان</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">واسپاري کيان</field>
+           <field name="sazman_telephone">021-88771173</field>
+           <field name="sazman_postcode">1516657913</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران، ميدان آرژانتين، خيابان الوند، خيابان سي و يکم، پلاک 17، طبقه 2</field>
         </record>
 
         <record id="gnsazman33" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">37</field>
-           <field name="sazman_name">گروه دارو سلامت فارمد(سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه دارو سلامت فارمد(سهامي خاص)</field>
+           <field name="sazman_telephone">021-88192740</field>
+           <field name="sazman_postcode">1969813635</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان تهران - منطقه 22 ، شهرستان تهران ، بخش مرکزي ، شهر تهران، محله کاووسيه ، خيابان گاندي شمالي ، کوچه (سرخه بازار) ، خيابان شهيد برادران شريفي ، پلاک -27 ، طبقه چهارم</field>
         </record>
 
         <record id="gnsazman34" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">38</field>
-           <field name="sazman_name">گروه ميهن-شرکت طبيعت سبز پارس کهن</field>
            <field name="state_id">23</field>
-           <field name="city_id">1</field>
+           <field name="city_id">1114</field>
+           <field name="sazman_name">گروه ميهن-شرکت طبيعت سبز پارس کهن</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">3941891159</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان مرکزي ـ شهر زرنديه ـ بخش مرکزي ـ دهستان رود شور ـ آبادي شهر صنعتي مامونيه ـ شهر صنعتي مامونيه ـ خيابان(کمربندي جنوبي) خيابان (کمربندي شمالي)پلاک صفر ـ ساختمان قطعه اف 754 ـ طبقه همکف</field>
         </record>
 
         <record id="gnsazman35" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">39</field>
-           <field name="sazman_name">گروه کيهان فراز کاسپين(سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه کيهان فراز کاسپين(سهامي خاص)</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران -يوسف آباد -خيابان اسد آبادي-کوچه سوم(جهانبخش)-پلاک10-ساختمان کاسپين</field>
         </record>
 
         <record id="gnsazman36" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">40</field>
-           <field name="sazman_name">گروه ارزش آفرينان فدک(سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه ارزش آفرينان فدک(سهامي خاص)</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">1516636815</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">شهر تهران ، محله آرژانتين - ساعي، خيابان الوند ، کوچه کامبيز ، پلاک 2 ، طبقه دوم ، واحد 4</field>
         </record>
 
         <record id="gnsazman37" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">41</field>
-           <field name="sazman_name">شرکت داروسازي پارس حيان (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت داروسازي پارس حيان (سهامي خاص)</field>
+           <field name="sazman_telephone">22010091</field>
+           <field name="sazman_postcode">1967935894</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان تهران ، شهرستان تهران، بخش مرکزي ، شهر تهران، محله امانيه، خيابان وليعصر ، خيابان شهيدفيض اله عاطفي ، پلاک 54، طبقه اول</field>
         </record>
 
         <record id="gnsazman38" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">42</field>
-           <field name="sazman_name">ايستکول (تکران مبرد)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">ايستکول (تکران مبرد)</field>
+           <field name="sazman_telephone">43628</field>
+           <field name="sazman_postcode">1533655138</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران، خيابان شهيد بهشتي، خيابان صابونچي، پلاک 24، واحد 68</field>
         </record>
 
         <record id="gnsazman39" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">43</field>
-           <field name="sazman_name">شرکت فرا طرح فولاد (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت فرا طرح فولاد (سهامي خاص)</field>
+           <field name="sazman_telephone">021-22013311</field>
+           <field name="sazman_postcode">1966946415</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">بلوار نلسون ماندلا، خيابان مهيار، پلاک 57، طبقه سوم</field>
         </record>
 
         <record id="gnsazman40" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">44</field>
-           <field name="sazman_name">صنايع غذايي و نوشيدني لاوين گوار آريا</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">صنايع غذايي و نوشيدني لاوين گوار آريا</field>
+           <field name="sazman_telephone">86047846</field>
+           <field name="sazman_postcode">1533814554</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">خيابان شهيد بهشتي، خيابان شهيد قنبرزاده، کوچه حورسي (چهارم)، پلاک 28</field>
         </record>
 
         <record id="gnsazman41" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">45</field>
-           <field name="sazman_name">شرکت توسعه فناوري و اطلاعات آونگ</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت توسعه فناوري و اطلاعات آونگ</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman42" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">46</field>
-           <field name="sazman_name">گروه صنايع ماديران</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه صنايع ماديران</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman43" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">47</field>
-           <field name="sazman_name">گروه ماديران</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه ماديران</field>
+           <field name="sazman_telephone">02182266</field>
+           <field name="sazman_postcode">1994834578</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">محله آرارات-خيابان ونک-خيابان آفتاب-پلاک3-طبقه پنجم-واحد جنوب شرقي</field>
         </record>
 
         <record id="gnsazman44" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">48</field>
-           <field name="sazman_name">شرکت کشاورزي و دامپروري تليسه اصيل جهان(سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">85</field>
+           <field name="sazman_name">شرکت کشاورزي و دامپروري تليسه اصيل جهان(سهامي خاص)</field>
+           <field name="sazman_telephone">36903170</field>
+           <field name="sazman_postcode">3371866262</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">تهران، ورامين، ميدان چوب بري (رازي)، خيابان دانشگاه، جاده جوادآباد، دو کيلومتر بعد از روستاي حصارک، دست چپ جاده 24 متري درختي، انتهاي جاده دست راست</field>
         </record>
 
         <record id="gnsazman45" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">49</field>
-           <field name="sazman_name">گروه صنعتي گلرنگ</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">گروه صنعتي گلرنگ</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman46" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">50</field>
-           <field name="sazman_name">سرمايه گذاري دارويي گلرنگ (سهامي خاص)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">سرمايه گذاري دارويي گلرنگ (سهامي خاص)</field>
+           <field name="sazman_telephone">24852000</field>
+           <field name="sazman_postcode">1991614851</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">آرارات، بزرگراه کردستان، خيابان ملاصدرا، پلاک 63، طبقه 1</field>
         </record>
 
         <record id="gnsazman47" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">51</field>
-           <field name="sazman_name">بهمن موتور</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">بهمن موتور</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode"></field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address"></field>
         </record>
 
         <record id="gnsazman48" model="leasing_generaldata.generaldata_sazman">
            <field name="sazman_oldcode">52</field>
-           <field name="sazman_name">شرکت سانيار ايرانيان (محمدرضا اميري)</field>
            <field name="state_id">1</field>
            <field name="city_id">47</field>
+           <field name="sazman_name">شرکت سانيار ايرانيان (محمدرضا اميري)</field>
+           <field name="sazman_telephone"></field>
+           <field name="sazman_postcode">1666615889</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">پاسداران، خيابان برادران شهيد پايدارفرد، خيابان بوستان ششم، پلاك 107، مجتمع ليا، طبقه 5، واحد 20</field>
+        </record>
+
+        <record id="gnsazman49" model="leasing_generaldata.generaldata_sazman">
+           <field name="sazman_oldcode">55</field>
+           <field name="state_id">1</field>
+           <field name="city_id">47</field>
+           <field name="sazman_name">شرکت آرنا حيات دانش</field>
+           <field name="sazman_telephone">021-26805489</field>
+           <field name="sazman_postcode">1987815611</field>
+           <field name="sazman_namamel"></field>
+           <field name="sazman_address">استان البرز، شهرستان ساوجبلاغ، بخش چندار، دهستان چندار، روستاي كردان، خيابان ((دوم))، خيابان ((5جنوبي ))، پلاك 0، قطعه 175، طبقه همكف</field>
         </record>
 
      </data>

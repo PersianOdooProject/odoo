@@ -2,6 +2,17 @@
 
 <odoo>
     <data>
+        <record model="ir.ui.view" id="leasing_hesabdari.account_ledger_search">
+            <field name="name">Account Ledger Search</field>
+            <field name="model">leasing_hesabdari.account_ledger</field>
+            <field name="arch" type="xml">
+                <search>
+                    <filter name="group_by_acc_group_codename1" string="کد و عنوان گروه حساب"
+                            context="{'group_by': 'acc_group_codename1'}"/>
+                </search>
+            </field>
+        </record>
+
         <!-- explicit list view definition -->
         <record model="ir.ui.view" id="leasing_hesabdari.account_ledger_list">
             <field name="name">Account Ledger list</field>
@@ -9,9 +20,9 @@
             <field name="arch" type="xml">
                 <list>
                     <field name="id" string="کد داخلی"/>
-                    <field name="ledger" width="50pxl"/>
+                    <field name="ledger" width="150pxl"/>
                     <field name="ledger_name" width="300pxl"/>
-                    <field name="acc_group_id" string="عنوان گروه حساب" width="200pxl"/>
+                    <field name="acc_group_codename1" string="کد و عنوان گروه حساب" width="300pxl"/>
                     <field name="acc_control_type_id" string="ماهیت حساب" width="100pxl"/>
                     <field name="ledger_isactive" string="وضعیت حساب(فعال/غیرفعال)" width="200pxl"/>
                     <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>

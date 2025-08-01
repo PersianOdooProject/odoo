@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_companybranch_list">
+            <field name="name">Generaldata Companybranch list</field>
+            <field name="model">leasing_generaldata.generaldata_companybranch</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="companybranch_name" string="نام نمایندگی" width="300pxl"/>
+                    <field name="companybranch_prefix" string="پيش شماره قرارداد" width="300pxl"/>
+                    <field name="state_name1" string="نام استان" width="100pxl"/>
+                    <field name="city_name1" string="نام شهر" width="100pxl"/>
+                    <field name="companybranch_address" string="آدرس" width="300pxl"/>
+                    <field name="companybranch_postcode" string="کد پستی" width="100pxl"/>
+                    <field name="companybranch_telephone" string="تلفن" width="100pxl"/>
+                    <field name="companybranch_mobile" string="تلفن همراه" width="100pxl"/>
+                    <field name="companybranch_economiccode" string="کد اقتصادی" width="200pxl"/>
+                    <field name="companybranch_namamel" string="نام عامل" width="300pxl"/>
+                    <field name="ssledger_id" string="حساب تفصیل" width="300pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_cmpanybranch_kanban" model="ir.ui.view">
+            <field name="name">Generaldata Companybranch Kanban</field>
+            <field name="model">leasing_generaldata.generaldata_companybranch</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="id"/>
+                    <field name="companybranch_name"/>
+                    <field name="companybranch_image"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img class="o_kanban_image_inner_pic"
+                                         t-att-src="kanban_image('leasing_generaldata.generaldata_companybranch', 'companybranch_image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <ul>
+                                        <li>
+                                            نام نمایندگی :
+                                            <field name="companybranch_name"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="generaldata_companybranch_form_view" model="ir.ui.view">
+            <field name="name">Generaldata Companybranch Form</field>
+            <field name="model">leasing_generaldata.generaldata_companybranch</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="companybranch_name" string="نام نمایندگی"/>
+                            <field name="companybranch_prefix" string="پيش شماره قرارداد"/>
+                            <field name="state_id" string="استان"/>
+                            <field name="city_id" string="شهر"/>
+                            <field name="companybranch_address" string="آدرس"/>
+                            <field name="companybranch_postcode" string="کد پستی"/>
+                            <field name="companybranch_telephone" string="تلفن"/>
+                            <field name="companybranch_mobile" string="تلفن همراه"/>
+                            <field name="companybranch_economiccode" string="کد اقتصادی"/>
+                            <field name="companybranch_namamel" string="نام عامل"/>
+                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="companybranch_image" string="لوگوی نمایندگی" class="oe_avatar" widget="image"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_companybranch_action_window">
+            <field name="name">معرفی نمایندگان</field>
+            <field name="res_model">leasing_generaldata.generaldata_companybranch</field>
+            <field name="view_mode">kanban,list,form</field>
+        </record>
+
+    </data>
+</odoo>

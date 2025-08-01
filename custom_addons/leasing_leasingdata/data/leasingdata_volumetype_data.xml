@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gndvolumetype1" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">1</field>
+           <field name="volumetype_name">پنج نفر</field>
+        </record>
+
+        <record id="lndvolumetype2" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">2</field>
+           <field name="volumetype_name">چهار نفر</field>
+        </record>
+
+        <record id="lndvolumetype3" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">3</field>
+           <field name="volumetype_name">هفت نفر</field>
+        </record>
+
+        <record id="lndvolumetype4" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">4</field>
+           <field name="volumetype_name">دو نفر</field>
+        </record>
+
+        <record id="lndvolumetype5" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">5</field>
+           <field name="volumetype_name">1920</field>
+        </record>
+
+        <record id="lndvolumetype6" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">6</field>
+           <field name="volumetype_name">شش نفر</field>
+        </record>
+
+        <record id="lndvolumetype7" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">7</field>
+           <field name="volumetype_name">-</field>
+        </record>
+
+        <record id="lndvolumetype8" model="leasing_leasingdata.leasing_volumetype">
+           <field name="volumetype_oldcode">8</field>
+           <field name="volumetype_name">6 تن</field>
+        </record>
+
+     </data>
+</odoo>

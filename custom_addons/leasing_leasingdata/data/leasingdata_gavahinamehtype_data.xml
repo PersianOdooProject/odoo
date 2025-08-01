@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndgavahinamehtype1" model="leasing_leasingdata.leasing_gavahinamehtype">
+           <field name="gavahinamehtype_oldcode">1</field>
+           <field name="gavahinamehtype_name">پايه 2</field>
+        </record>
+
+        <record id="lndgavahinamehtype2" model="leasing_leasingdata.leasing_gavahinamehtype">
+           <field name="gavahinamehtype_oldcode">2</field>
+           <field name="gavahinamehtype_name">پايه 1</field>
+        </record>
+
+     </data>
+</odoo>

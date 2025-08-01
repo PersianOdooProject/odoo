@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndgoodmodel1" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00001</field>
+           <field name="model_name">فله 10 کيلويي</field>
+        </record>
+
+        <record id="lndgoodmodel2" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00002</field>
+           <field name="model_name">فله 5 کيلويي</field>
+        </record>
+
+        <record id="lndgoodmodel3" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00003</field>
+           <field name="model_name">-</field>
+        </record>
+
+        <record id="lndgoodmodel4" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00004</field>
+           <field name="model_name">مخصوص پوست هاي معمولي تا خشک</field>
+        </record>
+
+        <record id="lndgoodmodel5" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00005</field>
+           <field name="model_name">مخصوص پوست هاي چرب</field>
+        </record>
+
+        <record id="lndgoodmodel6" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00006</field>
+           <field name="model_name">9*2/5</field>
+        </record>
+
+        <record id="lndgoodmodel7" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00007</field>
+           <field name="model_name">9*1/25</field>
+        </record>
+
+        <record id="lndgoodmodel8" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00008</field>
+           <field name="model_name">حذف</field>
+        </record>
+
+        <record id="lndgoodmodel9" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00009</field>
+           <field name="model_name">فله</field>
+        </record>
+
+        <record id="lndgoodmodel10" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00010</field>
+           <field name="model_name">2006</field>
+        </record>
+
+        <record id="lndgoodmodel11" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00011</field>
+           <field name="model_name">لندوکروز پرادو VX</field>
+        </record>
+
+        <record id="lndgoodmodel12" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00012</field>
+           <field name="model_name">2014</field>
+        </record>
+
+        <record id="lndgoodmodel13" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00013</field>
+           <field name="model_name">2013</field>
+        </record>
+
+        <record id="lndgoodmodel14" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00014</field>
+           <field name="model_name">2018</field>
+        </record>
+
+        <record id="lndgoodmodel15" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00015</field>
+           <field name="model_name">1395</field>
+        </record>
+
+        <record id="lndgoodmodel16" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00016</field>
+           <field name="model_name">1388</field>
+        </record>
+
+        <record id="lndgoodmodel17" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00017</field>
+           <field name="model_name">2017</field>
+        </record>
+
+        <record id="lndgoodmodel18" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00018</field>
+           <field name="model_name">1394</field>
+        </record>
+
+        <record id="lndgoodmodel19" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00019</field>
+           <field name="model_name">1397</field>
+        </record>
+
+        <record id="lndgoodmodel20" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00020</field>
+           <field name="model_name">2015</field>
+        </record>
+
+        <record id="lndgoodmodel21" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00021</field>
+           <field name="model_name">1401</field>
+        </record>
+
+        <record id="lndgoodmodel22" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">00022</field>
+           <field name="model_name">1403</field>
+        </record>
+
+        <record id="lndgoodmodel23" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">01399</field>
+           <field name="model_name">1399</field>
+        </record>
+
+        <record id="lndgoodmodel24" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">01994</field>
+           <field name="model_name">1994</field>
+        </record>
+
+        <record id="lndgoodmodel25" model="leasing_leasingdata.leasing_goodmodel">
+           <field name="model_code">02012</field>
+           <field name="model_name">2012</field>
+        </record>
+
+     </data>
+</odoo>

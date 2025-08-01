@@ -12,6 +12,7 @@
                     <field name="acc_ledger_len" string="طول حساب کل" width="50pxl"/>
                     <field name="acc_sledger_len" string="طول حساب معین" width="50pxl"/>
                     <field name="acc_ssledger_len" string="طول حساب تفصیل" width="50pxl"/>
+                    <field name="month_numname1" string="شروع سال مالی براساس ماه" width="300pxl"/>
                     <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
                     <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
                 </list>
@@ -29,6 +30,8 @@
                             <field name="acc_sledger_len" string="طول حساب معین" readonly="sledger_total_record > 0"/>
                             <field name="acc_ssledger_len" string="طول حساب تفصیل"
                                    readonly="ssledger_total_record > 0"/>
+                            <field name="month_id" string="شروع سال مالی براساس ماه"
+                                   readonly="accountyear_total_record > 0"/>
                         </group>
                     </sheet>
                 </form>

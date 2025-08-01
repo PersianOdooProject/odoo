@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndnotetype1" model="leasing_leasingdata.leasing_notetype">
+           <field name="notetype_code">1</field>
+           <field name="notetype_name">ياداشت هاي ضروري</field>
+        </record>
+
+        <record id="lndnotetype2" model="leasing_leasingdata.leasing_notetype">
+           <field name="notetype_code">2</field>
+           <field name="notetype_name">تماس تلفني</field>
+        </record>
+
+     </data>
+</odoo>

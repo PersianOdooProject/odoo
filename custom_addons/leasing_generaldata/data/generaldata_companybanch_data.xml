@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gncompanybranch1" model="leasing_generaldata.generaldata_companybranch">
+           <field name="companybranch_oldcode">1</field>
+           <field name="state_id">1</field>
+           <field name="city_id">47</field>
+           <field name="companybranch_name">دفتر مركزي</field>
+           <field name="companybranch_prefix">01</field>
+        </record>
+
+     </data>
+</odoo>

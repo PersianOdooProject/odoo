@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="lndtashilattype1" model="leasing_leasingdata.leasing_tashilattype">
+           <field name="tashilattype_oldcode">1</field>
+           <field name="tashilattype_name">خودرو</field>
+        </record>
+
+     </data>
+</odoo>

@@ -8,8 +8,57 @@
         <!-- menu categories -->
         <menuitem name="اطلاعات پایه" id="leasing_leasingdata.leasing_main" parent="leasing_leasingdata.menu_root"/>
         <!-- actions -->
-        <menuitem name="معرفی رنگ" id="leasing_leasingdata.leasingdata_goodcolor" parent="leasing_leasingdata.leasing_main"
+        <menuitem name="معرفی رنگ" id="leasing_leasingdata.leasingdata_goodcolor"
+                  parent="leasing_leasingdata.leasing_main"
                   action="leasing_leasingdata.leasing_goodcolor_action_window" sequence="1"/>
+        <menuitem name="معرفی مدل" id="leasing_leasingdata.leasingdata_goodmodel"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_goodmodel_action_window" sequence="2"/>
+        <menuitem name="معرفی تامین کننده اعتبار" id="leasing_leasingdata.leasingdata_taminetebar"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_taminetebar_action_window" sequence="3"/>
+        <menuitem name="معرفی شعبه بیمه" id="leasing_leasingdata.leasingdata_insurancebranch"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_insurancebranch_action_window" sequence="4"/>
+        <menuitem name="معرفی کاربری" id="leasing_leasingdata.leasingdata_karbari"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_karbari_action_window" sequence="5"/>
+        <menuitem name="معرفی ظرفیت" id="leasing_leasingdata.leasingdata_Volumetype"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_volumetype_action_window" sequence="6"/>
+        <menuitem name="معرفی نوع بیمه" id="leasing_leasingdata.leasingdata_insurance"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_insurance_action_window" sequence="7"/>
+        <menuitem name="معرفی نوع قرارداد" id="leasing_leasingdata.leasingdata_typeghrardad"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_typeghrardad_action_window" sequence="8"/>
+        <menuitem name="معرفی نوع تسهیلات" id="leasing_leasingdata.leasingdata_tashilattype"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_tashilattype_action_window" sequence="9"/>
+        <menuitem name="معرفی نوع گواهینامه" id="leasing_leasingdata.leasingdata_gavahinamehtype"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_gavahinamehtype_action_window" sequence="10"/>
+        <menuitem name="معرفی انواع مدارک" id="leasing_leasingdata.leasingdata_madarek_type"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_madarektype_action_window" sequence="11"/>
+        <menuitem name="معرفی انواع نواقص" id="leasing_leasingdata.leasingdata_navaghes_type"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_navaghestype_action_window" sequence="12"/>
+        <menuitem name="معرفی دلایل انصراف" id="leasing_leasingdata.leasingdata_enseraf"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_enseraf_action_window" sequence="13"/>
+        <menuitem name="مشاهده مراحل پرونده" id="leasing_leasingdata.leasingdata_controlstatus"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_controlstatus_action_window" sequence="14"/>
+        <menuitem name="مشاهده وضعیت قرارداد" id="leasing_leasingdata.leasingdata_contractstatus"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_contractstatus_action_window" sequence="15"/>
+        <menuitem name="معرفی انواع فعالیت یادداشت پرونده" id="leasing_leasingdata.leasingdata_notetype"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_notetype_action_window" sequence="16"/>
+        <menuitem name="معرفی نتیجه یادداشت" id="leasing_leasingdata.leasingdata_noteresult"
+                  parent="leasing_leasingdata.leasing_main"
+                  action="leasing_leasingdata.leasing_noteresult_action_window" sequence="17"/>
 
     </data>
 </odoo>
