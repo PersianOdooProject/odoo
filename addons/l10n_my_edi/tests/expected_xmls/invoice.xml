@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
   <cbc:ID>INV/2019/00001</cbc:ID>
-  <cbc:IssueDate>2019-01-01</cbc:IssueDate>
+  <cbc:IssueDate>2024-07-15</cbc:IssueDate>
   <cbc:IssueTime>10:00:00Z</cbc:IssueTime>
   <cbc:InvoiceTypeCode listVersionID="1.1">01</cbc:InvoiceTypeCode>
   <cbc:DocumentCurrencyCode>MYR</cbc:DocumentCurrencyCode>
@@ -101,6 +101,9 @@
   <cac:PaymentTerms>
     <cbc:Note>Payment terms: Immediate Payment</cbc:Note>
   </cac:PaymentTerms>
+	<cac:PrepaidPayment>
+		<cbc:PaidAmount currencyID="MYR">0.00</cbc:PaidAmount>
+	</cac:PrepaidPayment>
   <cac:TaxTotal>
     <cbc:TaxAmount currencyID="MYR">100.00</cbc:TaxAmount>
     <cac:TaxSubtotal>
@@ -120,7 +123,6 @@
     <cbc:LineExtensionAmount currencyID="MYR">1000.00</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount currencyID="MYR">1000.00</cbc:TaxExclusiveAmount>
     <cbc:TaxInclusiveAmount currencyID="MYR">1100.00</cbc:TaxInclusiveAmount>
-    <cbc:PrepaidAmount currencyID="MYR">0.00</cbc:PrepaidAmount>
     <cbc:PayableAmount currencyID="MYR">1100.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
