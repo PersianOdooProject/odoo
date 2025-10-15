@@ -8,12 +8,13 @@ from itertools import groupby
 from collections import defaultdict
 from random import randrange
 from pprint import pformat
+from uuid import uuid4
 
 import psycopg2
 import pytz
 
 from odoo import api, fields, models, tools, _, Command
-from odoo.tools import float_is_zero, float_round, float_repr, float_compare, formatLang
+from odoo.tools import float_is_zero, float_round, float_repr, float_compare, formatLang, SQL
 from odoo.exceptions import ValidationError, UserError
 from odoo.osv.expression import AND
 import base64
@@ -112,6 +113,9 @@ class PosOrder(models.Model):
 
             del order['uuid']
             del order['access_token']
+            if order.get('state') == 'paid':
+                # The "paid" state will be assigned later by `_process_saved_order`
+                order['state'] = pos_order.state
             pos_order.write(order)
 
         pos_order._link_combo_items(combo_child_uuids_by_parent_uuid)
@@ -255,6 +259,12 @@ class PosOrder(models.Model):
                     'display_type': 'line_note',
                 }))
 
+        if self.general_note:
+            invoice_lines.append((0, None, {
+                'name': self['general_note'],
+                'display_type': 'line_note',
+            }))
+
         return invoice_lines
 
     def _get_pos_anglo_saxon_price_unit(self, product, partner_id, quantity):
@@ -337,6 +347,8 @@ class PosOrder(models.Model):
     order_edit_tracking = fields.Boolean(related="config_id.order_edit_tracking", readonly=True)
     available_payment_method_ids = fields.Many2many('pos.payment.method', related='config_id.payment_method_ids', string='Available Payment Methods', readonly=True, store=False)
 
+    _sql_constraints = [('uuid_unique', 'unique (uuid)', "An order with this uuid already exists")]
+
     def get_preparation_change(self):
         self.ensure_one()
         return {
@@ -349,17 +361,26 @@ class PosOrder(models.Model):
         if operator in ['ilike', '='] and isinstance(value, str):
             if value[0] == '%' and value[-1] == '%':
                 value = value[1:-1]
-            value = value.zfill(3)
-            search = '% ____' + value[0] + '-___-__' + value[1:]
-            return [('pos_reference', operator, search or '')]
-        else:
-            raise NotImplementedError(_("Unsupported search operation"))
+            if len(value) < 3 and operator == 'ilike':
+                value = value.zfill(2)
+                search = '% _____-___-__' + value
+                return [('pos_reference', operator, search or '')]
+            elif len(value) == 3:
+                sql = SQL("""(
+                    SELECT id
+                      FROM pos_order
+                     WHERE pos_reference LIKE %s
+                       AND MOD(session_id, 10) = %s
+                    )""", '% _____-___-__' + value[1:], int(value[0]))
+                return [('id', 'in', sql)]
+
+        raise NotImplementedError(_("Unsupported search operation"))
 
     @api.depends('lines.refund_orderline_ids', 'lines.refunded_orderline_id')
     def _compute_refund_related_fields(self):
         for order in self:
             order.refund_orders_count = len(order.mapped('lines.refund_orderline_ids.order_id'))
-            order.refunded_order_id = order.lines.refunded_orderline_id.order_id
+            order.refunded_order_id = next(iter(order.lines.refunded_orderline_id.order_id), False)
 
     @api.depends('lines.refunded_qty', 'lines.qty')
     def _compute_has_refundable_lines(self):
@@ -829,7 +850,13 @@ class PosOrder(models.Model):
         # Cash rounding.
         cash_rounding = self.config_id.rounding_method
         if self.config_id.cash_rounding and cash_rounding and (not self.config_id.only_round_cash_method or any(p.payment_method_id.is_cash_count for p in self.payment_ids)):
-            amount_currency = cash_rounding.compute_difference(self.currency_id, total_amount_currency)
+            if self.config_id.only_round_cash_method and any(not p.payment_method_id.is_cash_count for p in self.payment_ids):
+                # If only_round_cash_method is True, and there are non-cash payments, cash rounding must be computed
+                # based on the total amount of the order, and total payment amount.
+                total_payment_amount = self.currency_id.round(sum(p.amount for p in self.payment_ids))
+                amount_currency = sign * self.currency_id.round(self.currency_id.round(total_amount_currency) + total_payment_amount)
+            else:
+                amount_currency = cash_rounding.compute_difference(self.currency_id, total_amount_currency)
             if not self.currency_id.is_zero(amount_currency):
                 balance = company_currency.round(amount_currency * rate)
 
@@ -1160,7 +1187,8 @@ class PosOrder(models.Model):
             'amount_tax': -self.amount_tax,
             'amount_total': -self.amount_total,
             'amount_paid': 0,
-            'is_total_cost_computed': False
+            'is_total_cost_computed': False,
+            'uuid': str(uuid4()),
         }
 
     def _prepare_mail_values(self, email, ticket, basic_ticket):
@@ -1205,6 +1233,7 @@ class PosOrder(models.Model):
                     PosOrderLineLot += pack_lot.copy()
                 line.copy(line._prepare_refund_data(refund_order, PosOrderLineLot))
             refund_orders |= refund_order
+        refund_orders._compute_prices()
         return refund_orders
 
     def refund(self):
@@ -1379,6 +1408,8 @@ class PosOrderLine(models.Model):
 
     combo_item_id = fields.Many2one('product.combo.item', string='Combo Item')
     is_edited = fields.Boolean('Edited', default=False)
+
+    _sql_constraints = [('uuid_unique', 'unique (uuid)', "An order line with this uuid already exists")]
 
     @api.model
     def _load_pos_data_domain(self, data):
@@ -1634,13 +1665,14 @@ class PosOrderLine(models.Model):
         """
         for line in self.filtered(lambda l: not l.is_total_cost_computed):
             product = line.product_id
+            cost_currency = product.sudo().cost_currency_id
             if line._is_product_storable_fifo_avco() and stock_moves:
                 product_cost = product._compute_average_price(0, line.qty, line._get_stock_moves_to_consider(stock_moves, product))
-                if (product.cost_currency_id.is_zero(product_cost) and line.order_id.shipping_date and line.refunded_orderline_id):
+                if (cost_currency.is_zero(product_cost) and line.order_id.shipping_date and line.refunded_orderline_id):
                     product_cost = line.refunded_orderline_id.total_cost / line.refunded_orderline_id.qty
             else:
                 product_cost = product.standard_price
-            line.total_cost = line.qty * product.cost_currency_id._convert(
+            line.total_cost = line.qty * cost_currency._convert(
                 from_amount=product_cost,
                 to_currency=line.currency_id,
                 company=line.company_id or self.env.company,

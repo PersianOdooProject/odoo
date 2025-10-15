@@ -181,6 +181,8 @@ class _ProtectedDomain(tuple):
     __hash__ = None
 
     def __eq__(self, other): return list(self).__eq__(other)
+    def __add__(self, other): return tuple(self) + tuple(other) if isinstance(other, (list, tuple)) else NotImplemented
+    def __radd__(self, other): return tuple(other) + tuple(self) if isinstance(other, (list, tuple)) else NotImplemented
     def copy(self): return list(self)
 
 
@@ -1267,8 +1269,9 @@ class expression(object):
                 if operator in HIERARCHY_FUNCS:
                     # determine ids2 in comodel
                     ids2 = to_ids(right, comodel, leaf)
+                    ids2 = comodel.browse(ids2)._filtered_access('read').ids
                     domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
-                    ids2 = comodel._search(domain)
+                    ids2 = comodel.sudo()._search(domain)
                     rel_alias = self.query.make_alias(alias, field.name)
                     push_result(SQL(
                         "EXISTS (SELECT 1 FROM %s AS %s WHERE %s = %s AND %s IN %s)",

@@ -1,5 +1,12 @@
-import { before, createJobScopedGetter, expect, getCurrent, registerDebugInfo } from "@odoo/hoot";
-import { mockFetch, mockWebSocket } from "@odoo/hoot-mock";
+import {
+    before,
+    createJobScopedGetter,
+    expect,
+    getCurrent,
+    mockFetch,
+    mockWebSocket,
+    registerDebugInfo,
+} from "@odoo/hoot";
 import { RPCError } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { ensureArray, isIterable } from "@web/core/utils/arrays";
@@ -78,7 +85,7 @@ const { DateTime } = luxon;
  *  translations?: Record<string, string>;
  * }} ServerParams
  *
- * @typedef {import("@odoo/hoot-mock").ServerWebSocket} ServerWebSocket
+ * @typedef {import("@odoo/hoot").ServerWebSocket} ServerWebSocket
  *
  * @typedef {string | Iterable<string> | RegExp} StringMatcher
  *
@@ -886,7 +893,13 @@ export class MockServer {
 
             // Find duplicate models
             if (model._name in this._models) {
-                Object.setPrototypeOf(Object.getPrototypeOf(model), this._models[model._name]);
+                const existingModel = this._models[model._name];
+                // Add fields added from parent, since public class instance fields
+                // are not included in the prototype.
+                for (const fieldName in existingModel._fields) {
+                    model._fields[fieldName] ??= existingModel._fields[fieldName];
+                }
+                Object.setPrototypeOf(Object.getPrototypeOf(model), existingModel);
             } else if (model._name in this.env) {
                 throw new MockServerError(
                     `cannot register model "${model._name}": a server environment property with the same name already exists`

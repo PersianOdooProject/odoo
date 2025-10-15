@@ -772,7 +772,8 @@ export class PosStore extends Reactive {
                 payload,
                 order.pricelist_id,
                 this.data.models["decimal.precision"].getAll(),
-                this.data.models["product.template.attribute.value"].getAllBy("id")
+                this.data.models["product.template.attribute.value"].getAllBy("id"),
+                this.currency
             );
 
             values.combo_line_ids = comboPrices.map((comboItem) => [
@@ -836,9 +837,6 @@ export class PosStore extends Reactive {
 
             if (!pack_lot_ids) {
                 return;
-            } else {
-                const packLotLine = pack_lot_ids.newPackLotLines;
-                values.pack_lot_ids = packLotLine.map((lot) => ["create", lot]);
             }
         }
 
@@ -876,6 +874,20 @@ export class PosStore extends Reactive {
         }
 
         const line = this.data.models["pos.order.line"].create({ ...values, order_id: order });
+
+        if (values.product_id.tracking === "lot") {
+            const related_lines = [];
+            const price = values.product_id.get_price(
+                order.pricelist_id,
+                values.qty,
+                values.price_extra,
+                false,
+                false,
+                line,
+                related_lines
+            );
+            related_lines.forEach((line) => line.set_unit_price(price));
+        }
         line.setOptions(options);
         this.selectOrderLine(order, line);
         if (configure) {
@@ -890,6 +902,7 @@ export class PosStore extends Reactive {
         }
 
         let to_merge_orderline;
+        let lineToReturn = line;
         for (const curLine of order.lines) {
             if (curLine.id !== line.id) {
                 if (curLine.can_be_merged_with(line) && merge !== false) {
@@ -901,12 +914,13 @@ export class PosStore extends Reactive {
         if (to_merge_orderline) {
             to_merge_orderline.merge(line);
             line.delete();
+            lineToReturn = to_merge_orderline;
             this.selectOrderLine(order, to_merge_orderline);
         } else if (!selectedOrderline) {
             this.selectOrderLine(order, order.get_last_orderline());
         }
 
-        if (product.tracking === "serial") {
+        if (product.isTracked()) {
             this.selectedOrder.get_selected_orderline().setPackLotLines({
                 modifiedPackLotLines: pack_lot_ids.modifiedPackLotLines ?? [],
                 newPackLotLines: pack_lot_ids.newPackLotLines ?? [],
@@ -931,7 +945,7 @@ export class PosStore extends Reactive {
         }, 3000);
 
         // FIXME: If merged with another line, this returned object is useless.
-        return line;
+        return lineToReturn;
     }
 
     create_printer(config) {
@@ -1470,7 +1484,8 @@ export class PosStore extends Reactive {
             const paymentLine = order.payment_ids.find(
                 (paymentLine) =>
                     paymentLine.payment_method_id.use_payment_terminal === terminalName &&
-                    !paymentLine.is_done()
+                    !paymentLine.is_done() &&
+                    paymentLine.get_payment_status() !== "retry"
             );
             if (paymentLine) {
                 return paymentLine;
@@ -2262,7 +2277,13 @@ export class PosStore extends Reactive {
 
     selectEmptyOrder() {
         const emptyOrders = this.models["pos.order"].filter(
-            (order) => order.is_empty() && !order.finalized
+            (order) =>
+                order.is_empty() &&
+                !order.finalized &&
+                order.payment_ids.length === 0 &&
+                !order.partner_id &&
+                order.pricelist_id?.id === this.config.pricelist_id?.id &&
+                order.fiscal_position_id?.id === this.config.default_fiscal_position_id?.id
         );
         if (emptyOrders.length > 0) {
             this.set_order(emptyOrders[0]);
