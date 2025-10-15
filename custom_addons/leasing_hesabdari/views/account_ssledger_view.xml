@@ -32,12 +32,12 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="ssledgertype_id" string="نوع حساب تفصیل"/>
-                            <field name="ssledger" string=" کد حساب تفصیل"/>
-                            <field name="ssledger_name" string="عنوان حساب تفصیل"/>
-                            <field name="ssledger_isactive" string="وضعیت حساب(فعال/غیرفعال)"/>
-                            <field name="ssledger_isprint" string="اعمال در گزارش نقدینگی"/>
-                            <field name="sledger_id" string="حساب معین مبنا در گزارش نقدینگی"/>
+                            <field name="ssledgertype_id" string="نوع حساب تفصیل :"/>
+                            <field name="ssledger" string="کد حساب تفصیل :"/>
+                            <field name="ssledger_name" string="عنوان حساب تفصیل :"/>
+                            <field name="ssledger_isactive" string="وضعیت حساب(فعال/غیرفعال) :"/>
+                            <field name="ssledger_isprint" string="اعمال در گزارش نقدینگی :"/>
+                            <field name="sledger_id" string="حساب معین مبنا در گزارش نقدینگی :"/>
                         </group>
                     </sheet>
                 </form>

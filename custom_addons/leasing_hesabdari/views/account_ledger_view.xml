@@ -40,12 +40,12 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="acc_group_id" string="گروه حساب"/>
-                            <field name="ledger" string="کد حساب کل"/>
-                            <field name="ledger_name" string="عنوان حساب کل"/>
-                            <field name="acc_control_type_id" string="ماهیت حساب"
+                            <field name="acc_group_id" string="گروه حساب :"/>
+                            <field name="ledger" string="کد حساب کل :"/>
+                            <field name="ledger_name" string="عنوان حساب کل :"/>
+                            <field name="acc_control_type_id" string="ماهیت حساب :"
                                    options="{'no_create_edit' : True ,'no_create' : True}"/>
-                            <field name="ledger_isactive" string="وضعیت حساب(فعال/غیرفعال)"/>
+                            <field name="ledger_isactive" string="وضعیت حساب(فعال/غیرفعال) :"/>
                         </group>
                     </sheet>
                 </form>
@@ -68,6 +68,18 @@
             <field name="binding_model_id" ref="model_leasing_hesabdari_account_ledger"/>
             <field name="binding_type">report</field>
         </record>
+
+        <!--
+        <record id="report_leasing_account_ledger1" model="ir.actions.report">
+            <field name="name">گزارش حساب کل به تفکیک گروه حساب</field>
+            <field name="model">leasing_hesabdari.account_ledger</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">leasing_hesabdari.report_account_ledger1</field>
+            <field name="report_file">leasing_hesabdari.report_account_ledger1</field>
+            <field name="binding_model_id" ref="model_leasing_hesabdari_account_ledger"/>
+            <field name="binding_type">report</field>
+        </record>
+         -->
 
     </data>
 </odoo>

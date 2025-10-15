@@ -4,11 +4,11 @@ from datetime import timedelta
 
 class Accountaccountyear(models.Model):
     _name = 'leasing_hesabdari.account_accountyear'
-#    _rec_name = 'attachment_name'
+    _rec_name = 'calendaryear_shamsiyear1'
 
     calendaryear_id = fields.Many2one("leasing_hesabdari.account_calendaryear", "سال مالی", required=True ,default=1)
     calendaryear_shamsiyear1 = fields.Char(related='calendaryear_id.calendaryear_shamsiyear', string="سال مالی شمسی",
-                                   store="True", readonly=True)
+                                   store="True", readonly=True,default='1400')
     calendaryear_miladiyear1 = fields.Char(related='calendaryear_id.calendaryear_miladiyear', string="سال مالی میلادی",
                                            store="True", readonly=True)
     calendaryear_dayadd1 = fields.Integer(related='calendaryear_id.calendaryear_shamsidayadd', string="تعداد روزهای سال",

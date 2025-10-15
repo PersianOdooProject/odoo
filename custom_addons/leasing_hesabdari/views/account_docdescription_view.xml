@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="docdes_code" string="کد شرح تکراري در سند حسابداري"/>
-                            <field name="docdes_text" string="متن شرح تکراري در سند حسابداري"/>
+                            <field name="docdes_code" string="کد شرح تکراري در سند حسابداري :"/>
+                            <field name="docdes_text" string="متن شرح تکراري در سند حسابداري :"/>
                         </group>
                     </sheet>
                 </form>

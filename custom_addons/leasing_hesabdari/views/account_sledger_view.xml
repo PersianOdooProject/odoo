@@ -44,18 +44,18 @@
                 <form>
                     <sheet style="max-width : 100%;">
                         <group>
-                            <field name="ledger_id" string="حساب کل"/>
-                            <field name="accountsoodziangroup_id" string="گروه حساب سود و زیان"/>
+                            <field name="ledger_id" string="حساب کل :"/>
+                            <field name="accountsoodziangroup_id" string="گروه حساب سود و زیان :"/>
                             options="{'no_create_edit' : True ,'no_create' : True}"/>
-                            <field name="sledger" string="حساب معین"/>
-                            <field name="sledger_name" string="عنوان حساب معین"/>
-                            <field name="ssubdef_id" string="ارتباط با حساب تفصیل"/>
+                            <field name="sledger" string="حساب معین :"/>
+                            <field name="sledger_name" string="عنوان حساب معین :"/>
+                            <field name="ssubdef_id" string="ارتباط با حساب تفصیل :"/>
                             options="{'no_create_edit' : True ,'no_create' : True}"/>
-                            <field name="acc_control_type_id" string="ماهیت حساب"
+                            <field name="acc_control_type_id" string="ماهیت حساب :"
                                    options="{'no_create_edit' : True ,'no_create' : True}"/>
-                            <field name="sledger_isactive" string="وضعیت حساب(فعال/غیرفعال)"/>
-                            <field name="no_ssledger" string="تعداد ثبت حساب تفصیل در سند"/>
-                            <field name="get_ssledger" string="کنترل دریافت تمامی سطوح تفصیل در سند"/>
+                            <field name="sledger_isactive" string="وضعیت حساب(فعال/غیرفعال) :"/>
+                            <field name="no_ssledger" string="تعداد ثبت حساب تفصیل در سند :"/>
+                            <field name="get_ssledger" string="کنترل دریافت تمامی سطوح تفصیل در سند :"/>
                         </group >
                          <notebook>
                             <page string="تنظیم ارتباط حساب کل و معین با حساب تفصیل">

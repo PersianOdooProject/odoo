@@ -25,7 +25,7 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="navaghestype_name" string="نام نقص"/>
+                            <field name="navaghestype_name" string="نام نقص :"/>
                         </group>
                     </sheet>
                 </form>

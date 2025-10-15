@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_leasingdata.general_basedef_list">
+            <field name="name">General Leasing Basedef list</field>
+            <field name="model">leasing_hesabdari.general_basedef</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی"/>
+                    <field name="goodcodelen" string="طول کد کالا" width="50pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_leasingdata_general_basedef_form_view" model="ir.ui.view">
+            <field name="name">General Leasing Basedef Form</field>
+            <field name="model">leasing_hesabdari.general_basedef</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="goodcodelen" string="طول کد کالا :"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_leasingdata.general_basedef_action_window">
+            <field name="name">اطلاعات اولیه لیزینگ</field>
+            <field name="res_model">leasing_hesabdari.general_basedef</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="leasing_leasingdata.leasing_childbasedef1_action_window">
+            <field name="view_mode">list</field>
+            <field name="view_id" ref="leasing_leasingdata.general_basedef_list"/>
+            <field name="act_window_id" ref="leasing_leasingdata.general_basedef_action_window"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="leasing_leasingdata.leasing_childbasedef2_action_window">
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="leasing_leasingdata_general_basedef_form_view"/>
+            <field name="act_window_id" ref="leasing_leasingdata.general_basedef_action_window"/>
+        </record>
+
+    </data>
+</odoo>

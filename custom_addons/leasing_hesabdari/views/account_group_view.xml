@@ -27,9 +27,9 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="acc_group_code" string="کد گروه حساب"/>
-                            <field name="acc_group_name" string="عنوان گروه حساب"/>
-                            <field name="acc_group_type_id" string="نوع حساب"
+                            <field name="acc_group_code" string="کد گروه حساب :"/>
+                            <field name="acc_group_name" string="عنوان گروه حساب :"/>
+                            <field name="acc_group_type_id" string="نوع حساب :"
                                    options="{'no_create_edit' : True ,'no_create' : True}"/>
                         </group>
                     </sheet>
@@ -53,6 +53,5 @@
             <field name="binding_model_id" ref="model_leasing_hesabdari_account_group"/>
             <field name="binding_type">report</field>
         </record>
-
     </data>
 </odoo>

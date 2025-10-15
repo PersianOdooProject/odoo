@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_sazmanaddress_list">
+            <field name="name">Generaldata Sazman Address list</field>
+            <field name="model">leasing_generaldata.generaldata_sazmanaddress</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی آدرس" width="500pxl"/>
+                    <field name="sazmanaddress_type" string="نوع آدرس" width="500pxl"/>
+                    <field name="ownership_desc1" string="نوع مالکیت" width="500pxl"/>
+                    <field name="state_name1" string="استان" width="500pxl"/>
+                    <field name="city_name1" string="شهر" width="500pxl"/>
+                    <field name="sazmanaddress_address" string="آدرس" width="500pxl"/>
+                    <field name="sazmanaddress_postcode" string="کد پستی" width="500pxl"/>
+                    <field name="sazmanaddress_shahrdari" string="ناحیه شهرداری" width="500pxl"/>
+                    <field name="sazmanaddress_telephone1" string="تلفن 1" width="500pxl"/>
+                    <field name="sazmanaddress_telephone2" string="تلفن 2" width="500pxl"/>
+                    <field name="sazmanaddress_fax" string="نمابر" width="500pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="500pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="500pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="500pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="500pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_sazmanaddress_form" model="ir.ui.view">
+            <field name="name">Generaldata Sazman Address Form</field>
+            <field name="model">leasing_generaldata.generaldata_sazmanaddress</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="sazmanaddress_type" string="نوع آدرس :"/>
+                            <field name="sazmanaddress_ownershipid" string="نوع مالکیت :"/>
+                            <field name="sazmanaddress_stateid" string="استان :"/>
+                            <field name="sazmanaddress_cityid" string="شهر :"/>
+                            <field name="sazmanaddress_address" string="آدرس :"/>
+                            <field name="sazmanaddress_postcode" string="کد پستی :"/>
+                            <field name="sazmanaddress_shahrdari" string="ناحیه شهرداری :"/>
+                            <field name="sazmanaddress_telephone1" string="تلفن 1 :"/>
+                            <field name="sazmanaddress_telephone2" string="تلفن 2 :"/>
+                            <field name="sazmanaddress_fax" string="نمابر :"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_sazmanaddress_action_window">
+            <field name="name">معرفی آدرس سازمان</field>
+            <field name="res_model">leasing_generaldata.generaldata_sazmanaddress</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

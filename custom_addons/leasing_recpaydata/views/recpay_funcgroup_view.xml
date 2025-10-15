@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 100%;">
                         <group>
-                            <field name="funcgroup_code" string="کد گروه فعالیت مالی"/>
-                            <field name="funcgroup_name" string="نام گروه فعالیت مالی"/>
+                            <field name="funcgroup_code" string="کد گروه فعالیت مالی :"/>
+                            <field name="funcgroup_name" string="نام گروه فعالیت مالی :"/>
                         </group>
                     </sheet>
                 </form>

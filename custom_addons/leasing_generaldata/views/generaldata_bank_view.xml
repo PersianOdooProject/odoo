@@ -8,12 +8,12 @@
             <field name="model">leasing_generaldata.generaldata_bank</field>
             <field name="arch" type="xml">
                 <list>
-                    <field name="id" string="کد داخلی"/>
-                    <field name="bank_name" width="300pxl"/>
-                    <field name="create_uid" string="کاربر ایجاد کننده" width="100pxl"/>
-                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="100pxl"/>
-                    <field name="write_uid" string="کاربر تغییر دهنده" width="100pxl"/>
-                    <field name="write_date" string="تاریخ و ساعت تغییر" width="100pxl"/>
+                    <field name="id" string="کد داخلی" width="500pxl"/>
+                    <field name="bank_name" width="500pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="500pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="500pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="500pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="500pxl"/>
                 </list>
             </field>
         </record>
@@ -51,8 +51,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="bank_name" string="نام بانک"/>
-                            <field name="bank_image" string="لوگوی بانک" class="oe_avatar" widget="image"/>
+                            <field name="bank_name" string="نام بانک :"/>
+                            <field name="bank_image" string="لوگوی بانک :" class="oe_avatar" widget="image"/>
                         </group>
                     </sheet>
                 </form>

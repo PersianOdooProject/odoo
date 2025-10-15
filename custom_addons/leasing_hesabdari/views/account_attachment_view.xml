@@ -25,7 +25,7 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="attachment_name" string="شرح ضمائم سند حسابداری"/>
+                            <field name="attachment_name" string="شرح ضمائم سند حسابداری :"/>
                         </group>
                     </sheet>
                 </form>

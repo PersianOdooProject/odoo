@@ -26,11 +26,11 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="acc_ledger_len" string="طول حساب کل" readonly="ledger_total_record > 0"/>
-                            <field name="acc_sledger_len" string="طول حساب معین" readonly="sledger_total_record > 0"/>
-                            <field name="acc_ssledger_len" string="طول حساب تفصیل"
+                            <field name="acc_ledger_len" string="طول حساب کل :" readonly="ledger_total_record > 0"/>
+                            <field name="acc_sledger_len" string="طول حساب معین :" readonly="sledger_total_record > 0"/>
+                            <field name="acc_ssledger_len" string="طول حساب تفصیل :"
                                    readonly="ssledger_total_record > 0"/>
-                            <field name="month_id" string="شروع سال مالی براساس ماه"
+                            <field name="month_id" string="شروع سال مالی براساس ماه :"
                                    readonly="accountyear_total_record > 0"/>
                         </group>
                     </sheet>

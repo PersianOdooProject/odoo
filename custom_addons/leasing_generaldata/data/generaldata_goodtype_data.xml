@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gndgoodtype1" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">1</field>
+           <field name="goodtype_name">سواري</field>
+        </record>
+
+        <record id="gndgoodtype2" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">2</field>
+           <field name="goodtype_name">كار</field>
+        </record>
+
+        <record id="gndgoodtype3" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">3</field>
+           <field name="goodtype_name">راهسازي</field>
+        </record>
+
+        <record id="gndgoodtype4" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">4</field>
+           <field name="goodtype_name">كارگاهي</field>
+        </record>
+
+        <record id="gndgoodtype5" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">5</field>
+           <field name="goodtype_name">پزشكي</field>
+        </record>
+
+        <record id="gndgoodtype6" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">6</field>
+           <field name="goodtype_name">لوازم خانگي</field>
+        </record>
+
+        <record id="gndgoodtype7" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">7</field>
+           <field name="goodtype_name">مستغلات</field>
+        </record>
+
+        <record id="gndgoodtype8" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">8</field>
+           <field name="goodtype_name">تجهيزات</field>
+        </record>
+
+        <record id="gndgoodtype9" model="leasing_generaldata.generaldata_goodtype">
+           <field name="goodtype_oldcode">9</field>
+           <field name="goodtype_name">ساير</field>
+        </record>
+
+     </data>
+</odoo>

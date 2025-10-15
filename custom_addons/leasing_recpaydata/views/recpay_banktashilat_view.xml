@@ -58,32 +58,32 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="bankbranch_id" string="شعبه بانک"/>
-                            <field name="branchbank_name1" string="نام بانک"/>
-                            <field name="tashilattype_id" string="نوع تسهیلات"/>
-                            <field name="tashilat_name" string="شرح تسهیلات"/>
-                            <field name="tashilat_no" string="شماره تسهیلات"/>
-                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="bankbranch_id" string="شعبه بانک :"/>
+                            <field name="branchbank_name1" string="نام بانک :"/>
+                            <field name="tashilattype_id" string="نوع تسهیلات :"/>
+                            <field name="tashilat_name" string="شرح تسهیلات :"/>
+                            <field name="tashilat_no" string="شماره تسهیلات :"/>
+                            <field name="ssledger_id" string="حساب تفصیل :"/>
                         </group>
                         <group>
                             <group>
-                                <field name="tedad_ghest" string="تعداد اقساط"/>
-                                <field name="tashilatdarayft_date" string="تاریخ دریافت"/>
-                                <field name="tashilatstart_date" string="تاریخ شروع"/>
-                                <field name="tashilatend_date" string="تاریخ پایان"/>
-                                <field name="tashilat_rate" string="نرخ تسهیلات" digits="[8,5]"/>
-                                <field name="masdodi_rate" string="نرخ مسدودی" digits="[8,5]"/>
-                                <field name="karmozd_rate" string="نرخ کارمزد" digits="[8,5]"/>
-                                <field name="jarimeh_rate" string="نرخ جریمه" digits="[8,5]"/>
+                                <field name="tedad_ghest" string="تعداد اقساط :"/>
+                                <field name="tashilatdarayft_date" string="تاریخ دریافت :"/>
+                                <field name="tashilatstart_date" string="تاریخ شروع :"/>
+                                <field name="tashilatend_date" string="تاریخ پایان :"/>
+                                <field name="tashilat_rate" string="نرخ تسهیلات :" digits="[8,5]"/>
+                                <field name="masdodi_rate" string="نرخ مسدودی :" digits="[8,5]"/>
+                                <field name="karmozd_rate" string="نرخ کارمزد :" digits="[8,5]"/>
+                                <field name="jarimeh_rate" string="نرخ جریمه :" digits="[8,5]"/>
                             </group>
                             <group>
-                                <field name="vasighe_rate" string="نرخ وثیقه" digits="[8,5]"/>
-                                <field name="moaser_rate" string="نرخ موثر" digits="[8,5]"/>
-                                <field name="asltashilat" string="اصل تسهیلات" digits="[20,0]"/>
-                                <field name="sodtashilat" string="سود تسهیلات" digits="[20,0]"/>
-                                <field name="zemanatmab" string="مبلغ ضمانت" digits="[20,0]"/>
-                                <field name="tashilatstatus_id" string="وضعیت تسهیلات"/>
-                                <field name="tashilattasvieh_date" string="تاریخ تسویه"/>
+                                <field name="vasighe_rate" string="نرخ وثیقه :" digits="[8,5]"/>
+                                <field name="moaser_rate" string="نرخ موثر :" digits="[8,5]"/>
+                                <field name="asltashilat" string="اصل تسهیلات :" digits="[20,0]"/>
+                                <field name="sodtashilat" string="سود تسهیلات :" digits="[20,0]"/>
+                                <field name="zemanatmab" string="مبلغ ضمانت :" digits="[20,0]"/>
+                                <field name="tashilatstatus_id" string="وضعیت تسهیلات :"/>
+                                <field name="tashilattasvieh_date" string="تاریخ تسویه :"/>
                             </group>
                         </group>
                     </sheet>

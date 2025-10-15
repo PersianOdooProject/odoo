@@ -37,6 +37,7 @@ class Generalbasedef(models.Model):
     month_name1 = fields.Char(related='month_id.month_name', store=True, readonly=True)
     month_numname1 = fields.Char(related='month_id.month_numname', readonly=True)
     accountyear_total_record = fields.Integer(compute=_compute_accountyear_counter, string="تعداد سال مالی")
+    goodcodelen = fields.Integer(default=5)
 
     @api.constrains('acc_ledger_len')
     def check_acc_ledger_len(self):
@@ -55,3 +56,9 @@ class Generalbasedef(models.Model):
         for rec in self:
             if rec.acc_ssledger_len < 1 or rec.acc_ssledger_len > 10:
                 raise ValidationError('طول حساب تفصیل باید بین 1 الی 10 باشد')
+
+    @api.constrains('goodcodelen')
+    def check_goodcodelen(self):
+        for rec in self:
+            if rec.goodcodelen < 5 or rec.goodcodelen > 20:
+                raise ValidationError('طول کد کالا باید بین 5 الی 20 باشد')

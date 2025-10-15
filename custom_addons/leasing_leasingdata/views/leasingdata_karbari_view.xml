@@ -25,7 +25,7 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="karbari_name" string="معرفی کاربری"/>
+                            <field name="karbari_name" string="نام کاربری :"/>
                         </group>
                     </sheet>
                 </form>

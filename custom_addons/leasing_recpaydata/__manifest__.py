@@ -6,7 +6,7 @@
     'category': '',
     'summary': 'مدیریت اطلاعات دریافت و پرداخت نرم افزار جامع لیزینگ',
     'description': "مدیریت اطلاعات دریافت و پرداخت نرم افزار جامع لیزینگ",
-    'depends':['leasing_generaldata'],
+    'depends':['base','leasing_generaldata'],
     'data':[
             'security/ir.model.access.csv',
             'data/recpay_behalf_data.xml',

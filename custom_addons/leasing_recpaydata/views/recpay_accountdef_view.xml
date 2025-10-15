@@ -31,13 +31,13 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="account_no" string="شماره حساب"/>
-                            <field name="account_name" string="نام حساب"/>
-                            <field name="account_sheba" string="شماره شبا"/>
-                            <field name="bankbranch_id" string="شعبه بانک"/>
-                            <field name="branchbank_name1" string="نام بانک"/>
-                            <field name="branchcity_name1" string="نام شهر"/>
-                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="account_no" string="شماره حساب :"/>
+                            <field name="account_name" string="نام حساب :"/>
+                            <field name="account_sheba" string="شماره شبا :"/>
+                            <field name="bankbranch_id" string="شعبه بانک :"/>
+                            <field name="branchbank_name1" string="نام بانک :"/>
+                            <field name="branchcity_name1" string="نام شهر :"/>
+                            <field name="ssledger_id" string="حساب تفصیل :"/>
                         </group>
                     </sheet>
                 </form>

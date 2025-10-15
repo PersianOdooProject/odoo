@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_taminkala_search">
+            <field name="name">Generaldata Teminkala Search</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <search>
+                </search>
+            </field>
+        </record>
+
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_taminkala_list">
+            <field name="name">Generaldata Taminkala list</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی" width="500pxl"/>
+                    <field name="person_type" string="نوع شخص" width="500pxl"/>
+                    <field name="person_jensiat" string="جنسیت" width="500pxl"/>
+                    <field name="person_namefamil" string="نام و نام خانوادگی/نام شرکت" width="500pxl"/>
+                    <field name="person_natcode" string="کد/شناسه ملی" width="500pxl"/>
+                    <field name="sazman_name1" string="سازمان" width="500pxl"/>
+                    <field name="person_namamel1" string="نام نماینده" width="500pxl"/>
+                    <field name="person_namamel2" string="نام فرد کلیدی" width="500pxl"/>
+                    <field name="person_mobile1" string="تلفن همراه 1" width="500pxl"/>
+                    <field name="person_mobile2" string="تلفن همراه 2" width="500pxl"/>
+                    <field name="person_economiccode" string="کد اقتصادی" width="500pxl"/>
+                    <field name="ssledger_id" string="حساب تفصیل" width="500pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="500pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="500pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="500pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="500pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_taminkala_kanban" model="ir.ui.view">
+            <field name="name">Generaldata Taminkala Kanban</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="id"/>
+                    <field name="person_namefamil"/>
+                    <field name="person_image"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img class="o_kanban_image_inner_pic"
+                                         t-att-src="kanban_image('leasing_generaldata.generaldata_person', 'person_image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <ul>
+                                        <li>
+                                            نام و نام خانوادگی/نام شرکت :
+                                            <field name="person_namefamil"/>
+                                        </li>
+                                        <li>
+                                            کد/شناسه ملی :
+                                            <field name="person_natcode"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_taminkala_form" model="ir.ui.view">
+            <field name="name">Generaldata Taminkala Form</field>
+            <field name="model">leasing_generaldata.generaldata_person</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 100%;">
+                        <group>
+                            <field name="person_name" string="نام شخص/شرکت 1 :"/>
+                            <field name="person_famil" string="نام خانوادگی/شرکت 2 :"/>
+                            <field name="person_type" string="نوع شخص :" widget="radio" options="{'horizontal':True}"/>
+                            <field name="person_jensiat" string="جنسیت :" readonly="person_type == '2'" widget="radio"
+                                   options="{'horizontal':True}"/>
+                            <field name="person_natcode" string="کد/شناسه ملی :"/>
+                            <field name="companybranch_prefix" string="پيش شماره قرارداد :"/>
+                            <field name="sazman_id" string="سازمان :"/>
+                            <field name="person_namamel1" string="نام نماینده :"/>
+                            <field name="person_namamel2" string="نام فرد کلیدی :"/>
+                            <field name="person_mobile1" string="تلفن همراه 1 :"/>
+                            <field name="person_mobile2" string="تلفن همراه 2 :"/>
+                            <field name="person_economiccode" string="کد اقتصادی :"/>
+                            <field name="ssledger_id" string="حساب تفصیل :"/>
+                            <field name="person_image" string="عکس نمایندگی :" class="oe_avatar"
+                                   widget="image"/>
+                            <notebook>
+                                <page string="ثبت ادرس های اشخاص">
+                                    <group>
+                                        <field name="personaddress_list" string=" "/>
+                                    </group>
+                                </page>
+                                <page string="تعهدات و ديون اشخاص">
+                                    <group>
+                                        <field name="persontahodat_list" string=" "/>
+                                    </group>
+                                </page>
+                                <page string="اطلاعات فردی اشخاص حقیقی" invisible="person_type == '2'">
+                                    <group>
+                                        <field name="person_fathername" string="نام پدر :"/>
+                                        <field name="person_shenasnameh" string="شماره شناسنامه :"/>
+                                        <field name="person_shenasnamehserial" string="سریال شناسنامه :"/>
+                                        <field name="person_otherasset" string="سایر امکانات مالی و سرمایه گذاری :"/>
+                                        <field name="person_otheramval" string="اطلاعات اموال و داراییهای موجود :"/>
+                                    </group>
+                                    <group>
+                                        <group>
+                                            <field name="person_sodorcityid" string="محل صدور شناسنامه :"/>
+                                            <field name="person_tavalodcityid" string="محل تولد :"/>
+                                            <field name="person_martialstatus" string="وضعیت تاهل :" widget="radio"
+                                                   options="{'horizontal':True}"/>
+                                            <field name="person_spousename" string="نام و نام خانوادگی همسر :"/>
+                                            <field name="person_spousesalary" string="میزان حقوق دریافتی همسر:"
+                                                   digits="[20,0]"/>
+                                        </group>
+                                        <group>
+                                            <field name="person_issueddate" string="تاریخ صدور شناسنامه :"/>
+                                            <field name="person_birthdate" string="تاریخ تولد :"/>
+                                            <field name="person_sponsorno" string="تعداد افراد تحت تکفل :"/>
+                                            <field name="person_spousenatcode" string="کد ملی همسر :"/>
+                                        </group>
+                                    </group>
+                                </page>
+                                <page string="اطلاعات شغلی اشخاص حقیقی" invisible="person_type == '2'">
+                                    <group>
+                                        <field name="person_workname" string="نام محل کار :"/>
+                                        <field name="person_worktitle" string="سمت :"/>
+                                        <field name="person_workpersoncode" string="شماره شناسایی :"/>
+                                        <field name="person_workrecord" string="سابقه کار :"/>
+                                        <field name="person_worksalary" string="میزان حقوق یا درآمد ماهیانه :"
+                                               digits="[20,0]"/>
+                                    </group>
+                                    <group>
+                                        <group>
+                                            <field name="person_kasrashogoghno" string="شماره نامه کسر از حقوق :"/>
+                                            <field name="person_workstateid" string="استان :"/>
+                                            <field name="person_workaddress" string="آدرس :"/>
+                                            <field name="person_workshahrdari" string="ناحیه شهرداری :"/>
+                                            <field name="person_worktelephone" string="تلفن :"/>
+                                            <field name="person_workfax" string="نمابر :"/>
+                                            <field name="person_kasrashogoghdate" string="تاریخ نامه کسر از حقوق :"/>
+                                        </group>
+                                        <group>
+                                            <field name="person_workcityid" string="شهر :"/>
+                                            <field name="person_workpostcode" string="کد پستی :"/>
+                                            <field name="person_workonvankasb" string="عنوان پروانه کسب :"/>
+                                            <field name="person_workshomarehkasb" string="شماره پروانه کسب :"/>
+                                            <field name="person_workkasbcityid" string="محل صدور پروانه کسب :"/>
+                                            <field name="person_worksodorkasbdate" string="تاریخ صدور پروانه کسب :"/>
+                                            <field name="person_worketebarkasbdate" string="مدت اعتبار پروانه کسب :"/>
+                                        </group>
+                                    </group>
+                                </page>
+                                <page string="اطلاعات  اشخاص حقوقی" invisible="person_type == '1'">
+                                    <group>
+                                        <group>
+                                            <field name="person_comptypeid" string="نوع شرکت :"/>
+                                            <field name="person_sodorcityid" string="محل ثبت :"/>
+                                            <field name="person_tasisdate" string="تاریخ تاسیس :"/>
+                                            <field name="person_heiatmodirehno" string="تعداد اعضاء هیئت مدبره :"/>
+                                            <field name="person_roznameh" string="شماره روزنامه رسمی :"/>
+                                            <field name="person_lastchange" string="آخرین تغییرات :"/>
+                                        </group>
+                                        <group>
+                                            <field name="person_president" string="نام مدیر عامل :"/>
+                                            <field name="person_issueddate" string="تاریخ ثبت :"/>
+                                            <field name="person_modatsabt" string="مدت ثبت :"/>
+                                            <field name="person_sarmaye" string="سرمایه شرکت :"/>
+                                            <field name="person_rozndate" string="تاریخ روزنامه رسمی :"/>
+                                            <field name="person_typework" string="نوع فعالیت براساس اساسنامه :"/>
+                                        </group>
+                                    </group>
+                                </page>
+                                <page string="ثبت تجهیزات اشخاص حقوقی" invisible="person_type == '1'">
+                                    <group>
+                                        <field name="persontajhizat_list" string=" "/>
+                                    </group>
+                                </page>
+                                <page string="ثبت سهامداران عمده/شرکاء اشخاص حقوقی" invisible="person_type == '1'">
+                                    <group>
+                                        <field name="personshoraka_list" string=" "/>
+                                    </group>
+                                </page>
+                                <page string="ثبت اعضاء هیئت مدیره اشخاص حقوقی" invisible="person_type == '1'">
+                                    <group>
+                                        <field name="personazaemodirat_list" string=" "/>
+                                    </group>
+                                </page>
+                                <page string="ثبت اموال غير منقول شركت/سهامداران/شركا اشخاص حقوقی"
+                                      invisible="person_type == '1'">
+                                    <group>
+                                        <field name="personmodiramval_list" string=" "/>
+                                    </group>
+                                </page>
+                            </notebook>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_taminkala_action_window">
+            <field name="name">معرفی تامین کننده کالا</field>
+            <field name="res_model">leasing_generaldata.generaldata_person</field>
+            <field name="view_mode">kanban,list,form</field>
+            <field name="search_view_id" ref="leasing_generaldata.generaldata_taminkala_search"/>
+            <field name="context">{'default_person_taminkala':True ,'default_companybranch_prefix':' '}</field>
+            <field name="domain">[('person_taminkala','=', True)]</field>
+        </record>
+
+        <record model="ir.actions.act_window.view"
+                id="leasing_generaldata.generaldata_kanbantaminkala_action_window">
+            <field name="view_mode">kanban</field>
+            <field name="view_id" ref="leasing_generaldata.generaldata_taminkala_kanban"/>
+            <field name="act_window_id" ref="leasing_generaldata.generaldata_taminkala_action_window"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="leasing_generaldata.generaldata_listtaminkala_action_window">
+            <field name="view_mode">list</field>
+            <field name="view_id" ref="leasing_generaldata.generaldata_taminkala_list"/>
+            <field name="act_window_id" ref="leasing_generaldata.generaldata_taminkala_action_window"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="leasing_generaldata.generaldata_formtaminkala_action_window">
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="leasing_generaldata.generaldata_taminkala_form"/>
+            <field name="act_window_id" ref="leasing_generaldata.generaldata_taminkala_action_window"/>
+        </record>
+
+    </data>
+</odoo>

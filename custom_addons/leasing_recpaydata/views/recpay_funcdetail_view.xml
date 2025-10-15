@@ -8,8 +8,6 @@
             <field name="arch" type="xml">
                 <search>
                     <field name="funcgroupdetail_code"/>
-                    <filter name="filter_by_basegroupdetail_code" string="فعالیت"
-                            domain="[('basegroupdetail_show' , '=' ,'1')]"/>
                     <filter name="group_by_funcgroupcodename" string="گروه فعالیت"
                             context="{'group_by': 'funcgroup_codename'}"/>
                 </search>
@@ -65,30 +63,30 @@
                 <form>
                     <sheet style="max-width : 100%;">
                         <group>
-                            <field name="funcgroup_codename" string="کد و نام گروه فعالیت مالی"/>
-                            <field name="funcgroupdetail_code" string="کد فعالیت مالی"/>
-                            <field name="funcdetail_des" string="شرح فعالیت مالی"/>
-                            <field name="sledgerdebit_id" string="حساب کل و معین بدهکار"/>
-                            <field name="sledgerdebit_name" string="نام حساب معین بدهکار"/>
-                            <field name="sledgercredit_id" string="حساب کل و معین بستانکار" width="300pxl"/>
-                            <field name="sledgercredit_name" string="نام حساب معین بستانکار" width="300pxl"/>
+                            <field name="funcgroup_codename" string="کد و نام گروه فعالیت مالی :"/>
+                            <field name="funcgroupdetail_code" string="کد فعالیت مالی :"/>
+                            <field name="funcdetail_des" string="شرح فعالیت مالی :"/>
+                            <field name="sledgerdebit_id" string="حساب کل و معین بدهکار :"/>
+                            <field name="sledgerdebit_name" string="نام حساب معین بدهکار :"/>
+                            <field name="sledgercredit_id" string="حساب کل و معین بستانکار :" width="300pxl"/>
+                            <field name="sledgercredit_name" string="نام حساب معین بستانکار :" width="300pxl"/>
                         </group>
                         <group>
                             <group>
-                                <field name="ssledger1_debit" string="نوع حساب تفصیل بدهکار1"/>
-                                <field name="ssledger2_debit" string="نوع حساب تفصیل بدهکار2"/>
-                                <field name="ssledger3_debit" string="نوع حساب تفصیل بدهکار3"/>
-                                <field name="ssledger1_credit" string="نوع حساب تفصیل بستانکار1"/>
-                                <field name="ssledger2_credit" string="نوع حساب تفصیل بستانکار2"/>
-                                <field name="ssledger3_credit" string="نوع حساب تفصیل بستانکار3"/>
+                                <field name="ssledger1_debit" string="نوع حساب تفصیل بدهکار1 :"/>
+                                <field name="ssledger2_debit" string="نوع حساب تفصیل بدهکار2 :"/>
+                                <field name="ssledger3_debit" string="نوع حساب تفصیل بدهکار3 :"/>
+                                <field name="ssledger1_credit" string="نوع حساب تفصیل بستانکار1 :"/>
+                                <field name="ssledger2_credit" string="نوع حساب تفصیل بستانکار2 :"/>
+                                <field name="ssledger3_credit" string="نوع حساب تفصیل بستانکار3 :"/>
                             </group>
                             <group>
-                                <field name="ssledgerid1_debit" string="حساب تفصیل ثابت بدهکار 1"/>
-                                <field name="ssledgerid2_debit" string="نوع حساب تفصیل ثابت بدهکار 2"/>
-                                <field name="ssledgerid3_debit" string="نوع حساب تفصیل ثابت بدهکار 3"/>
-                                <field name="ssledgerid1_credit" string="نوع حساب تفصیل ثابت بستانکار 1"/>
-                                <field name="ssledgerid2_credit" string="نوع حساب تفصیل ثابت بستانکار 2"/>
-                                <field name="ssledgerid3_credit" string="نوع حساب تفصیل ثابت بستانکار 3"/>
+                                <field name="ssledgerid1_debit" string="حساب تفصیل ثابت بدهکار 1 :"/>
+                                <field name="ssledgerid2_debit" string="نوع حساب تفصیل ثابت بدهکار 2 :"/>
+                                <field name="ssledgerid3_debit" string="نوع حساب تفصیل ثابت بدهکار 3 :"/>
+                                <field name="ssledgerid1_credit" string="نوع حساب تفصیل ثابت بستانکار 1 :"/>
+                                <field name="ssledgerid2_credit" string="نوع حساب تفصیل ثابت بستانکار 2 :"/>
+                                <field name="ssledgerid3_credit" string="نوع حساب تفصیل ثابت بستانکار 3 :"/>
                             </group>
                         </group>
 
@@ -102,9 +100,8 @@
             <field name="name">فعالیت های مالی</field>
             <field name="res_model">leasing_recpaydata.recpay_funcdetail</field>
             <field name="view_mode">list,form</field>
-            <field name="context">{'search_default_group_by_funcgroupcodename': 1
-                ,'search_default_filter_by_basegroupdetail_code': 1}
-            </field>
+            <field name="context">{'search_default_group_by_funcgroupcodename': 1}</field>
+            <field name="domain">[('basegroupdetail_show','=', '1')]</field>
         </record>
 
     </data>

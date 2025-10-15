@@ -27,10 +27,10 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="kolmoin1" string=" کد حساب کل و معین"/>
-                            <field name="sledger_name1" string="عنوان حساب معین"/>
-                            <field name="ssledger_id" string="حساب تفصیل"/>
-                            <field name="ssledger1" string=" کد حساب تفصیل"/>
+                            <field name="kolmoin1" string="کد حساب کل و معین :"/>
+                            <field name="sledger_name1" string="عنوان حساب معین :"/>
+                            <field name="ssledger_id" string="حساب تفصیل :"/>
+                            <field name="ssledger1" string="کد حساب تفصیل :"/>
                         </group>
                     </sheet>
                 </form>

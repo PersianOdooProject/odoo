@@ -26,15 +26,5 @@
             <field name="view_mode">list</field>
         </record>
 
-        <record id="report_leasing_hesabdari_account_group" model="ir.actions.report">
-            <field name="name">گزارش گروه حساب بانک مرکزی</field>
-            <field name="model">leasing_hesabdari.account_bankaccgroup</field>
-            <field name="report_type">qweb-pdf</field>
-            <field name="report_name">leasing_hesabdari.report_account_bankaccgroup</field>
-            <field name="report_file">leasing_hesabdari.report_account_bankaccgroup</field>
-            <field name="binding_model_id" ref="model_leasing_hesabdari_account_bankaccgroup"/>
-            <field name="binding_type">report</field>
-        </record>
-
     </data>
 </odoo>

@@ -5,4 +5,4 @@ class Leasingkarbari(models.Model):
     _rec_name = "karbari_name"
 
     karbari_oldcode = fields.Integer(size=10)
-    karbari_name = fields.Char(string="معرفی کاربری", size=50, required=True)
+    karbari_name = fields.Char(string="نام کاربری", size=50, required=True)

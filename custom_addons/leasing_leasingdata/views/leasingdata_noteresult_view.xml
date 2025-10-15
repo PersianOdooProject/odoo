@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="noteresult_code" string="کد نتیجه يادداشت پرونده"/>
-                            <field name="noteresult_name" string="شرح نتیجه يادداشت پرونده"/>
+                            <field name="noteresult_code" string="کد نتیجه يادداشت پرونده :"/>
+                            <field name="noteresult_name" string="شرح نتیجه يادداشت پرونده :"/>
                         </group>
                     </sheet>
                 </form>

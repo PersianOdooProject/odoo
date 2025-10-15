@@ -28,9 +28,9 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="taghvimmalicode_group" string="گروه اطلاعات پایه تقویم مالی"
+                            <field name="taghvimmalicode_group" string="گروه اطلاعات پایه تقویم مالی :"
                                    readonly="taghvimmalicode_default == True"/>
-                            <field name="taghvimmalicode_name" string="شرح اطلاعات پایه تقویم مالی"
+                            <field name="taghvimmalicode_name" string="شرح اطلاعات پایه تقویم مالی :"
                                    readonly="taghvimmalicode_default == True"/>
                         </group>
                     </sheet>

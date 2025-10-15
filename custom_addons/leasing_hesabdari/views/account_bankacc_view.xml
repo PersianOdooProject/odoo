@@ -27,8 +27,8 @@
                 <form>
                     <sheet style="max-width : 100%;">
                         <group>
-                            <field name="bankacc_code" string="کد حساب بانک مرکزی"/>
-                            <field name="bankacc_name" string="عنوان حساب بانک مرکزی"/>
+                            <field name="bankacc_code" string="کد حساب بانک مرکزی :"/>
+                            <field name="bankacc_name" string="عنوان حساب بانک مرکزی :"/>
                         </group>
                         <notebook>
                             <page string="تنظیم ارتباط حساب بانک مرکزی و حساب کل و معین">

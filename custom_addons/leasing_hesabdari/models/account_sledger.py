@@ -10,21 +10,21 @@ class Accountsledger(models.Model):
     @api.depends('sledger')
     def _compute_kolmoin(self):
         for rec in self:
-            rec.kolmoin = rec.ledger1 + rec.sledger
+            rec.kolmoin = str(rec.ledger1 or '') + rec.sledger
 
     @api.depends('sledger' ,'sledger_name')
     def _compute_sledger_code_name(self):
         for rec in self:
-            rec.sledger_code_name = rec.ledger1 + rec.sledger + ' ' + rec.sledger_name
+            rec.sledger_code_name = str(rec.kolmoin or '') + ' ' + rec.sledger_name
 
     ledger_id = fields.Many2one("leasing_hesabdari.account_ledger")
-    ledger1 = fields.Char(related='ledger_id.ledger', readonly=True ,default="")
+    ledger1 = fields.Char(related='ledger_id.ledger', readonly=True ,default=" ")
     ledger_name1 = fields.Char(related='ledger_id.ledger_name', readonly=True)
     ledger_code_name1 = fields.Char(related='ledger_id.ledger_code_name', store=True,readonly=True)
     accountsoodziangroup_id = fields.Many2one("leasing_hesabdari.accountsoodzian_group", required=True)
     accountsoodziangroup_name1 = fields.Char(related='accountsoodziangroup_id.accountsoodziangroup_name', readonly=True)
-    sledger = fields.Char(string="کد حساب معین", size=10, required=True ,default="")
-    sledger_name = fields.Char(string="عنوان حساب معین", size=100, required=True ,default="")
+    sledger = fields.Char(string="کد حساب معین", size=10, required=True ,default=" ")
+    sledger_name = fields.Char(string="عنوان حساب معین", size=100, required=True ,default=" ")
     sledger_code_name = fields.Char(compute=_compute_sledger_code_name, string="حساب معین")
     ssubdef_id = fields.Many2one("leasing_hesabdari.account_ssubdef", "نوع ارتباط با حساب تفصیل", required=True)
     ssubdef_name1 = fields.Char(related='ssubdef_id.ssubdef_name', readonly=True)
@@ -35,7 +35,7 @@ class Accountsledger(models.Model):
     sledger_isactive = fields.Boolean(string="وضعیت حساب(فعال/غیرفعال)", required=True, default=True)
     general_basedef_id = fields.Many2one("leasing_hesabdari.general_basedef", default=1)
     acc_sledger_len1 = fields.Integer(related='general_basedef_id.acc_sledger_len', readonly=True)
-    kolmoin = fields.Char(compute=_compute_kolmoin, string='حساب کل و معین', store=True, readonly=True)
+    kolmoin = fields.Char(compute=_compute_kolmoin, string='حساب کل و معین', store=True, readonly=True ,default="")
     ssublink_id = fields.Many2many("leasing_hesabdari.account_ssledger" ,"leasing_hesabdari_account_ssublink" ,"sledger_id" ,"ssledger_id")
 
     _sql_constraints = [

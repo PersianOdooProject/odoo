@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_personazaemodirat_list">
+            <field name="name">Generaldata Person Azaemodirat list</field>
+            <field name="model">leasing_generaldata.generaldata_personazaemodirat</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی" width="500pxl"/>
+                    <field name="personazaemodirat_name" string="نام و نام خانوادگی" width="500pxl"/>
+                    <field name="personazaemodirat_semat" string="سمت" width="500pxl"/>
+                    <field name="personazaemodirat_tahsilat" string="میزان تحصیلات" width="500pxl"/>
+                    <field name="personazaemodirat_description" string="توضیحات" width="500pxl"/>
+                    <field name="personazaemodirat_isactive" string="وضعیت(فعال/غیرفعال)" width="500pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="500pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="500pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="500pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="500pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_personazaemodirat_form" model="ir.ui.view">
+            <field name="name">Generaldata Person Azaemodirat Form</field>
+            <field name="model">leasing_generaldata.generaldata_personazaemodirat</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="personazaemodirat_name" string="نام و نام خانوادگی :"/>
+                            <field name="personazaemodirat_semat" string="سمت :"/>
+                            <field name="personazaemodirat_tahsilat" string="میزان تحصیلات :"/>
+                            <field name="personazaemodirat_description" string="توضیحات :"/>
+                            <field name="personazaemodirat_isactive" string="وضعیت(فعال/غیرفعال) :"/>
+                            <field name="personazaemodirat_image" string="عکس نمونه امضاء :" class="oe_avatar"
+                                   widget="image"/>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_personazaemodirat_action_window">
+            <field name="name">معرفی اعضاء هیئت مدیره اشخاص حقوقی</field>
+            <field name="res_model">leasing_generaldata.generaldata_personazaemodirat</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

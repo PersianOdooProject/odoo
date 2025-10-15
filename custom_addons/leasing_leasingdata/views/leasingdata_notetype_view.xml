@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="notetype_code" string="کد نوع فعاليت يادداشت پرونده"/>
-                            <field name="notetype_name" string="شرح نوع فعاليت يادداشت پرونده"/>
+                            <field name="notetype_code" string="کد نوع فعاليت يادداشت پرونده :"/>
+                            <field name="notetype_name" string="شرح نوع فعاليت يادداشت پرونده :"/>
                         </group>
                     </sheet>
                 </form>

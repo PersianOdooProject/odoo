@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_leasingdata.leasing_formolcalculation_list">
+            <field name="name">Leasingdata Formol Calculation list</field>
+            <field name="model">leasing_leasingdata.leasing_formolcalculation</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی محاسبات قرارداد" width="500pxl"/>
+                    <field name="formolcalculation_tedadmah" string="مدت قرارداد" width="500pxl"/>
+                    <field name="formolcalculation_tanavobghest" string="تناوب اقساط" width="500pxl"/>
+                    <field name="formolcalculation_tedadghest" string="تعداد اقساط" width="500pxl"/>
+                    <field name="formolcalculation_mabkala" string="مبلغ کالا" width="500pxl"/>
+                    <field name="formolcalculation_tashilat" string="مبلغ تسهیلات" width="500pxl"/>
+                    <field name="formolcalculation_ratesod" string="نرخ سود" width="500pxl"/>
+                    <field name="formolcalculation_sodtashilat" string="مبلغ سود تسهیلات" width="500pxl"/>
+                    <field name="formolcalculation_aslsod" string="مبلغ اصل و سود تسهیلات" width="500pxl"/>
+                    <field name="formolcalculation_pisdaryaft" string="مبلغ پیش دریافت شرکت" width="500pxl"/>
+                    <field name="formolcalculation_tolidpisdaryaft" string="مبلغ پیش دریافت تامین کننده"
+                           width="500pxl"/>
+                    <field name="formolcalculation_roztavaghof" string="تعداد روز توقف سرمایه" width="500pxl"/>
+                    <field name="formolcalculation_mabtavaghof" string="مبلغ توقف سرمایه" width="500pxl"/>
+                    <field name="formolcalculation_sayermab1" string="سایر مبالغ 1" width="500pxl"/>
+                    <field name="formolcalculation_sayermab2" string="سایر مبالغ 2" width="300pxl"/>
+                    <field name="formolcalculation_sayermab3" string="سایر مبالغ 3" width="500pxl"/>
+                    <field name="formolcalculation_ratesayer4" string="نرخ سایر مبالغ 4" width="500pxl"/>
+                    <field name="formolcalculation_sayermab4" string="سایر مبالغ 4" width="500pxl"/>
+                    <field name="formolcalculation_sayermab5" string="سایر مبالغ 5" width="500pxl"/>
+                    <field name="formolcalculation_sayermab6" string="سایر مبالغ 6" width="500pxl"/>
+                    <field name="formolcalculation_arzeshrate" string="نرخ ارزش افزوده" width="500pxl"/>
+                    <field name="formolcalculation_arzeshmab" string="مبلغ ارزش افزوده" width="500pxl"/>
+                    <field name="formolcalculation_saftehrate" string="نرخ سفته" width="500pxl"/>
+                    <field name="formolcalculation_saftehmab" string="مبلغ سفته" width="500pxl"/>
+                    <field name="formolcalculation_checkrate" string="نرخ چک" width="500pxl"/>
+                    <field name="formolcalculation_checkmab" string="مبلغ چک" width="500pxl"/>
+                    <field name="formolcalculation_ghrardadmab" string="مبلغ قرارداد" width="500pxl"/>
+                    <field name="formolcalculation_malolejaremab" string="مبلغ مال الاجاره" width="500pxl"/>
+                    <field name="formolcalculation_firstmghest" string="مبلغ قسط اول پایه" width="500pxl"/>
+                    <field name="formolcalculation_restmghest" string="مبلغ سایر اقساط پایه" width="500pxl"/>
+                    <field name="formolcalculation_lastmghest" string="مبلغ قسط آخر پایه" width="500pxl"/>
+                    <field name="formolcalculation_firstghest" string="مبلغ قسط اول" width="500pxl"/>
+                    <field name="formolcalculation_restghest" string="مبلغ سایر اقساط" width="500pxl"/>
+                    <field name="formolcalculation_lastghest" string="مبلغ قسط آخر" width="500pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="500pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="500pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="500pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="500pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_leasingdata.leasing_formolcalculation_form_view" model="ir.ui.view">
+            <field name="name">Leasingdata Formol Calculation Form</field>
+            <field name="model">leasing_leasingdata.leasing_formolcalculation</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                         <button name="action_calculate" type="object" string="محاسبات"/>
+                    </header>
+                    <sheet style="max-width : 100%;">
+                        <group col="12">
+                            <group colspan="4">
+                                <field name="formolcalculation_tedadmah" string="مدت قرارداد" digits="[2,0]"/>
+                                <field name="formolcalculation_mabkala" string="مبلغ کالا" digits="[20,0]"/>
+                                <field name="formolcalculation_ratesod" string="نرخ سود" digits="[20,3]"/>
+                                <field name="formolcalculation_tolidpisdaryaft" string="مبلغ پیش دریافت تامین کننده"
+                                       digits="[20,0]"/>
+                            </group>
+                            <group colspan="4">
+                                <field name="formolcalculation_tanavobghest" string="تناوب اقساط" digits="[2,0]"/>
+                                <field name="formolcalculation_tashilat" string="مبلغ تسهیلات" digits="[20,0]"/>
+                                <field name="formolcalculation_pisdaryaft" string="مبلغ پیش دریافت شرکت"
+                                       digits="[20,0]"/>
+                                <field name="formolcalculation_roztavaghof" string="تعداد روز توقف سرمایه"/>
+                            </group>
+                            <group colspan="4">
+                                <field name="formolcalculation_tedadghest" string="تعداد اقساط" digits="[0,0]"/>
+                                <field name="formolcalculation_sodtashilat" string="مبلغ سود تسهیلات" digits="[20,0]"/>
+                                <field name="formolcalculation_aslsod" string="مبلغ اصل و سود تسهیلات" digits="[20,0]"/>
+                                <field name="formolcalculation_mabtavaghof" string="مبلغ توقف سرمایه" digits="[20,0]"/>
+                            </group>
+                        </group>
+                        <group col="12">
+                            <group colspan="4">
+                                <field name="formolcalculation_sayermab1" string="سایر مبالغ 1" digits="[20,0]"/>
+                                <field name="formolcalculation_ratesayer4" string="نرخ سایر مبالغ 4" digits="[20,3]"/>
+                                <field name="formolcalculation_sayermab6" string="سایر مبالغ 6" digits="[20,0]"/>
+                                <field name="formolcalculation_saftehrate" string="نرخ سفته" digits="[20,3]"/>
+                            </group>
+                            <group colspan="4">
+                                <field name="formolcalculation_sayermab2" string="سایر مبالغ 2" digits="[20,0]"/>
+                                <field name="formolcalculation_sayermab4" string="سایر مبالغ 4" digits="[20,0]"/>
+                                <field name="formolcalculation_arzeshrate" string="نرخ ارزش افزوده" digits="[20,3]"/>
+                                <field name="formolcalculation_saftehmab" string="مبلغ سفته" digits="[20,0]"/>
+                            </group>
+                            <group colspan="4">
+                                <field name="formolcalculation_sayermab3" string="سایر مبالغ 3" digits="[20,0]"/>
+                                <field name="formolcalculation_sayermab5" string="سایر مبالغ 5" digits="[20,0]"/>
+                                <field name="formolcalculation_arzeshmab" string="مبلغ ارزش افزوده" digits="[20,0]"/>
+                                <field name="formolcalculation_ghrardadmab" string="مبلغ قرارداد" digits="[20,0]"/>
+                            </group>
+                        </group>
+                        <group col="9">
+                            <group colspan="3">
+                                <field name="formolcalculation_checkrate" string="نرخ چک" digits="[20,0]"/>
+                                <field name="formolcalculation_firstmghest" string="مبلغ قسط اول پایه" digits="[20,0]"/>
+                                <field name="formolcalculation_firstghest" string="مبلغ قسط اول" digits="[20,0]"/>
+                            </group>
+                            <group colspan="3">
+                                <field name="formolcalculation_checkmab" string="مبلغ چک" digits="[20,0]"/>
+                                <field name="formolcalculation_restmghest" string="مبلغ سایر اقساط پایه"
+                                       digits="[20,0]"/>
+                                <field name="formolcalculation_restghest" string="مبلغ سایر اقساط" digits="[20,0]"/>
+                            </group>
+                            <group colspan="3">
+                                <field name="formolcalculation_malolejaremab" string="مبلغ مال الاجاره"
+                                       digits="[20,0]"/>
+                                <field name="formolcalculation_lastmghest" string="مبلغ قسط آخر پایه" digits="[20,0]"/>
+                                <field name="formolcalculation_lastghest" string="مبلغ قسط آخر" digits="[20,0]"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_leasingdata.leasing_formolcalculation_action_window">
+            <field name="name">مشاهده محاسبات قرارداد</field>
+            <field name="res_model">leasing_leasingdata.leasing_formolcalculation</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

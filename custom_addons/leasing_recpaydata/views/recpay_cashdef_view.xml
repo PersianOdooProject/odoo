@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="cash_name" string="نام صندوق/تنخواه"/>
-                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="cash_name" string="نام صندوق/تنخواه :"/>
+                            <field name="ssledger_id" string="حساب تفصیل :"/>
                         </group>
                     </sheet>
                 </form>

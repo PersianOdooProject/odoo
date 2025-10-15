@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gnduom1" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">1</field>
+           <field name="uom_name">دستگاه</field>
+        </record>
+
+        <record id="gnduom2" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">2</field>
+           <field name="uom_name">کلي</field>
+        </record>
+
+        <record id="gnduom3" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">3</field>
+           <field name="uom_name">عدد</field>
+        </record>
+
+        <record id="gnduom4" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">4</field>
+           <field name="uom_name">نسخه</field>
+        </record>
+
+        <record id="gnduom5" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">5</field>
+           <field name="uom_name">حلقه</field>
+        </record>
+
+        <record id="gnduom6" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">6</field>
+           <field name="uom_name">کيلوگرم</field>
+        </record>
+
+        <record id="gnduom7" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">7</field>
+           <field name="uom_name">رول</field>
+        </record>
+
+        <record id="gnduom8" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">8</field>
+           <field name="uom_name">دست</field>
+        </record>
+
+        <record id="gnduom9" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">9</field>
+           <field name="uom_name">تن</field>
+        </record>
+
+        <record id="gnduom10" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">10</field>
+           <field name="uom_name">کارتن</field>
+        </record>
+
+        <record id="gnduom11" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">11</field>
+           <field name="uom_name">متر مربع</field>
+        </record>
+
+        <record id="gnduom12" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">12</field>
+           <field name="uom_name">شيشه</field>
+        </record>
+
+        <record id="gnduom13" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">13</field>
+           <field name="uom_name">جعبه</field>
+        </record>
+
+        <record id="gnduom14" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">14</field>
+           <field name="uom_name">پک</field>
+        </record>
+
+        <record id="gnduom15" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">15</field>
+           <field name="uom_name">بسته</field>
+        </record>
+
+        <record id="gnduom16" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">16</field>
+           <field name="uom_name">پرس</field>
+        </record>
+
+        <record id="gnduom17" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">17</field>
+           <field name="uom_name">گالن</field>
+        </record>
+
+        <record id="gnduom18" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">18</field>
+           <field name="uom_name">ليتر</field>
+        </record>
+
+        <record id="gnduom19" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">19</field>
+           <field name="uom_name">تيوپ</field>
+        </record>
+
+        <record id="gnduom20" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">20</field>
+           <field name="uom_name">کيسه</field>
+        </record>
+
+        <record id="gnduom21" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">21</field>
+           <field name="uom_name">سطل</field>
+        </record>
+
+        <record id="gnduom22" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">22</field>
+           <field name="uom_name">شرينک</field>
+        </record>
+
+        <record id="gnduom23" model="leasing_generaldata.generaldata_uom">
+           <field name="uom_oldcode">23</field>
+           <field name="uom_name">متر مکعب</field>
+        </record>
+
+     </data>
+</odoo>

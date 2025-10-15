@@ -28,10 +28,10 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="branch_code" string="کد شعبه"/>
-                            <field name="branch_name" string="نام شعبه"/>
-                            <field name="bank_id" string="بانک"/>
-                            <field name="city_id" string="شهر"/>
+                            <field name="branch_code" string="کد شعبه :"/>
+                            <field name="branch_name" string="نام شعبه :"/>
+                            <field name="bank_id" string="بانک :"/>
+                            <field name="city_id" string="شهر :"/>
                         </group>
                     </sheet>
                 </form>

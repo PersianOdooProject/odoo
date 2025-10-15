@@ -6,7 +6,7 @@
     'category': '',
     'summary': 'مدیریت اطلاعات حسابداری نرم افزار جامع لیزینگ',
     'description': "مدیریت اطلاعات حسابداری نرم افزار جامع لیزینگ",
-    'depends':[],
+    'depends':['base'],
     'data':[
             'security/ir.model.access.csv',
             'data/general_basedef_data.xml',

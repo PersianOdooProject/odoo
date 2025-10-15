@@ -29,11 +29,11 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="calendaryear_id" string="سال مالی"/>
-                            <field name="startdateshamsi" string="تاریخ شروع"/>
-                            <field name="enddateshamsi" string="تاریخ پایان"/>
-                            <field name="ssledger_id" string="حساب تفصل"/>
-                            <field name="accountyear_isactive" string="وضعیت سال مالی(فعال/غیرفعال)"/>
+                            <field name="calendaryear_id" string="سال مالی :"/>
+                            <field name="startdateshamsi" string="تاریخ شروع :"/>
+                            <field name="enddateshamsi" string="تاریخ پایان :"/>
+                            <field name="ssledger_id" string="حساب تفصل :"/>
+                            <field name="accountyear_isactive" string="وضعیت سال مالی(فعال/غیرفعال) :"/>
                             <field name="startdatemiladi" string="تاریخ شروع میلادی" invisible="True"/>
                             <field name="enddatemiladi" string="تاریخ پایان میلادی" invisible="True"/>
 

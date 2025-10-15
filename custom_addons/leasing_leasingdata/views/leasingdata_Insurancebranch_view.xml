@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="insurancebranch_name" string="نام شعبه بیمه"/>
-                            <field name="ssledger_id" string="حساب تفصیل"/>
+                            <field name="insurancebranch_name" string="نام شعبه بیمه :"/>
+                            <field name="ssledger_id" string="حساب تفصیل :"/>
                         </group>
                     </sheet>
                 </form>

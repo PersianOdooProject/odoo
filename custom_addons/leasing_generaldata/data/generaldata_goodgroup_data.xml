@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <data noupdate="1">
+        <record id="gndgoodgroup1" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">1</field>
+           <field name="goodgroup_name">بهداشتي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup2" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">2</field>
+           <field name="goodgroup_name">قطعات خودرو</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup3" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">3</field>
+           <field name="goodgroup_name">خودرو</field>
+           <field name="goodtype_id">1</field>
+        </record>
+
+        <record id="gndgoodgroup4" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">4</field>
+           <field name="goodgroup_name">مسكوني</field>
+           <field name="goodtype_id">7</field>
+        </record>
+
+        <record id="gndgoodgroup5" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">5</field>
+           <field name="goodgroup_name">تجهيزات کامپيوتري</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup6" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">6</field>
+           <field name="goodgroup_name">سبد خودرو</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup7" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">7</field>
+           <field name="goodgroup_name">تجهيزات بسته بندي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup8" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">8</field>
+           <field name="goodgroup_name">ماشين آلات</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup9" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">9</field>
+           <field name="goodgroup_name">خدمات</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup10" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">10</field>
+           <field name="goodgroup_name">تجهيزات سردخانه اي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup11" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">11</field>
+           <field name="goodgroup_name">تجهيزات حفاظتي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup12" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">12</field>
+           <field name="goodgroup_name">لوازم خانگي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup13" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">13</field>
+           <field name="goodgroup_name">موتور سيکلت</field>
+           <field name="goodtype_id">1</field>
+        </record>
+
+        <record id="gndgoodgroup14" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">14</field>
+           <field name="goodgroup_name">ساير</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup15" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">15</field>
+           <field name="goodgroup_name">الکترونيکي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup16" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">16</field>
+           <field name="goodgroup_name">مواد غذايي</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup17" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">17</field>
+           <field name="goodgroup_name">تجهيزات پزشکي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup18" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">18</field>
+           <field name="goodgroup_name">آرايشي و بهداشتي</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup19" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">19</field>
+           <field name="goodgroup_name">عمومي</field>
+           <field name="goodtype_id">5</field>
+        </record>
+
+        <record id="gndgoodgroup20" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">20</field>
+           <field name="goodgroup_name">منسوجات</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup21" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">21</field>
+           <field name="goodgroup_name">معدني</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup22" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">22</field>
+           <field name="goodgroup_name">دارويي</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup23" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">23</field>
+           <field name="goodgroup_name">کارگاهي</field>
+           <field name="goodtype_id">4</field>
+        </record>
+
+        <record id="gndgoodgroup24" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">24</field>
+           <field name="goodgroup_name">شيميايي</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup25" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">25</field>
+           <field name="goodgroup_name">تجهيزات صنعتي</field>
+           <field name="goodtype_id">8</field>
+        </record>
+
+        <record id="gndgoodgroup26" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">26</field>
+           <field name="goodgroup_name">صنعت پلاستيک</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup27" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">27</field>
+           <field name="goodgroup_name">مکمل غذايي</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup28" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">28</field>
+           <field name="goodgroup_name">سلولزي</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup29" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">29</field>
+           <field name="goodgroup_name">فولاد</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+        <record id="gndgoodgroup30" model="leasing_generaldata.generaldata_goodgroup">
+           <field name="goodgroup_oldcode">30</field>
+           <field name="goodgroup_name">مسکوني-ساير</field>
+           <field name="goodtype_id">9</field>
+        </record>
+
+     </data>
+</odoo>

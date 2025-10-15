@@ -42,13 +42,13 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="taghvimmalicode_id" string="اطلاعات پایه تقویم مالی"/>
-                            <field name="taghvimmalicode_group1" string="گروه اطلاعات پایه تقویم مالی"/>
-                            <field name="taghvimmalicode_name1" string="شرح اطلاعات پایه تقویم مالی"/>
-                            <field name="taghvimmalirecord_date" string="تاریخ عملیات مالی"/>
-                            <field name="taghvimmalirecord_shortdesc" string="شرح کوتاه عملیات مالی"/>
-                            <field name="taghvimmalirecord_description" string="شرح عملیات مالی"/>
-                            <field name="taghvimmalirecord_amount" string="مبلغ" digits="[20,0]"/>
+                            <field name="taghvimmalicode_id" string="اطلاعات پایه تقویم مالی :"/>
+                            <field name="taghvimmalicode_group1" string="گروه اطلاعات پایه تقویم مالی :"/>
+                            <field name="taghvimmalicode_name1" string="شرح اطلاعات پایه تقویم مالی :"/>
+                            <field name="taghvimmalirecord_date" string="تاریخ عملیات مالی :"/>
+                            <field name="taghvimmalirecord_shortdesc" string="شرح کوتاه عملیات مالی :"/>
+                            <field name="taghvimmalirecord_description" string="شرح عملیات مالی :"/>
+                            <field name="taghvimmalirecord_amount" string="مبلغ :" digits="[20,0]"/>
                         </group>
                     </sheet>
                 </form>

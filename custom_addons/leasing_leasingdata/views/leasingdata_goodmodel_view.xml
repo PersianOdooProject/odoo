@@ -26,8 +26,8 @@
                 <form>
                     <sheet style="max-width : 50%;">
                         <group>
-                            <field name="model_code" string = "کد مدل"/>
-                            <field name="model_name" string="نام مدل"/>
+                            <field name="model_code" string = "کد مدل :"/>
+                            <field name="model_name" string="نام مدل :"/>
                         </group>
                     </sheet>
                 </form>

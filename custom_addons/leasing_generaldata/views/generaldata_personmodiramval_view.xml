@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="leasing_generaldata.generaldata_personmodiramval_list">
+            <field name="name">Generaldata Person Modiramval list</field>
+            <field name="model">leasing_generaldata.generaldata_personmodiramval</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="id" string="کد داخلی" width="500pxl"/>
+                    <field name="personmodiramval_malekname" string="نام و نام خانوادگی مالک" width="500pxl"/>
+                    <field name="personmodiramval_karbari" string="کاربری" width="500pxl"/>
+                    <field name="personmodiramval_masahat" string="مساحت" width="500pxl"/>
+                    <field name="personmodiramval_saham" string="سهم مالکیت" width="500pxl"/>
+                    <field name="personmodiramval_arzesh" string="ارزش تقریبی" width="500pxl"/>
+                    <field name="personmodiramval_address" string="آدرس" width="500pxl"/>
+                    <field name="personmodiramval_description" string="توضیحات" width="500pxl"/>
+                    <field name="create_uid" string="کاربر ایجاد کننده" width="500pxl"/>
+                    <field name="create_date" string="تاریخ و ساعت ایجاد" width="500pxl"/>
+                    <field name="write_uid" string="کاربر تغییر دهنده" width="500pxl"/>
+                    <field name="write_date" string="تاریخ و ساعت تغییر" width="500pxl"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="leasing_generaldata.generaldata_personmodiramval_form" model="ir.ui.view">
+            <field name="name">Generaldata Person Modiramval Form</field>
+            <field name="model">leasing_generaldata.generaldata_personmodiramval</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet style="max-width : 50%;">
+                        <group>
+                            <field name="personmodiramval_malekname" string="نام و نام خانوادگی مالک :"/>
+                            <field name="personmodiramval_karbari" string="کاربری :"/>
+                            <field name="personmodiramval_masahat" string="مساحت :"/>
+                            <field name="personmodiramval_saham" string="سهم مالکیت :"/>
+                            <field name="personmodiramval_arzesh" string="ارزش تقریبی :"/>
+                            <field name="personmodiramval_address" string="آدرس :"/>
+                            <field name="personmodiramval_description" string="توضیحات :"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="leasing_generaldata.generaldata_personmodiramval_action_window">
+            <field name="name">معرفی اموال غير منقول شركت/سهامداران/شركا اشخاص حقوقی</field>
+            <field name="res_model">leasing_generaldata.generaldata_personmodiramval</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

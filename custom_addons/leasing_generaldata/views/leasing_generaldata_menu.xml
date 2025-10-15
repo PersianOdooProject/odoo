@@ -8,7 +8,7 @@
         <!-- menu categories -->
         <menuitem name="اطلاعات پایه عمومی" id="leasing_generaldata.generaldata_main"
                   parent="leasing_generaldata.menu_root"/>
-        <!-- actions -->
+
         <menuitem name="معرفی استان" id="leasing_generaldata.generaldata_state"
                   parent="leasing_generaldata.generaldata_main"
                   action="leasing_generaldata.generaldata_state_action_window" sequence="1"/>
@@ -27,12 +27,33 @@
         <menuitem name="معرفی نمایندگان" id="leasing_generaldata.generaldata_companybranch"
                   parent="leasing_generaldata.generaldata_main"
                   action="leasing_generaldata.generaldata_companybranch_action_window" sequence="6"/>
+        <menuitem name="معرفی تامین کننده اعتبار" id="leasing_generaldata.generaldata_taminetebar"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_taminetebar_action_window" sequence="7"/>
+        <menuitem name="معرفی تامین کننده کالا" id="leasing_generaldata.generaldata_taminkala"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_taminkala_action_window" sequence="8"/>
+        <menuitem name="معرفی تولید کننده" id="leasing_generaldata.generaldata_producer"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_producer_action_window" sequence="9"/>
+        <menuitem name="معرفی پیگیری کننده" id="leasing_generaldata.generaldata_paygiri"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_paygiri_action_window" sequence="10"/>
         <menuitem name="معرفی نوع مالکیت" id="leasing_generaldata.generaldata_ownershiptype"
                   parent="leasing_generaldata.generaldata_main"
-                  action="leasing_generaldata.generaldata_ownershiptype_action_window" sequence="7"/>
+                  action="leasing_generaldata.generaldata_ownershiptype_action_window" sequence="11"/>
+        <menuitem name="معرفی نوع تسهیلات" id="leasing_generaldata.generaldata_tashilattype"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_tashilattype_action_window" sequence="12"/>
         <menuitem name="معرفی اشخاص حقیقی/حقوقی" id="leasing_generaldata.generaldata_person"
                   parent="leasing_generaldata.generaldata_main"
-                  action="leasing_generaldata.generaldata_person_action_window" sequence="8"/>
+                  action="leasing_generaldata.generaldata_person_actionperson_window" sequence="13"/>
+        <menuitem name="معرفی واحد شمارش کالا" id="leasing_generaldata.generaldata_uom"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_uom_action_window" sequence="14"/>
+        <menuitem name="معرفی گروه کالا" id="leasing_generaldata.generaldata_goodgroup"
+                  parent="leasing_generaldata.generaldata_main"
+                  action="leasing_generaldata.generaldata_goodgroup_action_window" sequence="15"/>
     </data>
 </odoo>
 
